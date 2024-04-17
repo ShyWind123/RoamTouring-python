@@ -1,0 +1,1 @@
+[Wed Apr 17 17:01:15 2024] 'int' object has no attribute 'encode'

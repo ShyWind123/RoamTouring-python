@@ -97,7 +97,7 @@ def getCityAttractions (i, start):
 
                 name = soupi.find(name="div", attrs={"class":"title"}).h1.get_text()
 
-                print("", cnt, "/", totalNum, name, href)
+                print("", cnt, "/", totalNum, name,'\t', href)
 
                 heat = 0
                 if soupi.find(name="div", attrs={"class":"heatScoreText"}):
@@ -186,7 +186,7 @@ def getCityAttractions (i, start):
                 }
 
                 info = {}
-                info["id"] = k + 1
+                info["id"] = cnt
                 info["name"] = name
                 info["heat"] = heat
                 info["score"] = score
