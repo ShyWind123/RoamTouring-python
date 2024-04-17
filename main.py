@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from math import floor
 import os
 import requests
 import io
@@ -39,16 +40,22 @@ headers = {
 with io.open(os.path.join('output', 'city.json'),'r',encoding='utf8')as f:
     citys = json.load(f)
 
-base = "https://m.ctrip.com/restapi/soa2/20684/json/productSearch"
-base2 = "https://m.ctrip.com/restapi/soa2/18109/json/getAttractionList"
+base = "https://m.ctrip.com/restapi/soa2/18109/json/getAttractionList"
 
 def getCityAttractions (i, start):
     l = []
-    pageNum = 20
-    totalNum = 100
-    pageCnt = (start - 1) / pageNum + 1
-    cnt = 0
+    pageNum = 10
     tableName = 'Attractions-'+citys[i].get('cityName')
+
+    # 获取总数
+    payload = json.dumps({"scene":"online","districtId":getCityId(citys[i].get('city')),"index":1,"sortType":1,"count":pageNum,"filter":{"filterItems":[]},"coordinate":{"latitude":0,"longitude":0,"coordinateType":"WGS84"},"returnModuleType":"all","head":{"cid":"09031136412811096481","ctok":"","cver":"1.0","lang":"01","sid":"8888","syscode":"09","auth":"","xsid":"","extension":[]}},ensure_ascii=False)
+    payload=payload.encode("utf-8")
+    response = requests.post(base, headers=headers, data = payload)
+    ress = json.loads(response.text)
+
+    totalNum = ress.get('totalCount')
+    pageCnt = floor((start - 1) / pageNum) + 1
+    cnt = (pageCnt - 1) * pageNum
 
     completeInfo =str(i + 1)+ "."+ citys[i].get('cityName')+ ": 开始爬取"
     print(completeInfo)
@@ -74,21 +81,18 @@ def getCityAttractions (i, start):
 
     while pageCnt * pageNum < totalNum:
     # while pageCnt < 3:
-        payload = json.dumps({"head":{"cid":"09031136412811096481","syscode":"999","extension":[{"name":"bookingTransactionId","value":"1713264847565_4585"}]},"imageOption":{"width":568,"height":320},"requestSource":"activity","destination":{},"filtered":{"pageIndex":pageCnt,"sort":"1","pageSize":pageNum,"tab":"Ticket2","items":[]},"productOption":{"needBasicInfo":True,"needComment":True,"needPrice":True,"needRanking":True,"needVendor":True,"tagOption":["PRODUCT_TAG","IS_AD_TAG","PROMOTION_TAG","FAVORITE_TAG","GIFT_TAG","COMMENT_TAG","IS_GLOBALHOT_TAG"]},"searchOption":{"filters":[],"needAdProduct":True,"returnMode":"all","needUpStream":False},"extras":{"needScenicSpotNewPrice":"true"},"debug":False,"contentType":"json","client":{"pageId":"10650038368","platformId":None,"crnVersion":"2022-12-01 20:32:03","location":{"cityId":None,"cityType":None,"locatedCityId":None,"lat":"","lon":""},"locale":"zh-CN","currency":"CNY","channel":114,"cid":"09031136412811096481","trace":"69e6faca-2505-552b-1f09-bad564862267","extras":{"client_locatedDistrictId":"0","client_districtId":getCityId(citys[i].get('city'))}}})
-        response = requests.post(base, headers=headers, data=payload)
+        payload = json.dumps({"scene":"online","districtId":getCityId(citys[i].get('city')),"index":pageCnt,"sortType":1,"count":pageNum,"filter":{"filterItems":[]},"coordinate":{"latitude":0,"longitude":0,"coordinateType":"WGS84"},"returnModuleType":"all","head":{"cid":"09031136412811096481","ctok":"","cver":"1.0","lang":"01","sid":"8888","syscode":"09","auth":"","xsid":"","extension":[]}},ensure_ascii=False)
+        payload=payload.encode("utf-8")
+        response = requests.post(base, headers=headers, data = payload)
         ress = json.loads(response.text)
-        vs = []
-        for j in range(0, pageNum): 
-            vs.append(ress.get('products')[j].get('basicInfo').get('detailUrl').get('URL'))
+        attractions = ress.get("attractionList")
 
-        if pageCnt == 1:
-            totalNum = ress.get('total')
-
-        for k in range(len(vs)):
+        for j in range(pageNum):
             try:
                 cnt += 1
                 # 获取子网页链接地址
-                href = vs[k]
+                href = attractions[j].get('card').get('detailUrl')
+
                 # 再次请求子网页，获取景点详细信息
                 res = requests.get(href, headers=headers)
                 # with open("3.html", "w", encoding="utf-8") as f:
@@ -97,9 +101,9 @@ def getCityAttractions (i, start):
 
                 name = soupi.find(name="div", attrs={"class":"title"}).h1.get_text()
 
-                print("", cnt, "/", totalNum, name,'\t', href)
+                print("", cnt, "/", totalNum, name,'  ', href)
 
-                heat = 0
+                heat = '0'
                 if soupi.find(name="div", attrs={"class":"heatScoreText"}):
                     heat = soupi.find(name="div", attrs={"class":"heatScoreText"}).get_text()
 
@@ -121,6 +125,15 @@ def getCityAttractions (i, start):
                     if moduleTitle.get_text() == '服务设施':
                         for moduleCotent in moduleTitle.find_next_siblings('div')[0].children:
                             serviceFacilities.append(moduleCotent.get_text())
+                if introduce == None:
+                    introduce.append('')
+                if preferentialTreatmentPolicy == None:
+                    preferentialTreatmentPolicy.append('')
+                if serviceFacilities == None:
+                    serviceFacilities.append('')
+                if opentime == None:
+                    opentime.append('')
+
 
                 score = '暂无评分'
                 if soupi.find(name="div", attrs={"class": "commentScore"}):
@@ -131,6 +144,8 @@ def getCityAttractions (i, start):
                 for img in imglinks:
                     imgs.append(getURL(img.attrs["style"]))
 
+                position = ""
+                phone = ""
                 baseInfoTitles = soupi.find_all(name="p", attrs={"class": "baseInfoTitle"})
                 if len(baseInfoTitles) >= 1:
                     position = baseInfoTitles[0].find_next_siblings('p')[0].get_text()
@@ -174,15 +189,10 @@ def getCityAttractions (i, start):
                         "distance":nearbyShoppingMall.contents[1].contents[2].get_text(),
                     })
 
-                payload2 = json.dumps({"scene":"onlinesearch","districtId":getCityId(citys[i].get('city')),"index":1,"sortType":1,"count":1,"filter":{"filterItems":["0"]},"keyword":name ,"coordinate":{"latitude":0,"longitude":0,"coordinateType":"WGS84"},"returnModuleType":"all","head":{"cid":"09031136412811096481","ctok":"","cver":"1.0","lang":"01","sid":"8888","syscode":"09","auth":"","xsid":"","extension":[]}},ensure_ascii=False)
-                payload2=payload2.encode("utf-8")
-                response2 = requests.post(base2, headers=headers, data = payload2)
-                ress2 = json.loads(response2.text)
-                attraction = ress2.get("attractionList")[0].get("card")
-                price = attraction.get("priceTypeDesc")
+                price = attractions[j].get('card').get("priceTypeDesc")
                 coordinate = {
-                    "latitude" : attraction.get("coordinate").get("latitude"),
-                    "longitude": attraction.get("coordinate").get("longitude")
+                    "latitude" : attractions[j].get('card').get("coordinate").get("latitude"),
+                    "longitude": attractions[j].get('card').get("coordinate").get("longitude")
                 }
 
                 info = {}
