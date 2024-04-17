@@ -18,9 +18,9 @@ citys = []
 citylistURL = "https://you.ctrip.com/countrysightlist/china110000/p1.html"
 soup = BS(requests.get(citylistURL, headers=headers).text, 'html.parser')
 pageNum = soup.find(name="b", attrs={"class": "numpage"}).get_text()
-# for i in range(1, int(pageNum)+ 1):
 cnt = 1
-for i in range(1, 10):
+for i in range(1, int(pageNum)+ 1):
+# for i in range(1, 10):
     citylistURL = "https://you.ctrip.com/countrysightlist/china110000/p" + str(i) + ".html"
     response = requests.get(citylistURL, headers=headers)
     html = response.text

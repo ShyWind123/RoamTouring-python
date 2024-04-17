@@ -36,43 +36,38 @@ headers = {
     'Connection': 'close'
 }
 
-
-
-places = ["beijing1"]
-placenames = ["北京"]
-
-print(places)
-print(placenames)
+with io.open(os.path.join('output', 'city.json'),'r',encoding='utf8')as f:
+    citys = json.load(f)
 
 base = "https://m.ctrip.com/restapi/soa2/20684/json/productSearch"
 base2 = "https://m.ctrip.com/restapi/soa2/18109/json/getAttractionList"
 
 l = {}
-for i in range(len(places)):
-    l[placenames[i]] = []
+for i in range(len(citys)):
+    l[citys[i].get('cityName')] = []
     pageCnt = 1
     pageNum = 1
     totalNum = 100
     cnt = 0
 
-    completeInfo =str(i + 1)+ "."+ placenames[i]+ ": 开始爬取"
+    completeInfo =str(i + 1)+ "."+ citys[i].get('cityName')+ ": 开始爬取"
     print(completeInfo)
     with io.open(os.path.join("logs", "progress.txt"), "a", encoding="utf-8") as f:
         f.write("["+ time.asctime(time.localtime())+"] "+completeInfo + "\n")
     
-    con.open()  # 打开传输
-    families = {
-        'basicInfo':dict(),
-        'imgs':dict(),
-        'detailInfo':dict(),
-        'nearby':dict()
-    }
-    con.create_table('Attractions-'+placenames[i], families)  
-    con.close()  # 关闭传输
+    # con.open()  # 打开传输
+    # families = {
+    #     'basicInfo':dict(),
+    #     'imgs':dict(),
+    #     'detailInfo':dict(),
+    #     'nearby':dict()
+    # }
+    # con.create_table('Attractions-'+citys[i].get('cityName'), families)  
+    # con.close()  # 关闭传输
 
     # while pageCnt * pageNum < totalNum:
     while pageCnt < 2:
-        payload = json.dumps({"head":{"cid":"09031136412811096481","syscode":"999","extension":[{"name":"bookingTransactionId","value":"1713264847565_4585"}]},"imageOption":{"width":568,"height":320},"requestSource":"activity","destination":{},"filtered":{"pageIndex":pageCnt,"sort":"1","pageSize":pageNum,"tab":"Ticket2","items":[]},"productOption":{"needBasicInfo":True,"needComment":True,"needPrice":True,"needRanking":True,"needVendor":True,"tagOption":["PRODUCT_TAG","IS_AD_TAG","PROMOTION_TAG","FAVORITE_TAG","GIFT_TAG","COMMENT_TAG","IS_GLOBALHOT_TAG"]},"searchOption":{"filters":[],"needAdProduct":True,"returnMode":"all","needUpStream":False},"extras":{"needScenicSpotNewPrice":"true"},"debug":False,"contentType":"json","client":{"pageId":"10650038368","platformId":None,"crnVersion":"2022-12-01 20:32:03","location":{"cityId":None,"cityType":None,"locatedCityId":None,"lat":"","lon":""},"locale":"zh-CN","currency":"CNY","channel":114,"cid":"09031136412811096481","trace":"69e6faca-2505-552b-1f09-bad564862267","extras":{"client_locatedDistrictId":"0","client_districtId":getCityId(places[i])}}})
+        payload = json.dumps({"head":{"cid":"09031136412811096481","syscode":"999","extension":[{"name":"bookingTransactionId","value":"1713264847565_4585"}]},"imageOption":{"width":568,"height":320},"requestSource":"activity","destination":{},"filtered":{"pageIndex":pageCnt,"sort":"1","pageSize":pageNum,"tab":"Ticket2","items":[]},"productOption":{"needBasicInfo":True,"needComment":True,"needPrice":True,"needRanking":True,"needVendor":True,"tagOption":["PRODUCT_TAG","IS_AD_TAG","PROMOTION_TAG","FAVORITE_TAG","GIFT_TAG","COMMENT_TAG","IS_GLOBALHOT_TAG"]},"searchOption":{"filters":[],"needAdProduct":True,"returnMode":"all","needUpStream":False},"extras":{"needScenicSpotNewPrice":"true"},"debug":False,"contentType":"json","client":{"pageId":"10650038368","platformId":None,"crnVersion":"2022-12-01 20:32:03","location":{"cityId":None,"cityType":None,"locatedCityId":None,"lat":"","lon":""},"locale":"zh-CN","currency":"CNY","channel":114,"cid":"09031136412811096481","trace":"69e6faca-2505-552b-1f09-bad564862267","extras":{"client_locatedDistrictId":"0","client_districtId":getCityId(citys[i].get('city'))}}})
         response = requests.post(base, headers=headers, data=payload)
         ress = json.loads(response.text)
         vs = []
@@ -172,7 +167,7 @@ for i in range(len(places)):
                         "distance":nearbyShoppingMall.contents[1].contents[2].get_text(),
                     })
 
-                payload2 = json.dumps({"scene":"onlinesearch","districtId":getCityId(places[i]),"index":1,"sortType":1,"count":1,"filter":{"filterItems":["0"]},"keyword":name ,"coordinate":{"latitude":0,"longitude":0,"coordinateType":"WGS84"},"returnModuleType":"all","head":{"cid":"09031136412811096481","ctok":"","cver":"1.0","lang":"01","sid":"8888","syscode":"09","auth":"","xsid":"","extension":[]}},ensure_ascii=False)
+                payload2 = json.dumps({"scene":"onlinesearch","districtId":getCityId(citys[i].get('city')),"index":1,"sortType":1,"count":1,"filter":{"filterItems":["0"]},"keyword":name ,"coordinate":{"latitude":0,"longitude":0,"coordinateType":"WGS84"},"returnModuleType":"all","head":{"cid":"09031136412811096481","ctok":"","cver":"1.0","lang":"01","sid":"8888","syscode":"09","auth":"","xsid":"","extension":[]}},ensure_ascii=False)
                 payload2=payload2.encode("utf-8")
                 response2 = requests.post(base2, headers=headers, data = payload2)
                 ress2 = json.loads(response2.text)
@@ -190,7 +185,7 @@ for i in range(len(places)):
                 info["score"] = score
                 info["phone"] = phone
                 info["position"] = position
-                info["city"] = placenames[i]
+                info["city"] = citys[i].get('cityName')
                 info["price"] = price
                 info["coordinate"] = coordinate
 
@@ -203,11 +198,11 @@ for i in range(len(places)):
                 
                 info["nearby"]=nearby
 
-                l[placenames[i]].append(info)
+                l[citys[i].get('cityName')].append(info)
 
                 con.open()  # 打开传输
 
-                table = con.table('Attractions-'+placenames[i])  # games是表名，table('games')获取某一个表对象
+                table = con.table('Attractions-'+citys[i].get('cityName'))  # games是表名，table('games')获取某一个表对象
 
                 attractionRow = {
                     'basicInfo:id': info['id'],
@@ -226,13 +221,13 @@ for i in range(len(places)):
                     'detailInfo:serviceFacilities':info['serviceFacilities'],
                     'nearby:nearby':info['nearby']
                 }
-                table.put(info['id'], attractionRow)  # 提交数据，0001代表行键，写入的数据要使用字典形式表示
+                # table.put(info['id'], attractionRow)  # 提交数据，0001代表行键，写入的数据要使用字典形式表示
 
-                # 下面是查看信息，如果不懂可以继续看下一个
-                one_row = table.row(info['id'])  # 获取一行数据,0001是行键
-                for value in one_row.keys():  # 遍历字典
-                    print(value.decode('utf-8'), one_row[value].decode('utf-8'))  # 可能有中文，使用encode转码
-                con.close()  # 关闭传输
+                # # 下面是查看信息，如果不懂可以继续看下一个
+                # one_row = table.row(info['id'])  # 获取一行数据,0001是行键
+                # for value in one_row.keys():  # 遍历字典
+                #     print(value.decode('utf-8'), one_row[value].decode('utf-8'))  # 可能有中文，使用encode转码
+                # con.close()  # 关闭传输
 
                 time.sleep(5)
             except Exception as e:
@@ -241,13 +236,13 @@ for i in range(len(places)):
                     f.write("["+time.asctime(time.localtime())+"] "+ e + "\n")
                 pass
         
-        completeInfo = str(i + 1) + "."+ placenames[i]+ "第"+str(pageCnt)+"页; 爬取完成:"+ str(cnt)+ "/"+ str(totalNum)
+        completeInfo = str(i + 1) + "."+ citys[i].get('cityName')+ "第"+str(pageCnt)+"页; 爬取完成:"+ str(cnt)+ "/"+ str(totalNum)
         print(completeInfo)
         with io.open(os.path.join("logs", "progress.txt"), "a", encoding="utf-8") as f:
             f.write(" ["+ time.asctime(time.localtime())+ "] " + completeInfo + "\n")
         pageCnt += 1
 
-    completeInfo =str(i + 1)+ "."+ placenames[i]+ "爬取完成: 共"+ str(cnt)+ "/"+ str(totalNum)+ "个" + "\n"
+    completeInfo =str(i + 1)+ "."+ citys[i].get('cityName')+ "爬取完成: 共"+ str(cnt)+ "/"+ str(totalNum)+ "个" + "\n"
     print(completeInfo)
     with io.open(os.path.join("logs", "progress.txt"), "a", encoding="utf-8") as f:
         f.write( "["+ time.asctime(time.localtime())+"] "+completeInfo + "\n")
