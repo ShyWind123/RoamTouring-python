@@ -20,20 +20,21 @@ def getURL(styleStr) :
         if styleStr[i] == '(':
             l = i
         if styleStr[i] == ')':
-            r = i;
+            r = i
     return styleStr[l:r+1]
 
 def getCityId(cityStr) :
+    l = 0
+    r = len(cityStr)
+    isGetL = False
     for i in range(len(cityStr)):
-        if cityStr[i] >= '0' and cityStr[i] <= '9':
+        if not isGetL and cityStr[i] >= '0' and cityStr[i] <= '9':
             l = i
+            isGetL = True
+        if isGetL and cityStr[i] == '/':
+            r = i
             break
-    return cityStr[l:len(cityStr)]
-
-def getCity(href) :
-    r = href.rfind('/')
-    l = href.rfind('/', 0, r)
-    return href[(l + 1):r]
+    return cityStr[l:r]
 
 """从网上爬取数据"""
 headers = {
@@ -107,7 +108,7 @@ def getCityAttractions (i, start):
 
                 name = soupi.find(name="div", attrs={"class":"title"}).h1.get_text()
 
-                if not citys[i].get('city') == getCity(href):
+                if not getCityId(citys[i].get('city')) == getCityId(href):
                     print("    " , cnt, "/", totalNum, name,'  ', href)
                     continue
                 fakeCnt += 1
