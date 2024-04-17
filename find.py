@@ -19,4 +19,4 @@ def findAttraction (cityName, id):
           print('', keyVal, val) 
   con.close()  # 关闭传输
 
-findAttraction('杭州', '187')
+findAttraction('杭州', '1')

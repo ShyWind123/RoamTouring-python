@@ -30,6 +30,11 @@ def getCityId(cityStr) :
             break
     return cityStr[l:len(cityStr)]
 
+def getCity(href) :
+    r = href.rfind('/')
+    l = href.rfind('/', 0, r)
+    return href[(l + 1):r]
+
 """从网上爬取数据"""
 headers = {
     "Origin": "https://piao.ctrip.com",
@@ -56,6 +61,7 @@ def getCityAttractions (i, start):
     totalNum = ress.get('totalCount')
     pageCnt = floor((start - 1) / pageNum) + 1
     cnt = (pageCnt - 1) * pageNum
+    fakeCnt = 0
 
     completeInfo =str(i + 1)+ "."+ citys[i].get('cityName')+ ": 开始爬取"
     print(completeInfo)
@@ -101,7 +107,12 @@ def getCityAttractions (i, start):
 
                 name = soupi.find(name="div", attrs={"class":"title"}).h1.get_text()
 
-                print("", cnt, "/", totalNum, name,'  ', href)
+                if not citys[i].get('city') == getCity(href):
+                    print("    " , cnt, "/", totalNum, name,'  ', href)
+                    continue
+                fakeCnt += 1
+
+                print("", fakeCnt,":", cnt, "/", totalNum, name,'  ', href)
 
                 heat = '0'
                 if soupi.find(name="div", attrs={"class":"heatScoreText"}):
@@ -196,7 +207,7 @@ def getCityAttractions (i, start):
                 }
 
                 info = {}
-                info["id"] = cnt
+                info["id"] = fakeCnt
                 info["name"] = name
                 info["heat"] = heat
                 info["score"] = score
@@ -252,7 +263,7 @@ def getCityAttractions (i, start):
             f.write(" ["+ time.asctime(time.localtime())+ "] " + completeInfo + "\n")
         pageCnt += 1
 
-    completeInfo =str(i + 1)+ "."+ citys[i].get('cityName')+ "爬取完成: 共"+ str(cnt)+ "/"+ str(totalNum)+ "个" + "\n"
+    completeInfo =str(i + 1)+ "."+ citys[i].get('cityName')+ "爬取完成: 共"+ str(fakeCnt)+ "/"+ str(totalNum)+ "个" + "\n"
     print(completeInfo)
     with io.open(os.path.join("logs", "progress.txt"), "a", encoding="utf-8") as f:
         f.write( "["+ time.asctime(time.localtime())+"] "+completeInfo + "\n")
@@ -260,5 +271,6 @@ def getCityAttractions (i, start):
         json.dump(l, f, ensure_ascii=False)
 
 
-for i in range(len(citys)):
+for i in range(0,1500):
+# for i in range(1500,len(citys)):
     getCityAttractions(i, 1)
