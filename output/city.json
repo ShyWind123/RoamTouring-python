@@ -1,0 +1,362 @@
+[
+  {
+    "cityName": "杭州",
+    "city": "hangzhou14"
+  },
+  {
+    "cityName": "上海",
+    "city": "shanghai2"
+  },
+  {
+    "cityName": "成都",
+    "city": "chengdu104"
+  },
+  {
+    "cityName": "厦门",
+    "city": "xiamen21"
+  },
+  {
+    "cityName": "台北",
+    "city": "taipeicity360"
+  },
+  {
+    "cityName": "香港",
+    "city": "hongkong38"
+  },
+  {
+    "cityName": "北京",
+    "city": "beijing1"
+  },
+  {
+    "cityName": "苏州",
+    "city": "suzhou11"
+  },
+  {
+    "cityName": "南京",
+    "city": "nanjing9"
+  },
+  {
+    "cityName": "丽江",
+    "city": "lijiang32"
+  },
+  {
+    "cityName": "重庆",
+    "city": "chongqing158"
+  },
+  {
+    "cityName": "武汉",
+    "city": "wuhan145"
+  },
+  {
+    "cityName": "昆明",
+    "city": "kunming29"
+  },
+  {
+    "cityName": "广州",
+    "city": "guangzhou152"
+  },
+  {
+    "cityName": "天津",
+    "city": "tianjin154"
+  },
+  {
+    "cityName": "深圳",
+    "city": "shenzhen26"
+  },
+  {
+    "cityName": "澳门",
+    "city": "macau39"
+  },
+  {
+    "cityName": "无锡",
+    "city": "wuxi10"
+  },
+  {
+    "cityName": "大理白族自治州",
+    "city": "dali31"
+  },
+  {
+    "cityName": "大连",
+    "city": "dalian4"
+  },
+  {
+    "cityName": "长沙",
+    "city": "changsha148"
+  },
+  {
+    "cityName": "宁波",
+    "city": "ningbo83"
+  },
+  {
+    "cityName": "沈阳",
+    "city": "shenyang155"
+  },
+  {
+    "cityName": "桂林",
+    "city": "guilin28"
+  },
+  {
+    "cityName": "西安",
+    "city": "xian7"
+  },
+  {
+    "cityName": "西双版纳",
+    "city": "xishuangbanna30"
+  },
+  {
+    "cityName": "哈尔滨",
+    "city": "haerbin151"
+  },
+  {
+    "cityName": "张家界",
+    "city": "zhangjiajie23"
+  },
+  {
+    "cityName": "拉萨",
+    "city": "lhasa36"
+  },
+  {
+    "cityName": "高雄",
+    "city": "gaoxiong756"
+  },
+  {
+    "cityName": "三亚",
+    "city": "sanya61"
+  },
+  {
+    "cityName": "扬州",
+    "city": "yangzhou12"
+  },
+  {
+    "cityName": "青岛",
+    "city": "qingdao5"
+  },
+  {
+    "cityName": "花莲",
+    "city": "hualien1366"
+  },
+  {
+    "cityName": "香格里拉",
+    "city": "xianggelila106"
+  },
+  {
+    "cityName": "凤凰",
+    "city": "fenghuang988"
+  },
+  {
+    "cityName": "北海",
+    "city": "beihai140"
+  },
+  {
+    "cityName": "绍兴",
+    "city": "shaoxing18"
+  },
+  {
+    "cityName": "南宁",
+    "city": "nanning166"
+  },
+  {
+    "cityName": "贵阳",
+    "city": "guiyang33"
+  },
+  {
+    "cityName": "阿坝藏族羌族自治州",
+    "city": "aba744"
+  },
+  {
+    "cityName": "福州",
+    "city": "fuzhou164"
+  },
+  {
+    "cityName": "西宁",
+    "city": "xining237"
+  },
+  {
+    "cityName": "阳朔",
+    "city": "yangshuo702"
+  },
+  {
+    "cityName": "湘西",
+    "city": "xiangxi496"
+  },
+  {
+    "cityName": "秦皇岛",
+    "city": "qinhuangdao132"
+  },
+  {
+    "cityName": "长春",
+    "city": "changchun216"
+  },
+  {
+    "cityName": "九寨沟",
+    "city": "jiuzhaigou25"
+  },
+  {
+    "cityName": "威海",
+    "city": "weihai169"
+  },
+  {
+    "cityName": "济南",
+    "city": "jinan128"
+  },
+  {
+    "cityName": "珠海",
+    "city": "zhuhai27"
+  },
+  {
+    "cityName": "峨眉山",
+    "city": "emeishan24"
+  },
+  {
+    "cityName": "海口",
+    "city": "haikou37"
+  },
+  {
+    "cityName": "武夷山",
+    "city": "wuyishan22"
+  },
+  {
+    "cityName": "舟山",
+    "city": "zhoushan479"
+  },
+  {
+    "cityName": "太原",
+    "city": "taiyuan167"
+  },
+  {
+    "cityName": "郑州",
+    "city": "zhengzhou157"
+  },
+  {
+    "cityName": "银川",
+    "city": "yinchuan239"
+  },
+  {
+    "cityName": "嘉兴",
+    "city": "jiaxing272"
+  },
+  {
+    "cityName": "乐山",
+    "city": "leshan103"
+  },
+  {
+    "cityName": "平遥",
+    "city": "pingyao365"
+  },
+  {
+    "cityName": "黄山",
+    "city": "huangshan120061"
+  },
+  {
+    "cityName": "烟台",
+    "city": "yantai170"
+  },
+  {
+    "cityName": "承德",
+    "city": "chengde135"
+  },
+  {
+    "cityName": "乌鲁木齐",
+    "city": "urumqi117"
+  },
+  {
+    "cityName": "稻城",
+    "city": "daocheng342"
+  },
+  {
+    "cityName": "常州",
+    "city": "changzhou206"
+  },
+  {
+    "cityName": "林芝",
+    "city": "linzhi126"
+  },
+  {
+    "cityName": "洛阳",
+    "city": "luoyang198"
+  },
+  {
+    "cityName": "桐乡",
+    "city": "tongxiang220"
+  },
+  {
+    "cityName": "兰州",
+    "city": "lanzhou231"
+  },
+  {
+    "cityName": "开封",
+    "city": "kaifeng165"
+  },
+  {
+    "cityName": "连云港",
+    "city": "lianyungang238"
+  },
+  {
+    "cityName": "屏东",
+    "city": "pingtung1364"
+  },
+  {
+    "cityName": "日喀则",
+    "city": "rikaze100"
+  },
+  {
+    "cityName": "台南",
+    "city": "tainan757"
+  },
+  {
+    "cityName": "呼伦贝尔",
+    "city": "hulunbeier458"
+  },
+  {
+    "cityName": "南投",
+    "city": "nantou759"
+  },
+  {
+    "cityName": "腾冲",
+    "city": "tengchong696"
+  },
+  {
+    "cityName": "台中",
+    "city": "taizhong1369"
+  },
+  {
+    "cityName": "敦煌",
+    "city": "dunhuang8"
+  },
+  {
+    "cityName": "石家庄",
+    "city": "shijiazhuang199"
+  },
+  {
+    "cityName": "嘉善",
+    "city": "jiashan1019"
+  },
+  {
+    "cityName": "温州",
+    "city": "wenzhou153"
+  },
+  {
+    "cityName": "泉州",
+    "city": "quanzhou243"
+  },
+  {
+    "cityName": "上饶",
+    "city": "shangrao547"
+  },
+  {
+    "cityName": "景德镇",
+    "city": "jingdezhen405"
+  },
+  {
+    "cityName": "迪庆",
+    "city": "diqing120009"
+  },
+  {
+    "cityName": "婺源",
+    "city": "wuyuan446"
+  },
+  {
+    "cityName": "都江堰",
+    "city": "dujiangyan911"
+  }
+]
