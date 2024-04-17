@@ -358,5 +358,8545 @@
   {
     "cityName": "都江堰",
     "city": "dujiangyan911"
+  },
+  {
+    "cityName": "康定",
+    "city": "kangding344"
+  },
+  {
+    "cityName": "湖州",
+    "city": "huzhou68"
+  },
+  {
+    "cityName": "南昌",
+    "city": "nanchang175"
+  },
+  {
+    "cityName": "牡丹江",
+    "city": "mudanjiang264"
+  },
+  {
+    "cityName": "甘孜藏族自治州",
+    "city": "ganzi754"
+  },
+  {
+    "cityName": "大同",
+    "city": "datong275"
+  },
+  {
+    "cityName": "新北",
+    "city": "newtaipeicity2063"
+  },
+  {
+    "cityName": "泰安",
+    "city": "taian746"
+  },
+  {
+    "cityName": "佛山",
+    "city": "foshan207"
+  },
+  {
+    "cityName": "金华",
+    "city": "jinhua219"
+  },
+  {
+    "cityName": "甘南",
+    "city": "gannan426"
+  },
+  {
+    "cityName": "安吉",
+    "city": "anji686"
+  },
+  {
+    "cityName": "台东",
+    "city": "taitung760"
+  },
+  {
+    "cityName": "呼和浩特",
+    "city": "huhehaote156"
+  },
+  {
+    "cityName": "昆山",
+    "city": "kunshan77"
+  },
+  {
+    "cityName": "宜昌",
+    "city": "yichang313"
+  },
+  {
+    "cityName": "阿里",
+    "city": "ali99"
+  },
+  {
+    "cityName": "惠州",
+    "city": "huizhou213"
+  },
+  {
+    "cityName": "嵊泗",
+    "city": "shengsi82"
+  },
+  {
+    "cityName": "合肥",
+    "city": "hefei196"
+  },
+  {
+    "cityName": "嘉义市",
+    "city": "chiayi758"
+  },
+  {
+    "cityName": "黔东南",
+    "city": "qiandongnan2375"
+  },
+  {
+    "cityName": "漠河",
+    "city": "mohe983"
+  },
+  {
+    "cityName": "晋中",
+    "city": "jinzhong639"
+  },
+  {
+    "cityName": "嘉峪关",
+    "city": "jiayuguan284"
+  },
+  {
+    "cityName": "东莞",
+    "city": "dongguan212"
+  },
+  {
+    "cityName": "满洲里",
+    "city": "manzhouli319"
+  },
+  {
+    "cityName": "肇庆",
+    "city": "zhaoqing269"
+  },
+  {
+    "cityName": "镇江",
+    "city": "zhenjiang13"
+  },
+  {
+    "cityName": "延边",
+    "city": "yanbian415"
+  },
+  {
+    "cityName": "丽水",
+    "city": "lishui441"
+  },
+  {
+    "cityName": "日照",
+    "city": "rizhao622"
+  },
+  {
+    "cityName": "九江",
+    "city": "jiujiang877"
+  },
+  {
+    "cityName": "漳州",
+    "city": "zhangzhou334"
+  },
+  {
+    "cityName": "丹东",
+    "city": "dandong315"
+  },
+  {
+    "cityName": "葫芦岛",
+    "city": "huludao345"
+  },
+  {
+    "cityName": "酒泉",
+    "city": "jiuquan282"
+  },
+  {
+    "cityName": "宜兰",
+    "city": "yilan1383"
+  },
+  {
+    "cityName": "大邑",
+    "city": "dayi3130"
+  },
+  {
+    "cityName": "张掖",
+    "city": "zhangye283"
+  },
+  {
+    "cityName": "台州",
+    "city": "taizhou402"
+  },
+  {
+    "cityName": "宜春",
+    "city": "yichun743"
+  },
+  {
+    "cityName": "韶关",
+    "city": "shaoguan222"
+  },
+  {
+    "cityName": "徐州",
+    "city": "xuzhou230"
+  },
+  {
+    "cityName": "神农架",
+    "city": "shennongjia147"
+  },
+  {
+    "cityName": "吉林市",
+    "city": "jilinshi267"
+  },
+  {
+    "cityName": "保定",
+    "city": "baoding459"
+  },
+  {
+    "cityName": "南通",
+    "city": "nantong85"
+  },
+  {
+    "cityName": "保山",
+    "city": "baoshan420"
+  },
+  {
+    "cityName": "中山",
+    "city": "zhongshan233"
+  },
+  {
+    "cityName": "清远",
+    "city": "qingyuan517"
+  },
+  {
+    "cityName": "色达",
+    "city": "sedaxian120478"
+  },
+  {
+    "cityName": "汕头",
+    "city": "shantou215"
+  },
+  {
+    "cityName": "阿勒泰地区",
+    "city": "aletai427"
+  },
+  {
+    "cityName": "伊犁",
+    "city": "yili115"
+  },
+  {
+    "cityName": "咸阳",
+    "city": "xianyang632"
+  },
+  {
+    "cityName": "黟县",
+    "city": "yixian528"
+  },
+  {
+    "cityName": "伊春",
+    "city": "yichun498"
+  },
+  {
+    "cityName": "延安",
+    "city": "yanan423"
+  },
+  {
+    "cityName": "淳安",
+    "city": "chunan2249"
+  },
+  {
+    "cityName": "青阳",
+    "city": "qingyang2613"
+  },
+  {
+    "cityName": "忻州",
+    "city": "xinzhou783"
+  },
+  {
+    "cityName": "海林",
+    "city": "hailin2240"
+  },
+  {
+    "cityName": "赤峰",
+    "city": "chifeng483"
+  },
+  {
+    "cityName": "昌都",
+    "city": "changdu559"
+  },
+  {
+    "cityName": "丹巴",
+    "city": "danba704"
+  },
+  {
+    "cityName": "咸宁",
+    "city": "xianning861"
+  },
+  {
+    "cityName": "安顺",
+    "city": "anshun518"
+  },
+  {
+    "cityName": "景洪",
+    "city": "jinghong2154"
+  },
+  {
+    "cityName": "大兴安岭",
+    "city": "daxinganling396"
+  },
+  {
+    "cityName": "池州",
+    "city": "chizhou825"
+  },
+  {
+    "cityName": "宝鸡",
+    "city": "baoji422"
+  },
+  {
+    "cityName": "张家口",
+    "city": "zhangjiakou497"
+  },
+  {
+    "cityName": "西昌",
+    "city": "xichang592"
+  },
+  {
+    "cityName": "渭南",
+    "city": "weinan908"
+  },
+  {
+    "cityName": "常熟",
+    "city": "changshu101"
+  },
+  {
+    "cityName": "焦作",
+    "city": "jiaozuo663"
+  },
+  {
+    "cityName": "松潘",
+    "city": "songpan606"
+  },
+  {
+    "cityName": "潍坊",
+    "city": "weifang226"
+  },
+  {
+    "cityName": "海西",
+    "city": "haixi120012"
+  },
+  {
+    "cityName": "宜宾",
+    "city": "yibin278"
+  },
+  {
+    "cityName": "溧阳",
+    "city": "liyang598"
+  },
+  {
+    "cityName": "南平",
+    "city": "nanping827"
+  },
+  {
+    "cityName": "临沂",
+    "city": "linyi480"
+  },
+  {
+    "cityName": "柳州",
+    "city": "liuzhou143"
+  },
+  {
+    "cityName": "江门",
+    "city": "jiangmen362"
+  },
+  {
+    "cityName": "十堰",
+    "city": "shiyan464"
+  },
+  {
+    "cityName": "芜湖",
+    "city": "wuhu457"
+  },
+  {
+    "cityName": "龙岩",
+    "city": "longyan366"
+  },
+  {
+    "cityName": "镇远",
+    "city": "zhenyuan1840"
+  },
+  {
+    "cityName": "潮州",
+    "city": "chaozhou467"
+  },
+  {
+    "cityName": "临汾",
+    "city": "linfen318"
+  },
+  {
+    "cityName": "红河",
+    "city": "honghe512"
+  },
+  {
+    "cityName": "湛江",
+    "city": "zhanjiang202"
+  },
+  {
+    "cityName": "彰化",
+    "city": "changhua3180"
+  },
+  {
+    "cityName": "济宁",
+    "city": "jining658"
+  },
+  {
+    "cityName": "东阳",
+    "city": "dongyang608"
+  },
+  {
+    "cityName": "绵阳",
+    "city": "mianyang915"
+  },
+  {
+    "cityName": "衡山",
+    "city": "hengshan277"
+  },
+  {
+    "cityName": "理塘",
+    "city": "litang3150"
+  },
+  {
+    "cityName": "布尔津",
+    "city": "buerjin1010"
+  },
+  {
+    "cityName": "黔南",
+    "city": "qiannan2374"
+  },
+  {
+    "cityName": "吐鲁番",
+    "city": "tulufan35"
+  },
+  {
+    "cityName": "衡阳",
+    "city": "hengyang864"
+  },
+  {
+    "cityName": "荔波",
+    "city": "libo659"
+  },
+  {
+    "cityName": "宜兴",
+    "city": "yixing227"
+  },
+  {
+    "cityName": "雷山",
+    "city": "leishan2345"
+  },
+  {
+    "cityName": "凉山",
+    "city": "liangshan912"
+  },
+  {
+    "cityName": "凯里",
+    "city": "kaili491"
+  },
+  {
+    "cityName": "赣州",
+    "city": "ganzhou473"
+  },
+  {
+    "cityName": "遵义",
+    "city": "zunyi204"
+  },
+  {
+    "cityName": "喀什地区",
+    "city": "kashi124"
+  },
+  {
+    "cityName": "阳江",
+    "city": "yangjiang363"
+  },
+  {
+    "cityName": "汉中",
+    "city": "hanzhong486"
+  },
+  {
+    "cityName": "吉安",
+    "city": "jian876"
+  },
+  {
+    "cityName": "山南",
+    "city": "shannan339"
+  },
+  {
+    "cityName": "宁德",
+    "city": "ningde490"
+  },
+  {
+    "cityName": "恩施土家族苗族自治州",
+    "city": "enshi487"
+  },
+  {
+    "cityName": "德清",
+    "city": "deqing1011"
+  },
+  {
+    "cityName": "岳阳",
+    "city": "yueyang287"
+  },
+  {
+    "cityName": "泰州",
+    "city": "taizhou494"
+  },
+  {
+    "cityName": "乐清",
+    "city": "yueqing1022"
+  },
+  {
+    "cityName": "华阴",
+    "city": "huayin476"
+  },
+  {
+    "cityName": "象山",
+    "city": "xiangshan723"
+  },
+  {
+    "cityName": "桐庐",
+    "city": "tonglu688"
+  },
+  {
+    "cityName": "曲阜",
+    "city": "qufu129"
+  },
+  {
+    "cityName": "若尔盖",
+    "city": "ruoergai3165"
+  },
+  {
+    "cityName": "井冈山",
+    "city": "jinggangshan171"
+  },
+  {
+    "cityName": "德格",
+    "city": "dege3140"
+  },
+  {
+    "cityName": "南阳",
+    "city": "nanyang591"
+  },
+  {
+    "cityName": "安庆",
+    "city": "anqing179"
+  },
+  {
+    "cityName": "南靖",
+    "city": "najing2672"
+  },
+  {
+    "cityName": "惠东",
+    "city": "huidong956"
+  },
+  {
+    "cityName": "包头",
+    "city": "baotou347"
+  },
+  {
+    "cityName": "白玉",
+    "city": "baiyuxian120485"
+  },
+  {
+    "cityName": "文山壮族苗族自治州",
+    "city": "wenshan511"
+  },
+  {
+    "cityName": "海北",
+    "city": "haibei120014"
+  },
+  {
+    "cityName": "宣城",
+    "city": "xuancheng504"
+  },
+  {
+    "cityName": "梅州",
+    "city": "meizhou523"
+  },
+  {
+    "cityName": "南充",
+    "city": "nanchong782"
+  },
+  {
+    "cityName": "莆田",
+    "city": "putian317"
+  },
+  {
+    "cityName": "泸定",
+    "city": "luding2059"
+  },
+  {
+    "cityName": "登封",
+    "city": "dengfeng1014"
+  },
+  {
+    "cityName": "唐山",
+    "city": "tangshan200"
+  },
+  {
+    "cityName": "河源",
+    "city": "heyuan350"
+  },
+  {
+    "cityName": "枣庄",
+    "city": "zaozhuang656"
+  },
+  {
+    "cityName": "雅安",
+    "city": "yaan917"
+  },
+  {
+    "cityName": "郴州",
+    "city": "chenzhou336"
+  },
+  {
+    "cityName": "中卫",
+    "city": "zhongwei1184"
+  },
+  {
+    "cityName": "曲靖",
+    "city": "qujing509"
+  },
+  {
+    "cityName": "淮安",
+    "city": "huaian351"
+  },
+  {
+    "cityName": "三沙",
+    "city": "sansha120101"
+  },
+  {
+    "cityName": "金川",
+    "city": "jinchuan3125"
+  },
+  {
+    "cityName": "衢州",
+    "city": "quzhou174"
+  },
+  {
+    "cityName": "荣成",
+    "city": "rongcheng899"
+  },
+  {
+    "cityName": "淄博",
+    "city": "zibo536"
+  },
+  {
+    "cityName": "雅江",
+    "city": "yajiang3137"
+  },
+  {
+    "cityName": "本溪",
+    "city": "benxi463"
+  },
+  {
+    "cityName": "襄阳",
+    "city": "xiangyang414"
+  },
+  {
+    "cityName": "琼海",
+    "city": "qionghai843"
+  },
+  {
+    "cityName": "克什克腾旗",
+    "city": "keshiketengqi2971"
+  },
+  {
+    "cityName": "丹江口",
+    "city": "danjiangkou1018"
+  },
+  {
+    "cityName": "鄂尔多斯",
+    "city": "eerduosi600"
+  },
+  {
+    "cityName": "巴塘",
+    "city": "batang3102"
+  },
+  {
+    "cityName": "玉溪",
+    "city": "yuxi477"
+  },
+  {
+    "cityName": "万宁",
+    "city": "wanning846"
+  },
+  {
+    "cityName": "盐城",
+    "city": "yancheng493"
+  },
+  {
+    "cityName": "齐齐哈尔",
+    "city": "qiqihaer395"
+  },
+  {
+    "cityName": "锡林郭勒盟",
+    "city": "xilingol484"
+  },
+  {
+    "cityName": "天水",
+    "city": "tianshui285"
+  },
+  {
+    "cityName": "黔西南",
+    "city": "qianxinan1428"
+  },
+  {
+    "cityName": "大庆",
+    "city": "daqing531"
+  },
+  {
+    "cityName": "罗平",
+    "city": "luoping676"
+  },
+  {
+    "cityName": "新乡",
+    "city": "xinxiang474"
+  },
+  {
+    "cityName": "永嘉",
+    "city": "yongjia785"
+  },
+  {
+    "cityName": "三明",
+    "city": "sanming620"
+  },
+  {
+    "cityName": "锦州",
+    "city": "jinzhou513"
+  },
+  {
+    "cityName": "广元",
+    "city": "guangyuan593"
+  },
+  {
+    "cityName": "邯郸",
+    "city": "handan495"
+  },
+  {
+    "cityName": "信阳",
+    "city": "xinyang448"
+  },
+  {
+    "cityName": "运城",
+    "city": "yuncheng397"
+  },
+  {
+    "cityName": "六安",
+    "city": "liuan502"
+  },
+  {
+    "cityName": "道孚",
+    "city": "daofu1446234"
+  },
+  {
+    "cityName": "宁海",
+    "city": "ninghai689"
+  },
+  {
+    "cityName": "义乌",
+    "city": "yiwu1005"
+  },
+  {
+    "cityName": "晋城",
+    "city": "jincheng665"
+  },
+  {
+    "cityName": "炉霍",
+    "city": "luhuo1446223"
+  },
+  {
+    "cityName": "铜仁",
+    "city": "tongren680"
+  },
+  {
+    "cityName": "余姚",
+    "city": "yuyao98"
+  },
+  {
+    "cityName": "夏河",
+    "city": "xiahe2792"
+  },
+  {
+    "cityName": "阿拉善",
+    "city": "alashan1193"
+  },
+  {
+    "cityName": "滁州",
+    "city": "chuzhou228"
+  },
+  {
+    "cityName": "龙胜",
+    "city": "longsheng1445120"
+  },
+  {
+    "cityName": "廊坊",
+    "city": "langfang582"
+  },
+  {
+    "cityName": "黑河",
+    "city": "heihe265"
+  },
+  {
+    "cityName": "榆林",
+    "city": "yulin485"
+  },
+  {
+    "cityName": "陵水",
+    "city": "lingshui1509"
+  },
+  {
+    "cityName": "白山",
+    "city": "baishan871"
+  },
+  {
+    "cityName": "尚志",
+    "city": "shangzhi853"
+  },
+  {
+    "cityName": "安阳",
+    "city": "anyang412"
+  },
+  {
+    "cityName": "巴音郭楞",
+    "city": "bayinguoleng2512"
+  },
+  {
+    "cityName": "汶川",
+    "city": "wenchuan3101"
+  },
+  {
+    "cityName": "湘潭",
+    "city": "xiangtan1417"
+  },
+  {
+    "cityName": "基隆",
+    "city": "keelung1382"
+  },
+  {
+    "cityName": "泰顺",
+    "city": "taishun625"
+  },
+  {
+    "cityName": "墨脱",
+    "city": "motuo120397"
+  },
+  {
+    "cityName": "修武",
+    "city": "xiuwu2267"
+  },
+  {
+    "cityName": "贺州",
+    "city": "hezhou707"
+  },
+  {
+    "cityName": "兴安盟",
+    "city": "xinganmeng886"
+  },
+  {
+    "cityName": "昌吉回族自治州",
+    "city": "changji923"
+  },
+  {
+    "cityName": "阿尔山",
+    "city": "aershan120084"
+  },
+  {
+    "cityName": "歙县",
+    "city": "shexian527"
+  },
+  {
+    "cityName": "围场",
+    "city": "weichang2584"
+  },
+  {
+    "cityName": "安康",
+    "city": "ankang545"
+  },
+  {
+    "cityName": "阆中",
+    "city": "langzhong831"
+  },
+  {
+    "cityName": "毕节",
+    "city": "bijie521"
+  },
+  {
+    "cityName": "弥勒",
+    "city": "mileshi1342"
+  },
+  {
+    "cityName": "龙门",
+    "city": "longmen2949"
+  },
+  {
+    "cityName": "碌曲",
+    "city": "luqu2799"
+  },
+  {
+    "cityName": "常德",
+    "city": "changde417"
+  },
+  {
+    "cityName": "金门",
+    "city": "jinmen1368"
+  },
+  {
+    "cityName": "百色",
+    "city": "baise524"
+  },
+  {
+    "cityName": "株洲",
+    "city": "zhuzhou1174"
+  },
+  {
+    "cityName": "五常",
+    "city": "wuchang2237"
+  },
+  {
+    "cityName": "兴义",
+    "city": "xingyi519"
+  },
+  {
+    "cityName": "怀化",
+    "city": "huaihua655"
+  },
+  {
+    "cityName": "当雄",
+    "city": "dangxiong2443"
+  },
+  {
+    "cityName": "桃园",
+    "city": "taoyuan1439"
+  },
+  {
+    "cityName": "鹰潭",
+    "city": "yingtan186"
+  },
+  {
+    "cityName": "克拉玛依",
+    "city": "kelamayi428"
+  },
+  {
+    "cityName": "营口",
+    "city": "yingkou692"
+  },
+  {
+    "cityName": "德宏",
+    "city": "dehong526"
+  },
+  {
+    "cityName": "崇左",
+    "city": "chongzuo837"
+  },
+  {
+    "cityName": "武义",
+    "city": "wuyi1004"
+  },
+  {
+    "cityName": "遂昌",
+    "city": "suichang1431"
+  },
+  {
+    "cityName": "延吉",
+    "city": "yanji475"
+  },
+  {
+    "cityName": "瑞丽",
+    "city": "ruili1213"
+  },
+  {
+    "cityName": "荆州",
+    "city": "jingzhou413"
+  },
+  {
+    "cityName": "额济纳旗",
+    "city": "ejinaqi2973"
+  },
+  {
+    "cityName": "兴城",
+    "city": "xingcheng1399"
+  },
+  {
+    "cityName": "黎平",
+    "city": "liping1346"
+  },
+  {
+    "cityName": "石林",
+    "city": "shilin271"
+  },
+  {
+    "cityName": "鞍山",
+    "city": "anshan229"
+  },
+  {
+    "cityName": "泸州",
+    "city": "luzhou604"
+  },
+  {
+    "cityName": "江阴",
+    "city": "jiangyin235"
+  },
+  {
+    "cityName": "贵溪",
+    "city": "guixi1189"
+  },
+  {
+    "cityName": "额尔古纳",
+    "city": "eerguna2026"
+  },
+  {
+    "cityName": "普洱",
+    "city": "puer928"
+  },
+  {
+    "cityName": "湟源",
+    "city": "huangyuan2643"
+  },
+  {
+    "cityName": "理县",
+    "city": "lixian1445566"
+  },
+  {
+    "cityName": "慈溪",
+    "city": "cixi543"
+  },
+  {
+    "cityName": "长治",
+    "city": "changzhi901"
+  },
+  {
+    "cityName": "海宁",
+    "city": "haining86"
+  },
+  {
+    "cityName": "德阳",
+    "city": "deyang462"
+  },
+  {
+    "cityName": "元阳",
+    "city": "yuanyang2032"
+  },
+  {
+    "cityName": "梧州",
+    "city": "wuzhou142"
+  },
+  {
+    "cityName": "扶风",
+    "city": "fufeng1880"
+  },
+  {
+    "cityName": "朔州",
+    "city": "shuozhou903"
+  },
+  {
+    "cityName": "临海",
+    "city": "linhai544"
+  },
+  {
+    "cityName": "张家港",
+    "city": "zhangjiagang203"
+  },
+  {
+    "cityName": "浮梁",
+    "city": "fuliang2420"
+  },
+  {
+    "cityName": "诸暨",
+    "city": "zhuji690"
+  },
+  {
+    "cityName": "黄冈",
+    "city": "huanggang859"
+  },
+  {
+    "cityName": "栾川",
+    "city": "luanchuan1930"
+  },
+  {
+    "cityName": "仙居",
+    "city": "xianju691"
+  },
+  {
+    "cityName": "海南藏族自治州",
+    "city": "hainantibetanautonomousprefecture120074"
+  },
+  {
+    "cityName": "楚雄彝族自治州",
+    "city": "chuxiong510"
+  },
+  {
+    "cityName": "五大连池",
+    "city": "wudalianchi857"
+  },
+  {
+    "cityName": "巴马",
+    "city": "bama3041"
+  },
+  {
+    "cityName": "太仓",
+    "city": "taicang255"
+  },
+  {
+    "cityName": "台山",
+    "city": "taishan673"
+  },
+  {
+    "cityName": "盘锦",
+    "city": "panjin602"
+  },
+  {
+    "cityName": "浪卡子",
+    "city": "langkazi2438"
+  },
+  {
+    "cityName": "聊城",
+    "city": "liaocheng635"
+  },
+  {
+    "cityName": "沧州",
+    "city": "cangzhou540"
+  },
+  {
+    "cityName": "安图",
+    "city": "antu643"
+  },
+  {
+    "cityName": "邢台",
+    "city": "xingtai460"
+  },
+  {
+    "cityName": "赤水",
+    "city": "chishui1770"
+  },
+  {
+    "cityName": "新竹",
+    "city": "hsinchu1197"
+  },
+  {
+    "cityName": "许昌",
+    "city": "xuchang465"
+  },
+  {
+    "cityName": "工布江达",
+    "city": "gongbujiangda120396"
+  },
+  {
+    "cityName": "商丘",
+    "city": "shangqiu849"
+  },
+  {
+    "cityName": "六盘水",
+    "city": "liupanshui679"
+  },
+  {
+    "cityName": "平顶山",
+    "city": "pingdingshan810"
+  },
+  {
+    "cityName": "德州",
+    "city": "dezhou603"
+  },
+  {
+    "cityName": "巴中",
+    "city": "bazhong703"
+  },
+  {
+    "cityName": "宿迁",
+    "city": "suqian492"
+  },
+  {
+    "cityName": "绩溪",
+    "city": "jixi2627"
+  },
+  {
+    "cityName": "文昌",
+    "city": "wenchang1007"
+  },
+  {
+    "cityName": "韶山",
+    "city": "shaoshan346"
+  },
+  {
+    "cityName": "萍乡",
+    "city": "pingxiang714"
+  },
+  {
+    "cityName": "乾县",
+    "city": "qianxian2742"
+  },
+  {
+    "cityName": "阿克苏地区",
+    "city": "akesu920"
+  },
+  {
+    "cityName": "茂县",
+    "city": "maoxian3164"
+  },
+  {
+    "cityName": "潜山",
+    "city": "qianshan1016"
+  },
+  {
+    "cityName": "瑞安",
+    "city": "ruian535"
+  },
+  {
+    "cityName": "亳州",
+    "city": "bozhou404"
+  },
+  {
+    "cityName": "格尔木",
+    "city": "geermu332"
+  },
+  {
+    "cityName": "马鞍山",
+    "city": "maanshan503"
+  },
+  {
+    "cityName": "黄龙",
+    "city": "huanglong905"
+  },
+  {
+    "cityName": "蚌埠",
+    "city": "bengbu205"
+  },
+  {
+    "cityName": "揭阳",
+    "city": "jieyang835"
+  },
+  {
+    "cityName": "永州",
+    "city": "yongzhou869"
+  },
+  {
+    "cityName": "正定",
+    "city": "zhengding2581"
+  },
+  {
+    "cityName": "平潭",
+    "city": "pingtan2652"
+  },
+  {
+    "cityName": "佳木斯",
+    "city": "jiamusi501"
+  },
+  {
+    "cityName": "攀枝花",
+    "city": "panzhihua786"
+  },
+  {
+    "cityName": "邛崃",
+    "city": "qionglai1403"
+  },
+  {
+    "cityName": "红原",
+    "city": "hongyuan3099"
+  },
+  {
+    "cityName": "自贡",
+    "city": "zigong575"
+  },
+  {
+    "cityName": "三门峡",
+    "city": "sanmenxia522"
+  },
+  {
+    "cityName": "英德",
+    "city": "yingde962"
+  },
+  {
+    "cityName": "哈密",
+    "city": "hami567"
+  },
+  {
+    "cityName": "三江",
+    "city": "sanjiang975"
+  },
+  {
+    "cityName": "东营",
+    "city": "dongying612"
+  },
+  {
+    "cityName": "缙云",
+    "city": "jinyun1021"
+  },
+  {
+    "cityName": "介休",
+    "city": "jiexiu2982"
+  },
+  {
+    "cityName": "黄石",
+    "city": "huangshi710"
+  },
+  {
+    "cityName": "博罗",
+    "city": "boluo954"
+  },
+  {
+    "cityName": "蔚县",
+    "city": "yuxian2565"
+  },
+  {
+    "cityName": "建德",
+    "city": "jiande687"
+  },
+  {
+    "cityName": "合作",
+    "city": "hezuo2784"
+  },
+  {
+    "cityName": "定日",
+    "city": "dingri2450"
+  },
+  {
+    "cityName": "茂名",
+    "city": "maoming615"
+  },
+  {
+    "cityName": "玉林",
+    "city": "yulin141"
+  },
+  {
+    "cityName": "苍南",
+    "city": "cangnan2049"
+  },
+  {
+    "cityName": "兰溪",
+    "city": "lanxi611"
+  },
+  {
+    "cityName": "巢湖",
+    "city": "chaohu187"
+  },
+  {
+    "cityName": "江孜",
+    "city": "jiangzi2437"
+  },
+  {
+    "cityName": "库尔勒",
+    "city": "kuerle429"
+  },
+  {
+    "cityName": "达州",
+    "city": "dazhou910"
+  },
+  {
+    "cityName": "防城港",
+    "city": "fangchenggang698"
+  },
+  {
+    "cityName": "保亭",
+    "city": "baoting1009"
+  },
+  {
+    "cityName": "河池",
+    "city": "hechi838"
+  },
+  {
+    "cityName": "抚顺",
+    "city": "fushun514"
+  },
+  {
+    "cityName": "辽阳",
+    "city": "liaoyang881"
+  },
+  {
+    "cityName": "菏泽",
+    "city": "heze708"
+  },
+  {
+    "cityName": "新昌",
+    "city": "xinchang75"
+  },
+  {
+    "cityName": "怒江",
+    "city": "nujiang681"
+  },
+  {
+    "cityName": "吕梁",
+    "city": "lvliang902"
+  },
+  {
+    "cityName": "开平",
+    "city": "kaiping525"
+  },
+  {
+    "cityName": "晋江",
+    "city": "jinjiang675"
+  },
+  {
+    "cityName": "汕尾",
+    "city": "shanwei624"
+  },
+  {
+    "cityName": "兴化",
+    "city": "xinghua1946"
+  },
+  {
+    "cityName": "广安",
+    "city": "guangan693"
+  },
+  {
+    "cityName": "德钦",
+    "city": "deqin2178"
+  },
+  {
+    "cityName": "恩平",
+    "city": "enping623"
+  },
+  {
+    "cityName": "吉首",
+    "city": "jishou865"
+  },
+  {
+    "cityName": "青州",
+    "city": "qingzhou898"
+  },
+  {
+    "cityName": "通辽",
+    "city": "tongliao885"
+  },
+  {
+    "cityName": "德令哈",
+    "city": "delingha891"
+  },
+  {
+    "cityName": "湖口",
+    "city": "hukou2386"
+  },
+  {
+    "cityName": "石嘴山",
+    "city": "shizuishan889"
+  },
+  {
+    "cityName": "南雄",
+    "city": "nanxiong2921"
+  },
+  {
+    "cityName": "阜阳",
+    "city": "fuyang361"
+  },
+  {
+    "cityName": "博尔塔拉",
+    "city": "boertala2513"
+  },
+  {
+    "cityName": "眉山",
+    "city": "meishan914"
+  },
+  {
+    "cityName": "黄南",
+    "city": "huangnan120042"
+  },
+  {
+    "cityName": "剑川",
+    "city": "jianchuan2215"
+  },
+  {
+    "cityName": "通化",
+    "city": "tonghua874"
+  },
+  {
+    "cityName": "玉树藏族自治州",
+    "city": "yushu896"
+  },
+  {
+    "cityName": "泰宁",
+    "city": "taining2678"
+  },
+  {
+    "cityName": "霞浦",
+    "city": "xiapu1154"
+  },
+  {
+    "cityName": "平山",
+    "city": "pingshan1139"
+  },
+  {
+    "cityName": "永泰",
+    "city": "yongtai2665"
+  },
+  {
+    "cityName": "宾川",
+    "city": "binchuan2157"
+  },
+  {
+    "cityName": "邵阳",
+    "city": "shaoyang867"
+  },
+  {
+    "cityName": "吉木萨尔",
+    "city": "jimusaer2498"
+  },
+  {
+    "cityName": "平湖",
+    "city": "pinghu533"
+  },
+  {
+    "cityName": "浏阳",
+    "city": "liuyang1337"
+  },
+  {
+    "cityName": "金寨",
+    "city": "jinzhai2623"
+  },
+  {
+    "cityName": "乳山",
+    "city": "rushan2046"
+  },
+  {
+    "cityName": "武威",
+    "city": "wuwei290"
+  },
+  {
+    "cityName": "句容",
+    "city": "jurong817"
+  },
+  {
+    "cityName": "和田地区",
+    "city": "hetian557"
+  },
+  {
+    "cityName": "驻马店",
+    "city": "zhumadian642"
+  },
+  {
+    "cityName": "商洛",
+    "city": "shangluo906"
+  },
+  {
+    "cityName": "遂宁",
+    "city": "suining605"
+  },
+  {
+    "cityName": "佛冈",
+    "city": "fogang2935"
+  },
+  {
+    "cityName": "长兴",
+    "city": "changxing1832"
+  },
+  {
+    "cityName": "朝阳",
+    "city": "chaoyang1104"
+  },
+  {
+    "cityName": "昌黎",
+    "city": "changli1835"
+  },
+  {
+    "cityName": "瑞金",
+    "city": "ruijin1159"
+  },
+  {
+    "cityName": "云龙",
+    "city": "yunlong2203"
+  },
+  {
+    "cityName": "云和",
+    "city": "yunhe2251"
+  },
+  {
+    "cityName": "沂水",
+    "city": "yishui2035"
+  },
+  {
+    "cityName": "石河子",
+    "city": "shihezi1168"
+  },
+  {
+    "cityName": "彭州",
+    "city": "pengzhou1747"
+  },
+  {
+    "cityName": "福鼎",
+    "city": "fuding613"
+  },
+  {
+    "cityName": "同仁",
+    "city": "tongren895"
+  },
+  {
+    "cityName": "启东",
+    "city": "qidong1542"
+  },
+  {
+    "cityName": "那曲",
+    "city": "naqu919"
+  },
+  {
+    "cityName": "怀来",
+    "city": "huailai2527"
+  },
+  {
+    "cityName": "连城",
+    "city": "liancheng609"
+  },
+  {
+    "cityName": "北川",
+    "city": "beichuan1934"
+  },
+  {
+    "cityName": "周口",
+    "city": "zhoukou709"
+  },
+  {
+    "cityName": "平凉",
+    "city": "pingliang424"
+  },
+  {
+    "cityName": "南澳",
+    "city": "nanao958"
+  },
+  {
+    "cityName": "东方",
+    "city": "dongfang842"
+  },
+  {
+    "cityName": "眉县",
+    "city": "meixian2776"
+  },
+  {
+    "cityName": "澎湖",
+    "city": "penghu1367"
+  },
+  {
+    "cityName": "文成",
+    "city": "wencheng1003"
+  },
+  {
+    "cityName": "昭通",
+    "city": "zhaotong929"
+  },
+  {
+    "cityName": "宜川",
+    "city": "yichuan2757"
+  },
+  {
+    "cityName": "富蕴",
+    "city": "fuwen2509"
+  },
+  {
+    "cityName": "乌兰察布",
+    "city": "wulanchabu1358"
+  },
+  {
+    "cityName": "滨州",
+    "city": "binzhou660"
+  },
+  {
+    "cityName": "阜康",
+    "city": "fukang2506"
+  },
+  {
+    "cityName": "庐山",
+    "city": "xingzi2390"
+  },
+  {
+    "cityName": "江油",
+    "city": "jiangyou1037"
+  },
+  {
+    "cityName": "肥西",
+    "city": "feixi2619"
+  },
+  {
+    "cityName": "乳源",
+    "city": "ruyuan2937"
+  },
+  {
+    "cityName": "胶州",
+    "city": "jiaozhou1836"
+  },
+  {
+    "cityName": "波密",
+    "city": "bomi2436"
+  },
+  {
+    "cityName": "娄底",
+    "city": "loudi866"
+  },
+  {
+    "cityName": "吴忠",
+    "city": "wuzhong890"
+  },
+  {
+    "cityName": "勐腊",
+    "city": "mengla2210"
+  },
+  {
+    "cityName": "赤壁",
+    "city": "chibi1135"
+  },
+  {
+    "cityName": "涞水",
+    "city": "laishui2545"
+  },
+  {
+    "cityName": "嵊州",
+    "city": "shengzhou553"
+  },
+  {
+    "cityName": "孝感",
+    "city": "xiaogan862"
+  },
+  {
+    "cityName": "黑水",
+    "city": "heishui120552"
+  },
+  {
+    "cityName": "荆门",
+    "city": "jingmen634"
+  },
+  {
+    "cityName": "龙泉",
+    "city": "longquan2033"
+  },
+  {
+    "cityName": "阳泉",
+    "city": "yangquan904"
+  },
+  {
+    "cityName": "昭平",
+    "city": "zhaoping3067"
+  },
+  {
+    "cityName": "绥中",
+    "city": "suizhong2133"
+  },
+  {
+    "cityName": "益阳",
+    "city": "yiyang868"
+  },
+  {
+    "cityName": "龙口",
+    "city": "longkou1567"
+  },
+  {
+    "cityName": "钦州",
+    "city": "qinzhou697"
+  },
+  {
+    "cityName": "宜良",
+    "city": "yiliang2177"
+  },
+  {
+    "cityName": "辉县",
+    "city": "huixian2313"
+  },
+  {
+    "cityName": "庆元",
+    "city": "qingyuan2248"
+  },
+  {
+    "cityName": "西峡",
+    "city": "xixia2268"
+  },
+  {
+    "cityName": "如皋",
+    "city": "rugao1372"
+  },
+  {
+    "cityName": "果洛",
+    "city": "guoluo120013"
+  },
+  {
+    "cityName": "连江",
+    "city": "lianjiang2657"
+  },
+  {
+    "cityName": "建水",
+    "city": "jianshui2151"
+  },
+  {
+    "cityName": "通山",
+    "city": "tongshan2706"
+  },
+  {
+    "cityName": "温岭",
+    "city": "wenling546"
+  },
+  {
+    "cityName": "米林",
+    "city": "milin2448"
+  },
+  {
+    "cityName": "海阳",
+    "city": "haiyang1188"
+  },
+  {
+    "cityName": "宁安",
+    "city": "ningan2233"
+  },
+  {
+    "cityName": "抚州",
+    "city": "fuzhou875"
+  },
+  {
+    "cityName": "新郑",
+    "city": "xinzheng2264"
+  },
+  {
+    "cityName": "临沧",
+    "city": "lincang926"
+  },
+  {
+    "cityName": "珲春",
+    "city": "hunchun2461"
+  },
+  {
+    "cityName": "从江",
+    "city": "congjiang2344"
+  },
+  {
+    "cityName": "张北",
+    "city": "zhangbei2575"
+  },
+  {
+    "cityName": "鸡西",
+    "city": "jixi852"
+  },
+  {
+    "cityName": "福清",
+    "city": "fuqing1152"
+  },
+  {
+    "cityName": "平阳",
+    "city": "pingyang1012"
+  },
+  {
+    "cityName": "沂南",
+    "city": "yinan2036"
+  },
+  {
+    "cityName": "固原",
+    "city": "guyuan888"
+  },
+  {
+    "cityName": "普兰",
+    "city": "pulan2440"
+  },
+  {
+    "cityName": "崇州",
+    "city": "chongzhou909"
+  },
+  {
+    "cityName": "巩义",
+    "city": "gongyi1846"
+  },
+  {
+    "cityName": "海盐",
+    "city": "haiyan529"
+  },
+  {
+    "cityName": "阜新",
+    "city": "fuxin879"
+  },
+  {
+    "cityName": "临夏回族自治州",
+    "city": "linxia833"
+  },
+  {
+    "cityName": "泾县",
+    "city": "jingxian2616"
+  },
+  {
+    "cityName": "兴平",
+    "city": "xingping2739"
+  },
+  {
+    "cityName": "瓦房店",
+    "city": "wafangdian2136"
+  },
+  {
+    "cityName": "铁岭",
+    "city": "tieling589"
+  },
+  {
+    "cityName": "大新",
+    "city": "daxin963"
+  },
+  {
+    "cityName": "涞源",
+    "city": "laiyuan2549"
+  },
+  {
+    "cityName": "青田",
+    "city": "qingtian2247"
+  },
+  {
+    "cityName": "衡水",
+    "city": "hengshui461"
+  },
+  {
+    "cityName": "铜川",
+    "city": "tongchuan907"
+  },
+  {
+    "cityName": "惠安",
+    "city": "huian2680"
+  },
+  {
+    "cityName": "敦化",
+    "city": "dunhua1388"
+  },
+  {
+    "cityName": "榕江",
+    "city": "rongjiang2346"
+  },
+  {
+    "cityName": "景宁",
+    "city": "jingning2034"
+  },
+  {
+    "cityName": "都匀",
+    "city": "duyun678"
+  },
+  {
+    "cityName": "金沙",
+    "city": "jinsha2338"
+  },
+  {
+    "cityName": "东海",
+    "city": "donghai3078"
+  },
+  {
+    "cityName": "松原",
+    "city": "songyuan873"
+  },
+  {
+    "cityName": "巴彦淖尔",
+    "city": "bayannaoer883"
+  },
+  {
+    "cityName": "图们",
+    "city": "tumen2466"
+  },
+  {
+    "cityName": "澄江",
+    "city": "chengjiang2171"
+  },
+  {
+    "cityName": "宁乡",
+    "city": "ningxiang2846"
+  },
+  {
+    "cityName": "锡林浩特",
+    "city": "xilinhaote1373"
+  },
+  {
+    "cityName": "随州",
+    "city": "suizhou860"
+  },
+  {
+    "cityName": "祁连",
+    "city": "qilian120123"
+  },
+  {
+    "cityName": "安新",
+    "city": "anxin2521"
+  },
+  {
+    "cityName": "宽甸",
+    "city": "kuandian2137"
+  },
+  {
+    "cityName": "漯河",
+    "city": "luohe664"
+  },
+  {
+    "cityName": "海东",
+    "city": "haidong120010"
+  },
+  {
+    "cityName": "长海",
+    "city": "changhai516"
+  },
+  {
+    "cityName": "江山",
+    "city": "jiangshan1000"
+  },
+  {
+    "cityName": "根河",
+    "city": "genhe2955"
+  },
+  {
+    "cityName": "五指山",
+    "city": "wuzhishan982"
+  },
+  {
+    "cityName": "东山",
+    "city": "dongshan2662"
+  },
+  {
+    "cityName": "休宁",
+    "city": "xiuning2625"
+  },
+  {
+    "cityName": "荥阳",
+    "city": "xingyang1842"
+  },
+  {
+    "cityName": "四平",
+    "city": "siping556"
+  },
+  {
+    "cityName": "贵港",
+    "city": "guigang711"
+  },
+  {
+    "cityName": "儋州",
+    "city": "danzhou841"
+  },
+  {
+    "cityName": "淮南",
+    "city": "huainan638"
+  },
+  {
+    "cityName": "浦江",
+    "city": "pujiang1002"
+  },
+  {
+    "cityName": "连州",
+    "city": "lianzhou1141"
+  },
+  {
+    "cityName": "济源",
+    "city": "jiyuan640"
+  },
+  {
+    "cityName": "洪湖",
+    "city": "honghu2031"
+  },
+  {
+    "cityName": "勉县",
+    "city": "mianxian2779"
+  },
+  {
+    "cityName": "来宾",
+    "city": "laibin839"
+  },
+  {
+    "cityName": "新余",
+    "city": "xinyu878"
+  },
+  {
+    "cityName": "乐亭",
+    "city": "leting2082"
+  },
+  {
+    "cityName": "乌兰浩特",
+    "city": "wulanhaote1316"
+  },
+  {
+    "cityName": "八宿",
+    "city": "basu120403"
+  },
+  {
+    "cityName": "磐安",
+    "city": "panan2028"
+  },
+  {
+    "cityName": "安宁",
+    "city": "anning2150"
+  },
+  {
+    "cityName": "达拉特旗",
+    "city": "dalateqi2964"
+  },
+  {
+    "cityName": "伊宁市",
+    "city": "yining2058"
+  },
+  {
+    "cityName": "铜陵",
+    "city": "tongling472"
+  },
+  {
+    "cityName": "永康",
+    "city": "yongkang189"
+  },
+  {
+    "cityName": "普宁",
+    "city": "puning1523"
+  },
+  {
+    "cityName": "岱山",
+    "city": "daishan999"
+  },
+  {
+    "cityName": "兴安县",
+    "city": "xingan722"
+  },
+  {
+    "cityName": "库车",
+    "city": "kuche1345"
+  },
+  {
+    "cityName": "仁化",
+    "city": "renhua959"
+  },
+  {
+    "cityName": "鄯善",
+    "city": "shanshan2502"
+  },
+  {
+    "cityName": "桓仁",
+    "city": "huanren2144"
+  },
+  {
+    "cityName": "闽侯",
+    "city": "minhou2666"
+  },
+  {
+    "cityName": "南江",
+    "city": "nanjiang3109"
+  },
+  {
+    "cityName": "内江",
+    "city": "neijiang823"
+  },
+  {
+    "cityName": "广汉",
+    "city": "guanghan1349"
+  },
+  {
+    "cityName": "德化",
+    "city": "dehua2659"
+  },
+  {
+    "cityName": "昭苏",
+    "city": "zhaosu2508"
+  },
+  {
+    "cityName": "仪征",
+    "city": "yizheng562"
+  },
+  {
+    "cityName": "嘉义县",
+    "city": "chiayicounty3182"
+  },
+  {
+    "cityName": "韩城",
+    "city": "hancheng120420"
+  },
+  {
+    "cityName": "云浮",
+    "city": "yunfu836"
+  },
+  {
+    "cityName": "邹城",
+    "city": "zoucheng1359"
+  },
+  {
+    "cityName": "札达",
+    "city": "zhada2454"
+  },
+  {
+    "cityName": "礼泉",
+    "city": "liquan2759"
+  },
+  {
+    "cityName": "灵石",
+    "city": "lingshi3011"
+  },
+  {
+    "cityName": "靖边",
+    "city": "jingbian2745"
+  },
+  {
+    "cityName": "石狮",
+    "city": "shishi245"
+  },
+  {
+    "cityName": "资阳",
+    "city": "ziyang918"
+  },
+  {
+    "cityName": "林州",
+    "city": "linzhou1890"
+  },
+  {
+    "cityName": "商城",
+    "city": "shangcheng2260"
+  },
+  {
+    "cityName": "濮阳",
+    "city": "puyang581"
+  },
+  {
+    "cityName": "罗田",
+    "city": "luotian2717"
+  },
+  {
+    "cityName": "丰宁",
+    "city": "fengning568"
+  },
+  {
+    "cityName": "吉县",
+    "city": "jixian3038"
+  },
+  {
+    "cityName": "苗栗",
+    "city": "miaoli3199"
+  },
+  {
+    "cityName": "东源",
+    "city": "dongyuan2929"
+  },
+  {
+    "cityName": "陵川",
+    "city": "lingchuan3004"
+  },
+  {
+    "cityName": "丰顺",
+    "city": "fengshun2934"
+  },
+  {
+    "cityName": "杜尔伯特",
+    "city": "duerbote2231"
+  },
+  {
+    "cityName": "黄陵",
+    "city": "huangling2734"
+  },
+  {
+    "cityName": "宿州",
+    "city": "suzhou672"
+  },
+  {
+    "cityName": "乌海",
+    "city": "wuhai677"
+  },
+  {
+    "cityName": "和平",
+    "city": "heping2948"
+  },
+  {
+    "cityName": "漳浦",
+    "city": "zhangpu2670"
+  },
+  {
+    "cityName": "新兴",
+    "city": "xinxing2919"
+  },
+  {
+    "cityName": "绥化",
+    "city": "suihua856"
+  },
+  {
+    "cityName": "陇南",
+    "city": "longnan1491"
+  },
+  {
+    "cityName": "广南",
+    "city": "guangnan2198"
+  },
+  {
+    "cityName": "哈巴河",
+    "city": "habahe2480"
+  },
+  {
+    "cityName": "东兴",
+    "city": "dongxing964"
+  },
+  {
+    "cityName": "玉龙",
+    "city": "yulong1446279"
+  },
+  {
+    "cityName": "井陉",
+    "city": "jingxing2532"
+  },
+  {
+    "cityName": "喀什市",
+    "city": "kashenfu2507"
+  },
+  {
+    "cityName": "淮北",
+    "city": "huaibei657"
+  },
+  {
+    "cityName": "兴隆",
+    "city": "xinlong2528"
+  },
+  {
+    "cityName": "青铜峡",
+    "city": "qingtongxia2330"
+  },
+  {
+    "cityName": "利川",
+    "city": "lichuan984"
+  },
+  {
+    "cityName": "沽源",
+    "city": "guyuan2591"
+  },
+  {
+    "cityName": "洪江",
+    "city": "hongjiang2825"
+  },
+  {
+    "cityName": "石阡",
+    "city": "shiqian2351"
+  },
+  {
+    "cityName": "马尔康",
+    "city": "maerkang913"
+  },
+  {
+    "cityName": "庐江",
+    "city": "lujiang2602"
+  },
+  {
+    "cityName": "融水",
+    "city": "rongshui3047"
+  },
+  {
+    "cityName": "靖西",
+    "city": "jingxi967"
+  },
+  {
+    "cityName": "宜章",
+    "city": "yizhang2861"
+  },
+  {
+    "cityName": "通道",
+    "city": "tongdao992"
+  },
+  {
+    "cityName": "犍为",
+    "city": "jianwei3118"
+  },
+  {
+    "cityName": "牙克石",
+    "city": "yakeshi887"
+  },
+  {
+    "cityName": "庄河",
+    "city": "zhuanghe2148"
+  },
+  {
+    "cityName": "阳西",
+    "city": "yangxi2933"
+  },
+  {
+    "cityName": "灵川",
+    "city": "lingchuan3064"
+  },
+  {
+    "cityName": "临朐",
+    "city": "linqu2907"
+  },
+  {
+    "cityName": "乐业",
+    "city": "leye968"
+  },
+  {
+    "cityName": "宁城",
+    "city": "ningcheng1736"
+  },
+  {
+    "cityName": "滕州",
+    "city": "tengzhou1371"
+  },
+  {
+    "cityName": "资兴",
+    "city": "zixing1570"
+  },
+  {
+    "cityName": "盱眙",
+    "city": "xuyi2100"
+  },
+  {
+    "cityName": "庆阳",
+    "city": "qingyang834"
+  },
+  {
+    "cityName": "涿鹿",
+    "city": "zhuolu2585"
+  },
+  {
+    "cityName": "克孜勒苏",
+    "city": "kezilesukeerkezi2511"
+  },
+  {
+    "cityName": "东台",
+    "city": "dongtai916"
+  },
+  {
+    "cityName": "鹤壁",
+    "city": "hebi595"
+  },
+  {
+    "cityName": "白城",
+    "city": "baicheng870"
+  },
+  {
+    "cityName": "禄丰",
+    "city": "lufeng2188"
+  },
+  {
+    "cityName": "宁蒗",
+    "city": "ninglang2169"
+  },
+  {
+    "cityName": "霍山",
+    "city": "huoshan2609"
+  },
+  {
+    "cityName": "汝城",
+    "city": "rucheng2852"
+  },
+  {
+    "cityName": "盖州",
+    "city": "gaizhou1941"
+  },
+  {
+    "cityName": "鲁山",
+    "city": "lushan2270"
+  },
+  {
+    "cityName": "平江",
+    "city": "pingjiang2848"
+  },
+  {
+    "cityName": "塔什库尔干",
+    "city": "tashikuergan2481"
+  },
+  {
+    "cityName": "湘潭县",
+    "city": "xiangtanxian2858"
+  },
+  {
+    "cityName": "周至",
+    "city": "zhouzhi2781"
+  },
+  {
+    "cityName": "桃源",
+    "city": "taoyuan991"
+  },
+  {
+    "cityName": "长阳",
+    "city": "changyang2690"
+  },
+  {
+    "cityName": "凤城",
+    "city": "fengcheng1762"
+  },
+  {
+    "cityName": "禹州",
+    "city": "yuzhou2301"
+  },
+  {
+    "cityName": "安龙",
+    "city": "anlong2333"
+  },
+  {
+    "cityName": "安溪",
+    "city": "anxi2647"
+  },
+  {
+    "cityName": "华安",
+    "city": "huaan2677"
+  },
+  {
+    "cityName": "乐昌",
+    "city": "lechang957"
+  },
+  {
+    "cityName": "定西",
+    "city": "dingxi830"
+  },
+  {
+    "cityName": "天门",
+    "city": "tianmen987"
+  },
+  {
+    "cityName": "盘州",
+    "city": "panxian2369"
+  },
+  {
+    "cityName": "山丹",
+    "city": "shandan120488"
+  },
+  {
+    "cityName": "蒙自",
+    "city": "mengzi1201"
+  },
+  {
+    "cityName": "永修",
+    "city": "yongxiu1848"
+  },
+  {
+    "cityName": "三河",
+    "city": "sanhe671"
+  },
+  {
+    "cityName": "丹阳",
+    "city": "danyang1038"
+  },
+  {
+    "cityName": "巍山",
+    "city": "weishan2211"
+  },
+  {
+    "cityName": "丘北",
+    "city": "qiubei2175"
+  },
+  {
+    "cityName": "德庆",
+    "city": "deqing120097"
+  },
+  {
+    "cityName": "三门",
+    "city": "sanmen1945"
+  },
+  {
+    "cityName": "兰陵",
+    "city": "lanling2873"
+  },
+  {
+    "cityName": "南安",
+    "city": "nanan1521"
+  },
+  {
+    "cityName": "甘孜县",
+    "city": "ganzixian3156"
+  },
+  {
+    "cityName": "诸城",
+    "city": "zhucheng2077"
+  },
+  {
+    "cityName": "松阳",
+    "city": "songyang2250"
+  },
+  {
+    "cityName": "门源",
+    "city": "menyuan1446317"
+  },
+  {
+    "cityName": "霸州",
+    "city": "bazhou1834"
+  },
+  {
+    "cityName": "芒市",
+    "city": "mangshi2199"
+  },
+  {
+    "cityName": "宁都",
+    "city": "ningdou2379"
+  },
+  {
+    "cityName": "九龙",
+    "city": "jiulong1446247"
+  },
+  {
+    "cityName": "贡嘎",
+    "city": "gongga120408"
+  },
+  {
+    "cityName": "扎兰屯",
+    "city": "zhalantun2972"
+  },
+  {
+    "cityName": "兴国",
+    "city": "xingguo2387"
+  },
+  {
+    "cityName": "滨海",
+    "city": "binhai3074"
+  },
+  {
+    "cityName": "贵德",
+    "city": "guide2636"
+  },
+  {
+    "cityName": "资源",
+    "city": "ziyuan980"
+  },
+  {
+    "cityName": "塔城地区",
+    "city": "tacheng924"
+  },
+  {
+    "cityName": "开化",
+    "city": "kaihua1001"
+  },
+  {
+    "cityName": "云霄",
+    "city": "yunxiao2669"
+  },
+  {
+    "cityName": "新县",
+    "city": "xinxian2322"
+  },
+  {
+    "cityName": "遵化",
+    "city": "zunhua1181"
+  },
+  {
+    "cityName": "信丰",
+    "city": "xinfeng2380"
+  },
+  {
+    "cityName": "凭祥",
+    "city": "pingxiang840"
+  },
+  {
+    "cityName": "齐河",
+    "city": "qihe2885"
+  },
+  {
+    "cityName": "金堂",
+    "city": "jintang3131"
+  },
+  {
+    "cityName": "连南",
+    "city": "liannan2941"
+  },
+  {
+    "cityName": "岚皋",
+    "city": "langao2752"
+  },
+  {
+    "cityName": "日土",
+    "city": "ritu120147"
+  },
+  {
+    "cityName": "上杭",
+    "city": "shanghang1158"
+  },
+  {
+    "cityName": "华蓥",
+    "city": "huaying3103"
+  },
+  {
+    "cityName": "永安",
+    "city": "yongan288"
+  },
+  {
+    "cityName": "莱州",
+    "city": "laizhou1161"
+  },
+  {
+    "cityName": "仙游",
+    "city": "xianyou2654"
+  },
+  {
+    "cityName": "米易",
+    "city": "miyi3097"
+  },
+  {
+    "cityName": "白银",
+    "city": "baiyin828"
+  },
+  {
+    "cityName": "于都",
+    "city": "yudou2419"
+  },
+  {
+    "cityName": "内乡",
+    "city": "neixiang2295"
+  },
+  {
+    "cityName": "蓝田",
+    "city": "lantian2755"
+  },
+  {
+    "cityName": "鹤岗",
+    "city": "hegang811"
+  },
+  {
+    "cityName": "绥芬河",
+    "city": "suifenhe855"
+  },
+  {
+    "cityName": "靖江",
+    "city": "jingjiang1554"
+  },
+  {
+    "cityName": "晴隆",
+    "city": "qinglong120454"
+  },
+  {
+    "cityName": "新安",
+    "city": "xinan2315"
+  },
+  {
+    "cityName": "洱源",
+    "city": "eryuan2180"
+  },
+  {
+    "cityName": "麻城",
+    "city": "macheng1833"
+  },
+  {
+    "cityName": "东港",
+    "city": "donggang1764"
+  },
+  {
+    "cityName": "柞水",
+    "city": "zhashui2766"
+  },
+  {
+    "cityName": "新化",
+    "city": "xinhua2856"
+  },
+  {
+    "cityName": "西乌旗",
+    "city": "xiwuzhumuqinqi2960"
+  },
+  {
+    "cityName": "河口",
+    "city": "hekou2201"
+  },
+  {
+    "cityName": "涿州",
+    "city": "zhuozhou848"
+  },
+  {
+    "cityName": "四会",
+    "city": "sihui960"
+  },
+  {
+    "cityName": "什邡",
+    "city": "shenfang3154"
+  },
+  {
+    "cityName": "石门",
+    "city": "shimen143838"
+  },
+  {
+    "cityName": "噶尔",
+    "city": "geer120143"
+  },
+  {
+    "cityName": "新宁",
+    "city": "xinning2857"
+  },
+  {
+    "cityName": "永城",
+    "city": "yongcheng1578"
+  },
+  {
+    "cityName": "邳州",
+    "city": "pizhou1560"
+  },
+  {
+    "cityName": "龙井",
+    "city": "longjing2465"
+  },
+  {
+    "cityName": "京山",
+    "city": "jingshan2703"
+  },
+  {
+    "cityName": "龙山",
+    "city": "longshan2842"
+  },
+  {
+    "cityName": "阳山",
+    "city": "yangshan1142"
+  },
+  {
+    "cityName": "双鸭山",
+    "city": "shuangyashan854"
+  },
+  {
+    "cityName": "石台",
+    "city": "shitai2624"
+  },
+  {
+    "cityName": "定州",
+    "city": "dingzhou2562"
+  },
+  {
+    "cityName": "阿拉善左旗",
+    "city": "alashanzuoqi143886"
+  },
+  {
+    "cityName": "新密",
+    "city": "xinmi1163"
+  },
+  {
+    "cityName": "徐闻",
+    "city": "xuwen2923"
+  },
+  {
+    "cityName": "温泉县",
+    "city": "wenquan1446386"
+  },
+  {
+    "cityName": "高邮",
+    "city": "gaoyou2075"
+  },
+  {
+    "cityName": "靖安",
+    "city": "jingan2396"
+  },
+  {
+    "cityName": "赤城",
+    "city": "chicheng2544"
+  },
+  {
+    "cityName": "寿县",
+    "city": "shouxian2628"
+  },
+  {
+    "cityName": "集安",
+    "city": "jian2467"
+  },
+  {
+    "cityName": "沭阳",
+    "city": "shuyang3079"
+  },
+  {
+    "cityName": "平度",
+    "city": "pingdu1565"
+  },
+  {
+    "cityName": "简阳",
+    "city": "jianyang3122"
+  },
+  {
+    "cityName": "宁国",
+    "city": "ningguo1167"
+  },
+  {
+    "cityName": "永济",
+    "city": "yongji1772"
+  },
+  {
+    "cityName": "琼结",
+    "city": "qiongjie2439"
+  },
+  {
+    "cityName": "如东",
+    "city": "rudong997"
+  },
+  {
+    "cityName": "乐东",
+    "city": "ledong981"
+  },
+  {
+    "cityName": "寿光",
+    "city": "shouguang1089"
+  },
+  {
+    "cityName": "宁强",
+    "city": "ningqiang2731"
+  },
+  {
+    "cityName": "应城",
+    "city": "yingcheng1145"
+  },
+  {
+    "cityName": "龙游",
+    "city": "longyou812"
+  },
+  {
+    "cityName": "新沂",
+    "city": "xinyi1064"
+  },
+  {
+    "cityName": "鄂州",
+    "city": "ezhou858"
+  },
+  {
+    "cityName": "会泽",
+    "city": "huize2212"
+  },
+  {
+    "cityName": "互助",
+    "city": "huchu2637"
+  },
+  {
+    "cityName": "铁力",
+    "city": "tieli2230"
+  },
+  {
+    "cityName": "上林",
+    "city": "shanglin120117"
+  },
+  {
+    "cityName": "鄢陵",
+    "city": "yanling2278"
+  },
+  {
+    "cityName": "芒康",
+    "city": "mangkang2452"
+  },
+  {
+    "cityName": "剑阁",
+    "city": "jiange3115"
+  },
+  {
+    "cityName": "灵宝",
+    "city": "lingbao1162"
+  },
+  {
+    "cityName": "秭归",
+    "city": "zigui2726"
+  },
+  {
+    "cityName": "宁武",
+    "city": "ningwu3030"
+  },
+  {
+    "cityName": "容县",
+    "city": "rongxian3044"
+  },
+  {
+    "cityName": "瓜州",
+    "city": "guazhou2807"
+  },
+  {
+    "cityName": "蒲江",
+    "city": "bojiang3136"
+  },
+  {
+    "cityName": "洪雅",
+    "city": "hongya3096"
+  },
+  {
+    "cityName": "白河",
+    "city": "baihe2733"
+  },
+  {
+    "cityName": "萨嘎",
+    "city": "saga120381"
+  },
+  {
+    "cityName": "高安",
+    "city": "gaoan1165"
+  },
+  {
+    "cityName": "威宁",
+    "city": "weining2337"
+  },
+  {
+    "cityName": "左贡",
+    "city": "zuogong120405"
+  },
+  {
+    "cityName": "桐城",
+    "city": "tongcheng1847"
+  },
+  {
+    "cityName": "神木",
+    "city": "shenmu2762"
+  },
+  {
+    "cityName": "玉山",
+    "city": "yushan1013"
+  },
+  {
+    "cityName": "巴里坤",
+    "city": "balikunhasake2494"
+  },
+  {
+    "cityName": "桂平",
+    "city": "guiping418"
+  },
+  {
+    "cityName": "固安",
+    "city": "guan2586"
+  },
+  {
+    "cityName": "盂县",
+    "city": "yuxian3022"
+  },
+  {
+    "cityName": "凤阳",
+    "city": "fengyang2626"
+  },
+  {
+    "cityName": "泰兴",
+    "city": "taixing1172"
+  },
+  {
+    "cityName": "延长",
+    "city": "yanchang1446146"
+  },
+  {
+    "cityName": "莱阳",
+    "city": "laiyang1838"
+  },
+  {
+    "cityName": "永春",
+    "city": "yongchun2661"
+  },
+  {
+    "cityName": "平武",
+    "city": "pingwu3134"
+  },
+  {
+    "cityName": "孝义",
+    "city": "xiaoyi1144"
+  },
+  {
+    "cityName": "微山",
+    "city": "weishan2869"
+  },
+  {
+    "cityName": "乌鲁木齐县",
+    "city": "wulumujixian2489"
+  },
+  {
+    "cityName": "大冶",
+    "city": "daye1543"
+  },
+  {
+    "cityName": "林甸",
+    "city": "lindian2219"
+  },
+  {
+    "cityName": "嵩县",
+    "city": "songxian1445115"
+  },
+  {
+    "cityName": "昌江",
+    "city": "changjiang2456"
+  },
+  {
+    "cityName": "浑源",
+    "city": "hunyuan3026"
+  },
+  {
+    "cityName": "南部县",
+    "city": "nabu3104"
+  },
+  {
+    "cityName": "镇宁",
+    "city": "zhenning2356"
+  },
+  {
+    "cityName": "招远",
+    "city": "zhaoyuan1352"
+  },
+  {
+    "cityName": "高密",
+    "city": "gaomi1837"
+  },
+  {
+    "cityName": "安福",
+    "city": "anfu2376"
+  },
+  {
+    "cityName": "海安",
+    "city": "haian1548"
+  },
+  {
+    "cityName": "藤县",
+    "city": "tengxian143827"
+  },
+  {
+    "cityName": "小金",
+    "city": "xiaojin3110"
+  },
+  {
+    "cityName": "勐海",
+    "city": "menghai2207"
+  },
+  {
+    "cityName": "肥东",
+    "city": "feidong2615"
+  },
+  {
+    "cityName": "平和",
+    "city": "pinghe2684"
+  },
+  {
+    "cityName": "临江",
+    "city": "linjiang2460"
+  },
+  {
+    "cityName": "泗洪",
+    "city": "sihong143833"
+  },
+  {
+    "cityName": "共和",
+    "city": "gonghe2644"
+  },
+  {
+    "cityName": "万源",
+    "city": "wanyuan3094"
+  },
+  {
+    "cityName": "思南",
+    "city": "sinan2355"
+  },
+  {
+    "cityName": "新丰",
+    "city": "xinfeng1445183"
+  },
+  {
+    "cityName": "江口",
+    "city": "jiangkou2334"
+  },
+  {
+    "cityName": "七台河",
+    "city": "qitaihe1179"
+  },
+  {
+    "cityName": "全州",
+    "city": "quanzhou3040"
+  },
+  {
+    "cityName": "易县",
+    "city": "yixian2557"
+  },
+  {
+    "cityName": "玉环",
+    "city": "yuhuan1006"
+  },
+  {
+    "cityName": "潜江",
+    "city": "qianjiang985"
+  },
+  {
+    "cityName": "抚松",
+    "city": "fusong2479"
+  },
+  {
+    "cityName": "永登",
+    "city": "yongdeng2793"
+  },
+  {
+    "cityName": "长丰",
+    "city": "changfeng2599"
+  },
+  {
+    "cityName": "辽源",
+    "city": "liaoyuan872"
+  },
+  {
+    "cityName": "多伦",
+    "city": "duolun2967"
+  },
+  {
+    "cityName": "五台",
+    "city": "wutai1446115"
+  },
+  {
+    "cityName": "阳新",
+    "city": "yangxin2698"
+  },
+  {
+    "cityName": "射阳",
+    "city": "sheyang998"
+  },
+  {
+    "cityName": "海丰",
+    "city": "haifeng2946"
+  },
+  {
+    "cityName": "宾县",
+    "city": "binxian2223"
+  },
+  {
+    "cityName": "元谋",
+    "city": "yuanmou2197"
+  },
+  {
+    "cityName": "织金",
+    "city": "zhijin2362"
+  },
+  {
+    "cityName": "武宁",
+    "city": "wuning2432"
+  },
+  {
+    "cityName": "临高",
+    "city": "lingao2458"
+  },
+  {
+    "cityName": "海城",
+    "city": "haicheng607"
+  },
+  {
+    "cityName": "澄迈",
+    "city": "chengmai2457"
+  },
+  {
+    "cityName": "蛟河",
+    "city": "jiaohe2471"
+  },
+  {
+    "cityName": "金秀",
+    "city": "jinxiu1445186"
+  },
+  {
+    "cityName": "大英",
+    "city": "daying1395"
+  },
+  {
+    "cityName": "洪洞",
+    "city": "hongdong3015"
+  },
+  {
+    "cityName": "钟祥",
+    "city": "zhongxiang863"
+  },
+  {
+    "cityName": "大理市",
+    "city": "dalicity1445616"
+  },
+  {
+    "cityName": "洋县",
+    "city": "yangxian2753"
+  },
+  {
+    "cityName": "定安",
+    "city": "dingan2021"
+  },
+  {
+    "cityName": "虎林",
+    "city": "hulin2224"
+  },
+  {
+    "cityName": "阳城",
+    "city": "yangcheng2076"
+  },
+  {
+    "cityName": "永兴",
+    "city": "yongxing143832"
+  },
+  {
+    "cityName": "独山",
+    "city": "dushan2354"
+  },
+  {
+    "cityName": "南漳",
+    "city": "nanzhang2722"
+  },
+  {
+    "cityName": "阳春",
+    "city": "yangchun961"
+  },
+  {
+    "cityName": "湘乡",
+    "city": "xiangxiang1850"
+  },
+  {
+    "cityName": "惠水",
+    "city": "huishui2372"
+  },
+  {
+    "cityName": "天长",
+    "city": "tianchang1739"
+  },
+  {
+    "cityName": "岑溪",
+    "city": "cenxi3056"
+  },
+  {
+    "cityName": "河津",
+    "city": "hejin3012"
+  },
+  {
+    "cityName": "广德",
+    "city": "guangde2631"
+  },
+  {
+    "cityName": "康平",
+    "city": "kangping2135"
+  },
+  {
+    "cityName": "揭西",
+    "city": "jiexi2930"
+  },
+  {
+    "cityName": "南昌县",
+    "city": "nanchang2429"
+  },
+  {
+    "cityName": "龙南",
+    "city": "longnan2424"
+  },
+  {
+    "cityName": "迁安",
+    "city": "qianan1397"
+  },
+  {
+    "cityName": "当阳",
+    "city": "dangyang2699"
+  },
+  {
+    "cityName": "高州",
+    "city": "gaozhou337"
+  },
+  {
+    "cityName": "蒙阴",
+    "city": "mengyin2870"
+  },
+  {
+    "cityName": "邹平",
+    "city": "zouping2911"
+  },
+  {
+    "cityName": "玛多",
+    "city": "maduo120480"
+  },
+  {
+    "cityName": "芷江",
+    "city": "zhijiang994"
+  },
+  {
+    "cityName": "沂源",
+    "city": "yiyuan1134"
+  },
+  {
+    "cityName": "青龙",
+    "city": "qinglong2540"
+  },
+  {
+    "cityName": "石城",
+    "city": "shicheng2415"
+  },
+  {
+    "cityName": "龙川",
+    "city": "longchuan2947"
+  },
+  {
+    "cityName": "鄱阳",
+    "city": "boyang2385"
+  },
+  {
+    "cityName": "嘉荫",
+    "city": "jiayin2228"
+  },
+  {
+    "cityName": "怀集",
+    "city": "huaiji955"
+  },
+  {
+    "cityName": "罗源",
+    "city": "luoyuan2663"
+  },
+  {
+    "cityName": "安丘",
+    "city": "anqiu2867"
+  },
+  {
+    "cityName": "武胜",
+    "city": "wusheng3105"
+  },
+  {
+    "cityName": "富平",
+    "city": "fuping2771"
+  },
+  {
+    "cityName": "沙河",
+    "city": "shahe2556"
+  },
+  {
+    "cityName": "滦州",
+    "city": "luanxian2573"
+  },
+  {
+    "cityName": "黄梅",
+    "city": "huangmei2689"
+  },
+  {
+    "cityName": "樟树",
+    "city": "zhangshu1160"
+  },
+  {
+    "cityName": "建湖",
+    "city": "jianhu3077"
+  },
+  {
+    "cityName": "红安",
+    "city": "hongan2723"
+  },
+  {
+    "cityName": "习水",
+    "city": "xishui2343"
+  },
+  {
+    "cityName": "宁远",
+    "city": "ningyuan2847"
+  },
+  {
+    "cityName": "紫金",
+    "city": "zijin2951"
+  },
+  {
+    "cityName": "蒙山",
+    "city": "mengshan3057"
+  },
+  {
+    "cityName": "合浦",
+    "city": "hepu965"
+  },
+  {
+    "cityName": "北镇",
+    "city": "beizhen2083"
+  },
+  {
+    "cityName": "宜都",
+    "city": "yidou2705"
+  },
+  {
+    "cityName": "沛县",
+    "city": "peixian3075"
+  },
+  {
+    "cityName": "祁县",
+    "city": "qixian3039"
+  },
+  {
+    "cityName": "石泉",
+    "city": "shiquan2765"
+  },
+  {
+    "cityName": "聂拉木",
+    "city": "nielamu2445"
+  },
+  {
+    "cityName": "雷州",
+    "city": "leizhou2936"
+  },
+  {
+    "cityName": "若羌",
+    "city": "ruoqiang120547"
+  },
+  {
+    "cityName": "古田",
+    "city": "gutian2674"
+  },
+  {
+    "cityName": "龙里",
+    "city": "longli2357"
+  },
+  {
+    "cityName": "扎囊",
+    "city": "zhanang2451"
+  },
+  {
+    "cityName": "邵武",
+    "city": "shaowu172"
+  },
+  {
+    "cityName": "梁山",
+    "city": "liangshan2899"
+  },
+  {
+    "cityName": "澧县",
+    "city": "lixian143837"
+  },
+  {
+    "cityName": "凌海",
+    "city": "linghai2139"
+  },
+  {
+    "cityName": "阜宁",
+    "city": "funing3081"
+  },
+  {
+    "cityName": "瑞昌",
+    "city": "ruichang2397"
+  },
+  {
+    "cityName": "景泰",
+    "city": "jingtai2802"
+  },
+  {
+    "cityName": "伊金霍洛旗",
+    "city": "yijinhuoluoqi2966"
+  },
+  {
+    "cityName": "蓬安",
+    "city": "pengan3119"
+  },
+  {
+    "cityName": "贡山",
+    "city": "gongshan1446282"
+  },
+  {
+    "cityName": "罗定",
+    "city": "luoding1356"
+  },
+  {
+    "cityName": "泸西",
+    "city": "luxi2024"
+  },
+  {
+    "cityName": "醴陵",
+    "city": "liling2837"
+  },
+  {
+    "cityName": "东平",
+    "city": "dongping2894"
+  },
+  {
+    "cityName": "新源",
+    "city": "xinyuan2500"
+  },
+  {
+    "cityName": "墨江",
+    "city": "mojiang2152"
+  },
+  {
+    "cityName": "奎屯",
+    "city": "kuitun1169"
+  },
+  {
+    "cityName": "天台",
+    "city": "tiantai1445965"
+  },
+  {
+    "cityName": "平邑",
+    "city": "pingyi1875"
+  },
+  {
+    "cityName": "连山",
+    "city": "lianshan2944"
+  },
+  {
+    "cityName": "固始",
+    "city": "gushi2291"
+  },
+  {
+    "cityName": "西乡",
+    "city": "xixiang2743"
+  },
+  {
+    "cityName": "嘉鱼",
+    "city": "jiayu2700"
+  },
+  {
+    "cityName": "通江",
+    "city": "tongjiang3167"
+  },
+  {
+    "cityName": "泗阳",
+    "city": "siyang1097"
+  },
+  {
+    "cityName": "铅山",
+    "city": "qianshan2389"
+  },
+  {
+    "cityName": "三原",
+    "city": "sanyuan2750"
+  },
+  {
+    "cityName": "本溪县",
+    "city": "benxixian1446026"
+  },
+  {
+    "cityName": "金昌",
+    "city": "jinchang832"
+  },
+  {
+    "cityName": "大竹",
+    "city": "dazhu3138"
+  },
+  {
+    "cityName": "农安",
+    "city": "nongan2472"
+  },
+  {
+    "cityName": "莒县",
+    "city": "juxian2888"
+  },
+  {
+    "cityName": "信宜",
+    "city": "xinyi2922"
+  },
+  {
+    "cityName": "丰城",
+    "city": "fengcheng1839"
+  },
+  {
+    "cityName": "靖州",
+    "city": "jingzhou2832"
+  },
+  {
+    "cityName": "仙桃",
+    "city": "xiantao775"
+  },
+  {
+    "cityName": "封开",
+    "city": "fengkai2931"
+  },
+  {
+    "cityName": "建始",
+    "city": "jianshi2696"
+  },
+  {
+    "cityName": "贺兰",
+    "city": "helan2119"
+  },
+  {
+    "cityName": "安岳",
+    "city": "anyue3092"
+  },
+  {
+    "cityName": "淅川",
+    "city": "xichuan2307"
+  },
+  {
+    "cityName": "攸县",
+    "city": "youxian2862"
+  },
+  {
+    "cityName": "炎陵",
+    "city": "yanling2860"
+  },
+  {
+    "cityName": "商南",
+    "city": "shangnan2756"
+  },
+  {
+    "cityName": "尼玛",
+    "city": "nima120383"
+  },
+  {
+    "cityName": "黄平",
+    "city": "huangping120442"
+  },
+  {
+    "cityName": "沅陵",
+    "city": "yuanling120103"
+  },
+  {
+    "cityName": "达茂旗",
+    "city": "daerhanmaominganlianheqi2961"
+  },
+  {
+    "cityName": "宣汉",
+    "city": "xuanhan3129"
+  },
+  {
+    "cityName": "安多",
+    "city": "anduo120385"
+  },
+  {
+    "cityName": "苍溪",
+    "city": "cangxi3111"
+  },
+  {
+    "cityName": "荔浦",
+    "city": "lipu2020"
+  },
+  {
+    "cityName": "亚东",
+    "city": "yadong120090"
+  },
+  {
+    "cityName": "大埔",
+    "city": "dabu2920"
+  },
+  {
+    "cityName": "宜阳",
+    "city": "yiyang2289"
+  },
+  {
+    "cityName": "武安",
+    "city": "wuan1566"
+  },
+  {
+    "cityName": "博乐",
+    "city": "bole922"
+  },
+  {
+    "cityName": "马祖",
+    "city": "matsu1445356"
+  },
+  {
+    "cityName": "通海",
+    "city": "tonghai2208"
+  },
+  {
+    "cityName": "泗水",
+    "city": "sishui1138"
+  },
+  {
+    "cityName": "香河",
+    "city": "xianghe2526"
+  },
+  {
+    "cityName": "南涧",
+    "city": "nanjian2163"
+  },
+  {
+    "cityName": "恩施市",
+    "city": "enshishi1446196"
+  },
+  {
+    "cityName": "崇阳",
+    "city": "chongyang2695"
+  },
+  {
+    "cityName": "鹤山",
+    "city": "heshan1182"
+  },
+  {
+    "cityName": "广饶",
+    "city": "guangrao1769"
+  },
+  {
+    "cityName": "祁门",
+    "city": "qimen2610"
+  },
+  {
+    "cityName": "久治",
+    "city": "jiuzhi1446312"
+  },
+  {
+    "cityName": "渠县",
+    "city": "juxian3141"
+  },
+  {
+    "cityName": "昌吉市",
+    "city": "changji2503"
+  },
+  {
+    "cityName": "吴桥",
+    "city": "wuqiao2520"
+  },
+  {
+    "cityName": "个旧",
+    "city": "gejiu925"
+  },
+  {
+    "cityName": "大方",
+    "city": "dafang2348"
+  },
+  {
+    "cityName": "长汀",
+    "city": "changtingxian1445095"
+  },
+  {
+    "cityName": "英山",
+    "city": "yingshan2709"
+  },
+  {
+    "cityName": "武定",
+    "city": "wuding2153"
+  },
+  {
+    "cityName": "法库",
+    "city": "faku2131"
+  },
+  {
+    "cityName": "仁怀",
+    "city": "renhuai1905"
+  },
+  {
+    "cityName": "迁西",
+    "city": "qianxi2530"
+  },
+  {
+    "cityName": "鹿邑",
+    "city": "luyi2276"
+  },
+  {
+    "cityName": "黄骅",
+    "city": "huanghua1868"
+  },
+  {
+    "cityName": "耒阳",
+    "city": "leiyang1849"
+  },
+  {
+    "cityName": "云林",
+    "city": "yunlin3197"
+  },
+  {
+    "cityName": "饶平",
+    "city": "raoping2932"
+  },
+  {
+    "cityName": "蒲城",
+    "city": "pucheng2738"
+  },
+  {
+    "cityName": "莲花",
+    "city": "lianhua1445978"
+  },
+  {
+    "cityName": "蒙城",
+    "city": "mengcheng1872"
+  },
+  {
+    "cityName": "桐柏",
+    "city": "tongbai2281"
+  },
+  {
+    "cityName": "和顺",
+    "city": "heshun120422"
+  },
+  {
+    "cityName": "枣阳",
+    "city": "zaoyang2718"
+  },
+  {
+    "cityName": "宾阳",
+    "city": "binyang3048"
+  },
+  {
+    "cityName": "且末",
+    "city": "qiemo1348"
+  },
+  {
+    "cityName": "石屏",
+    "city": "shiping2191"
+  },
+  {
+    "cityName": "颍上",
+    "city": "yingshang2634"
+  },
+  {
+    "cityName": "象州",
+    "city": "xiangzhou3060"
+  },
+  {
+    "cityName": "嘉祥",
+    "city": "jiaxiang2874"
+  },
+  {
+    "cityName": "平定",
+    "city": "pingding2057"
+  },
+  {
+    "cityName": "轮台",
+    "city": "luntai1569"
+  },
+  {
+    "cityName": "闽清",
+    "city": "minqing2668"
+  },
+  {
+    "cityName": "玉屏",
+    "city": "yuping2350"
+  },
+  {
+    "cityName": "灵山",
+    "city": "lingshan969"
+  },
+  {
+    "cityName": "单县",
+    "city": "shanxian2897"
+  },
+  {
+    "cityName": "谷城",
+    "city": "gucheng2719"
+  },
+  {
+    "cityName": "泾阳",
+    "city": "jingyang2749"
+  },
+  {
+    "cityName": "房县",
+    "city": "fangxian2710"
+  },
+  {
+    "cityName": "绵竹",
+    "city": "mianzhu1446217"
+  },
+  {
+    "cityName": "舒城",
+    "city": "shucheng2630"
+  },
+  {
+    "cityName": "和静",
+    "city": "hejing2485"
+  },
+  {
+    "cityName": "建宁",
+    "city": "jianning2648"
+  },
+  {
+    "cityName": "开远",
+    "city": "kaiyuan1318"
+  },
+  {
+    "cityName": "清镇",
+    "city": "qingzhen1782"
+  },
+  {
+    "cityName": "莒南",
+    "city": "junan2104"
+  },
+  {
+    "cityName": "五莲",
+    "city": "wulian2084"
+  },
+  {
+    "cityName": "公安",
+    "city": "gongan2714"
+  },
+  {
+    "cityName": "修水",
+    "city": "xiushui2399"
+  },
+  {
+    "cityName": "开阳",
+    "city": "kaiyang2342"
+  },
+  {
+    "cityName": "安化",
+    "city": "anhua2811"
+  },
+  {
+    "cityName": "咸丰",
+    "city": "xianfeng2720"
+  },
+  {
+    "cityName": "贵定",
+    "city": "guiding120451"
+  },
+  {
+    "cityName": "巴东",
+    "city": "badong2688"
+  },
+  {
+    "cityName": "郓城",
+    "city": "yuncheng2898"
+  },
+  {
+    "cityName": "平乐",
+    "city": "pingle3065"
+  },
+  {
+    "cityName": "白沙",
+    "city": "baisha2455"
+  },
+  {
+    "cityName": "江永",
+    "city": "jiangyong2831"
+  },
+  {
+    "cityName": "福泉",
+    "city": "fuquan2363"
+  },
+  {
+    "cityName": "射洪",
+    "city": "shehong1944"
+  },
+  {
+    "cityName": "尤溪",
+    "city": "youxi2667"
+  },
+  {
+    "cityName": "唐河",
+    "city": "tanghe2274"
+  },
+  {
+    "cityName": "三台",
+    "city": "santai3148"
+  },
+  {
+    "cityName": "陆良",
+    "city": "luliang1140"
+  },
+  {
+    "cityName": "岐山",
+    "city": "qishan2746"
+  },
+  {
+    "cityName": "留坝",
+    "city": "liuba2761"
+  },
+  {
+    "cityName": "廉江",
+    "city": "lianjiang2939"
+  },
+  {
+    "cityName": "绥德",
+    "city": "suide2769"
+  },
+  {
+    "cityName": "交城",
+    "city": "jiaocheng3033"
+  },
+  {
+    "cityName": "宝应",
+    "city": "baoying3073"
+  },
+  {
+    "cityName": "德保",
+    "city": "debao3061"
+  },
+  {
+    "cityName": "泸溪",
+    "city": "luxi2843"
+  },
+  {
+    "cityName": "兴仁",
+    "city": "xingren2340"
+  },
+  {
+    "cityName": "木里",
+    "city": "muli3100"
+  },
+  {
+    "cityName": "壶关",
+    "city": "huguan1446117"
+  },
+  {
+    "cityName": "建昌",
+    "city": "jianchang2129"
+  },
+  {
+    "cityName": "灵武",
+    "city": "lingwu2323"
+  },
+  {
+    "cityName": "屏南",
+    "city": "pingnan2649"
+  },
+  {
+    "cityName": "武平",
+    "city": "wuping2682"
+  },
+  {
+    "cityName": "南召",
+    "city": "nanzhao1446078"
+  },
+  {
+    "cityName": "沧源",
+    "city": "cangyuan2161"
+  },
+  {
+    "cityName": "营山",
+    "city": "yingshan3149"
+  },
+  {
+    "cityName": "邻水",
+    "city": "linshui3147"
+  },
+  {
+    "cityName": "崇义",
+    "city": "chongyi2391"
+  },
+  {
+    "cityName": "高碑店",
+    "city": "gaobeidian1124"
+  },
+  {
+    "cityName": "肥城",
+    "city": "feicheng1387"
+  },
+  {
+    "cityName": "汉寿",
+    "city": "hanshou2822"
+  },
+  {
+    "cityName": "屯昌",
+    "city": "tunchang845"
+  },
+  {
+    "cityName": "平塘",
+    "city": "pingtang2335"
+  },
+  {
+    "cityName": "密山",
+    "city": "mishan1508"
+  },
+  {
+    "cityName": "汉源",
+    "city": "hanyuan3090"
+  },
+  {
+    "cityName": "广宁",
+    "city": "guangning2943"
+  },
+  {
+    "cityName": "陆丰",
+    "city": "lufeng2952"
+  },
+  {
+    "cityName": "盐边",
+    "city": "yanbian3139"
+  },
+  {
+    "cityName": "梅河口",
+    "city": "meihekou2468"
+  },
+  {
+    "cityName": "弋阳",
+    "city": "yiyang2406"
+  },
+  {
+    "cityName": "贞丰",
+    "city": "zhenfeng120455"
+  },
+  {
+    "cityName": "大余",
+    "city": "dayu2395"
+  },
+  {
+    "cityName": "土默特左旗",
+    "city": "tumotezuoqi2963"
+  },
+  {
+    "cityName": "盐源",
+    "city": "yanyuan3142"
+  },
+  {
+    "cityName": "施秉",
+    "city": "shibing2352"
+  },
+  {
+    "cityName": "彬州",
+    "city": "binxian2740"
+  },
+  {
+    "cityName": "应县",
+    "city": "yingxian3006"
+  },
+  {
+    "cityName": "平阴",
+    "city": "pingyin2879"
+  },
+  {
+    "cityName": "费县",
+    "city": "feixian2895"
+  },
+  {
+    "cityName": "城固",
+    "city": "chenggu143839"
+  },
+  {
+    "cityName": "无为",
+    "city": "wuwei2618"
+  },
+  {
+    "cityName": "临县",
+    "city": "linxian2998"
+  },
+  {
+    "cityName": "温县",
+    "city": "wenxian2290"
+  },
+  {
+    "cityName": "安陆",
+    "city": "anlu2685"
+  },
+  {
+    "cityName": "古丈",
+    "city": "guzhang2821"
+  },
+  {
+    "cityName": "和县",
+    "city": "hexian2598"
+  },
+  {
+    "cityName": "邵东",
+    "city": "shaodong1365"
+  },
+  {
+    "cityName": "定南",
+    "city": "dingnan2401"
+  },
+  {
+    "cityName": "汶上",
+    "city": "wenshang2872"
+  },
+  {
+    "cityName": "北流",
+    "city": "beiliu3045"
+  },
+  {
+    "cityName": "南陵",
+    "city": "nanling1445976"
+  },
+  {
+    "cityName": "三都",
+    "city": "sandou2349"
+  },
+  {
+    "cityName": "安远",
+    "city": "anyuan2381"
+  },
+  {
+    "cityName": "横州",
+    "city": "hengxian966"
+  },
+  {
+    "cityName": "拜城",
+    "city": "baicheng2490"
+  },
+  {
+    "cityName": "始兴",
+    "city": "shixing2945"
+  },
+  {
+    "cityName": "兴宁",
+    "city": "xingning2918"
+  },
+  {
+    "cityName": "澜沧",
+    "city": "lancang2172"
+  },
+  {
+    "cityName": "夏县",
+    "city": "xiaxian3025"
+  },
+  {
+    "cityName": "黔西",
+    "city": "qianxi2339"
+  },
+  {
+    "cityName": "旬邑",
+    "city": "xunyi143857"
+  },
+  {
+    "cityName": "乌拉特前旗",
+    "city": "wulateqianqi2977"
+  },
+  {
+    "cityName": "桐梓",
+    "city": "tongzi2370"
+  },
+  {
+    "cityName": "任丘",
+    "city": "renqiu1180"
+  },
+  {
+    "cityName": "唐县",
+    "city": "tangxian2574"
+  },
+  {
+    "cityName": "石首",
+    "city": "shishou2691"
+  },
+  {
+    "cityName": "嵩明",
+    "city": "songming2202"
+  },
+  {
+    "cityName": "莱西",
+    "city": "laixi1445084"
+  },
+  {
+    "cityName": "盈江",
+    "city": "yingjiang2182"
+  },
+  {
+    "cityName": "永靖",
+    "city": "yongjing2797"
+  },
+  {
+    "cityName": "福安",
+    "city": "fuan1446193"
+  },
+  {
+    "cityName": "宝兴",
+    "city": "baoxin3095"
+  },
+  {
+    "cityName": "卓尼",
+    "city": "zhuoni1446168"
+  },
+  {
+    "cityName": "永顺",
+    "city": "yongshun1446211"
+  },
+  {
+    "cityName": "安阳县",
+    "city": "anyangxian2252"
+  },
+  {
+    "cityName": "绥阳",
+    "city": "suiyang2361"
+  },
+  {
+    "cityName": "仁寿",
+    "city": "renshou2336"
+  },
+  {
+    "cityName": "宜丰",
+    "city": "yifeng143843"
+  },
+  {
+    "cityName": "台江",
+    "city": "taijiang120447"
+  },
+  {
+    "cityName": "太白",
+    "city": "taibai2773"
+  },
+  {
+    "cityName": "吴川",
+    "city": "wuchuan1898"
+  },
+  {
+    "cityName": "进贤",
+    "city": "jinxian2402"
+  },
+  {
+    "cityName": "天全",
+    "city": "tianquan2056"
+  },
+  {
+    "cityName": "冕宁",
+    "city": "mianning3091"
+  },
+  {
+    "cityName": "迭部",
+    "city": "diebu1446184"
+  },
+  {
+    "cityName": "监利",
+    "city": "jianli2693"
+  },
+  {
+    "cityName": "金湖",
+    "city": "jinhu368"
+  },
+  {
+    "cityName": "大荔",
+    "city": "dali2748"
+  },
+  {
+    "cityName": "加查",
+    "city": "jiacha120409"
+  },
+  {
+    "cityName": "蕲春",
+    "city": "qichun2725"
+  },
+  {
+    "cityName": "建瓯",
+    "city": "jianou1157"
+  },
+  {
+    "cityName": "府谷",
+    "city": "fugu2767"
+  },
+  {
+    "cityName": "苍梧",
+    "city": "cangwu3052"
+  },
+  {
+    "cityName": "汾阳",
+    "city": "fenyang2053"
+  },
+  {
+    "cityName": "剑河",
+    "city": "jianhe120446"
+  },
+  {
+    "cityName": "铜鼓",
+    "city": "tonggu2425"
+  },
+  {
+    "cityName": "桑植",
+    "city": "sangzhi2851"
+  },
+  {
+    "cityName": "将乐",
+    "city": "jiangle143875"
+  },
+  {
+    "cityName": "琼中",
+    "city": "qiongzhong844"
+  },
+  {
+    "cityName": "瓮安",
+    "city": "wengan120450"
+  },
+  {
+    "cityName": "泾源",
+    "city": "jingyuan2329"
+  },
+  {
+    "cityName": "保康",
+    "city": "baokang143871"
+  },
+  {
+    "cityName": "项城",
+    "city": "xiangcheng2300"
+  },
+  {
+    "cityName": "武冈",
+    "city": "wugang1940"
+  },
+  {
+    "cityName": "寻甸",
+    "city": "dundian2164"
+  },
+  {
+    "cityName": "凤山",
+    "city": "fengshan2022"
+  },
+  {
+    "cityName": "岳池",
+    "city": "yueche3151"
+  },
+  {
+    "cityName": "安国",
+    "city": "anguo2514"
+  },
+  {
+    "cityName": "和龙",
+    "city": "helong1446012"
+  },
+  {
+    "cityName": "镇平",
+    "city": "zhenping2319"
+  },
+  {
+    "cityName": "通城",
+    "city": "tongcheng2704"
+  },
+  {
+    "cityName": "玉门",
+    "city": "yumen2800"
+  },
+  {
+    "cityName": "汝阳",
+    "city": "ruyang2321"
+  },
+  {
+    "cityName": "新泰",
+    "city": "xintai2886"
+  },
+  {
+    "cityName": "会理",
+    "city": "huili3106"
+  },
+  {
+    "cityName": "二连浩特",
+    "city": "erlianhaote2976"
+  },
+  {
+    "cityName": "汨罗",
+    "city": "miluo989"
+  },
+  {
+    "cityName": "五峰",
+    "city": "wufeng2712"
+  },
+  {
+    "cityName": "湄潭",
+    "city": "meitan2364"
+  },
+  {
+    "cityName": "白水",
+    "city": "baishui2736"
+  },
+  {
+    "cityName": "利辛",
+    "city": "lixin2600"
+  },
+  {
+    "cityName": "承德县",
+    "city": "chengdexian847"
+  },
+  {
+    "cityName": "祁阳",
+    "city": "qiyang2850"
+  },
+  {
+    "cityName": "中江",
+    "city": "zhongjiang3155"
+  },
+  {
+    "cityName": "桓台",
+    "city": "huantai2910"
+  },
+  {
+    "cityName": "类乌齐",
+    "city": "leiwuqi120400"
+  },
+  {
+    "cityName": "平南",
+    "city": "pingnan1398"
+  },
+  {
+    "cityName": "丰县",
+    "city": "fengxian3080"
+  },
+  {
+    "cityName": "万年",
+    "city": "wannian2428"
+  },
+  {
+    "cityName": "萨迦",
+    "city": "sajia2442"
+  },
+  {
+    "cityName": "凤台",
+    "city": "fengtai2622"
+  },
+  {
+    "cityName": "临泽",
+    "city": "linze2791"
+  },
+  {
+    "cityName": "古蔺",
+    "city": "gulin3166"
+  },
+  {
+    "cityName": "东阿",
+    "city": "donge2893"
+  },
+  {
+    "cityName": "灌南",
+    "city": "guanna3086"
+  },
+  {
+    "cityName": "巨野",
+    "city": "juye2892"
+  },
+  {
+    "cityName": "花垣",
+    "city": "huayuan2827"
+  },
+  {
+    "cityName": "方城",
+    "city": "fangcheng2275"
+  },
+  {
+    "cityName": "临清",
+    "city": "linqing2906"
+  },
+  {
+    "cityName": "浠水",
+    "city": "xishui2694"
+  },
+  {
+    "cityName": "肇东",
+    "city": "zhaodong2246"
+  },
+  {
+    "cityName": "广水",
+    "city": "guangshui2716"
+  },
+  {
+    "cityName": "慈利",
+    "city": "cili2816"
+  },
+  {
+    "cityName": "雄县",
+    "city": "xiongxian2547"
+  },
+  {
+    "cityName": "上高",
+    "city": "shanggao2400"
+  },
+  {
+    "cityName": "郧西",
+    "city": "yunxi120128"
+  },
+  {
+    "cityName": "抚远",
+    "city": "fuyuan1446003"
+  },
+  {
+    "cityName": "荣县",
+    "city": "rongxian3144"
+  },
+  {
+    "cityName": "平昌",
+    "city": "pingchang3132"
+  },
+  {
+    "cityName": "伊吾",
+    "city": "yiwu2505"
+  },
+  {
+    "cityName": "清河",
+    "city": "qinghe2537"
+  },
+  {
+    "cityName": "彭泽",
+    "city": "pengze2383"
+  },
+  {
+    "cityName": "泸水",
+    "city": "lushui927"
+  },
+  {
+    "cityName": "邓州",
+    "city": "dengzhou2269"
+  },
+  {
+    "cityName": "拉孜",
+    "city": "lazi2444"
+  },
+  {
+    "cityName": "天祝",
+    "city": "tianzhu2788"
+  },
+  {
+    "cityName": "永宁",
+    "city": "yongning2324"
+  },
+  {
+    "cityName": "长白",
+    "city": "changbai2463"
+  },
+  {
+    "cityName": "东至",
+    "city": "dongzhi2608"
+  },
+  {
+    "cityName": "隆昌",
+    "city": "longchang3153"
+  },
+  {
+    "cityName": "蓝山",
+    "city": "lanshan2834"
+  },
+  {
+    "cityName": "元江",
+    "city": "yuanjiang2194"
+  },
+  {
+    "cityName": "新平",
+    "city": "xinping1446280"
+  },
+  {
+    "cityName": "喀喇沁旗",
+    "city": "kalaqinqi2968"
+  },
+  {
+    "cityName": "霍州",
+    "city": "hezhou3029"
+  },
+  {
+    "cityName": "隆安",
+    "city": "longan3042"
+  },
+  {
+    "cityName": "衡东",
+    "city": "hengdong2823"
+  },
+  {
+    "cityName": "庆云",
+    "city": "qingyun2890"
+  },
+  {
+    "cityName": "凌源",
+    "city": "lingyuan2142"
+  },
+  {
+    "cityName": "乐平",
+    "city": "leping2417"
+  },
+  {
+    "cityName": "茶陵",
+    "city": "chaling2812"
+  },
+  {
+    "cityName": "叶城",
+    "city": "yecheng120489"
+  },
+  {
+    "cityName": "长葛",
+    "city": "changge2055"
+  },
+  {
+    "cityName": "城步",
+    "city": "chengbu2814"
+  },
+  {
+    "cityName": "开原",
+    "city": "kaiyuan1336"
+  },
+  {
+    "cityName": "兴山",
+    "city": "xingshan2692"
+  },
+  {
+    "cityName": "兴文",
+    "city": "xinwen3120"
+  },
+  {
+    "cityName": "巴彦",
+    "city": "bayan2220"
+  },
+  {
+    "cityName": "泸县",
+    "city": "luxian3157"
+  },
+  {
+    "cityName": "宿松",
+    "city": "susong2597"
+  },
+  {
+    "cityName": "汝南",
+    "city": "runan2317"
+  },
+  {
+    "cityName": "阿拉尔",
+    "city": "alaer120078"
+  },
+  {
+    "cityName": "平远",
+    "city": "pingyuan1445184"
+  },
+  {
+    "cityName": "宁陕",
+    "city": "ningshan2735"
+  },
+  {
+    "cityName": "榆树",
+    "city": "yushu2478"
+  },
+  {
+    "cityName": "舞钢",
+    "city": "wugang2293"
+  },
+  {
+    "cityName": "襄城",
+    "city": "xiangcheng2299"
+  },
+  {
+    "cityName": "惠来",
+    "city": "huilai2917"
+  },
+  {
+    "cityName": "来凤",
+    "city": "laifeng2707"
+  },
+  {
+    "cityName": "永新",
+    "city": "yongxin2412"
+  },
+  {
+    "cityName": "曲阳",
+    "city": "quyang2546"
+  },
+  {
+    "cityName": "大石桥",
+    "city": "dashiqiao1845"
+  },
+  {
+    "cityName": "宣威",
+    "city": "xuanwei2160"
+  },
+  {
+    "cityName": "新宾",
+    "city": "xinbin2138"
+  },
+  {
+    "cityName": "米脂",
+    "city": "mizhi1895"
+  },
+  {
+    "cityName": "比如",
+    "city": "biru120390"
+  },
+  {
+    "cityName": "麟游",
+    "city": "linyou143851"
+  },
+  {
+    "cityName": "临湘",
+    "city": "linxiang2840"
+  },
+  {
+    "cityName": "新乐",
+    "city": "xinle2543"
+  },
+  {
+    "cityName": "太和",
+    "city": "taihe2601"
+  },
+  {
+    "cityName": "合江",
+    "city": "gejiang3093"
+  },
+  {
+    "cityName": "大安",
+    "city": "daan2470"
+  },
+  {
+    "cityName": "刚察",
+    "city": "gangcha892"
+  },
+  {
+    "cityName": "德兴",
+    "city": "dexing1558"
+  },
+  {
+    "cityName": "南丹",
+    "city": "nadan3059"
+  },
+  {
+    "cityName": "新乡县",
+    "city": "xinxiangxian2257"
+  },
+  {
+    "cityName": "天柱",
+    "city": "tianzhu2365"
+  },
+  {
+    "cityName": "博爱",
+    "city": "boai2261"
+  },
+  {
+    "cityName": "江华",
+    "city": "jianghua2830"
+  },
+  {
+    "cityName": "吉隆",
+    "city": "jilong120374"
+  },
+  {
+    "cityName": "沅江",
+    "city": "yuanjiang2863"
+  },
+  {
+    "cityName": "大通",
+    "city": "datong1446304"
+  },
+  {
+    "cityName": "遂溪",
+    "city": "suixi2950"
+  },
+  {
+    "cityName": "乐至",
+    "city": "lezhi3143"
+  },
+  {
+    "cityName": "措勤",
+    "city": "cuoqin120146"
+  },
+  {
+    "cityName": "沙湾",
+    "city": "shawan2504"
+  },
+  {
+    "cityName": "隆化",
+    "city": "longhua2563"
+  },
+  {
+    "cityName": "祥云",
+    "city": "xiangyun2156"
+  },
+  {
+    "cityName": "临沭",
+    "city": "linshu2909"
+  },
+  {
+    "cityName": "柳城",
+    "city": "liucheng3072"
+  },
+  {
+    "cityName": "诏安",
+    "city": "zhaoan2676"
+  },
+  {
+    "cityName": "阳谷",
+    "city": "yanggu2889"
+  },
+  {
+    "cityName": "霍邱",
+    "city": "huoqiu2606"
+  },
+  {
+    "cityName": "衡阳县",
+    "city": "hengyangxian2824"
+  },
+  {
+    "cityName": "曹县",
+    "city": "caoxian2876"
+  },
+  {
+    "cityName": "栖霞",
+    "city": "qixia1445082"
+  },
+  {
+    "cityName": "原平",
+    "city": "yuanping3014"
+  },
+  {
+    "cityName": "新野",
+    "city": "xinye2262"
+  },
+  {
+    "cityName": "高唐",
+    "city": "gaotang2902"
+  },
+  {
+    "cityName": "西华",
+    "city": "xihua2311"
+  },
+  {
+    "cityName": "民乐",
+    "city": "minle2803"
+  },
+  {
+    "cityName": "扬中",
+    "city": "yangzhong1563"
+  },
+  {
+    "cityName": "昌邑",
+    "city": "changyi2880"
+  },
+  {
+    "cityName": "桑日",
+    "city": "sangri120413"
+  },
+  {
+    "cityName": "清流",
+    "city": "qingliu2658"
+  },
+  {
+    "cityName": "阳高",
+    "city": "yanggao2994"
+  },
+  {
+    "cityName": "武川",
+    "city": "wuchuan2969"
+  },
+  {
+    "cityName": "定远",
+    "city": "dingyuan2605"
+  },
+  {
+    "cityName": "睢宁",
+    "city": "huining3082"
+  },
+  {
+    "cityName": "潼关",
+    "city": "tongguan2780"
+  },
+  {
+    "cityName": "内丘",
+    "city": "neiqiu2519"
+  },
+  {
+    "cityName": "隆回",
+    "city": "longhui2841"
+  },
+  {
+    "cityName": "岳阳县",
+    "city": "yueyangxian2864"
+  },
+  {
+    "cityName": "武乡",
+    "city": "wuxiang3017"
+  },
+  {
+    "cityName": "侯马",
+    "city": "houma3019"
+  },
+  {
+    "cityName": "垣曲",
+    "city": "yuanqu3018"
+  },
+  {
+    "cityName": "鹿寨",
+    "city": "luqian3054"
+  },
+  {
+    "cityName": "玛沁",
+    "city": "maqin2640"
+  },
+  {
+    "cityName": "岳西",
+    "city": "yuexi1445972"
+  },
+  {
+    "cityName": "山阳",
+    "city": "shanyang2760"
+  },
+  {
+    "cityName": "资中",
+    "city": "zizhong3163"
+  },
+  {
+    "cityName": "北屯",
+    "city": "beitun120077"
+  },
+  {
+    "cityName": "奈曼旗",
+    "city": "naimanqi2980"
+  },
+  {
+    "cityName": "会昌",
+    "city": "huichang143830"
+  },
+  {
+    "cityName": "滦南",
+    "city": "luannan2577"
+  },
+  {
+    "cityName": "汝州",
+    "city": "ruzhou1386"
+  },
+  {
+    "cityName": "松滋",
+    "city": "songzi2697"
+  },
+  {
+    "cityName": "夹江",
+    "city": "jiajiang3108"
+  },
+  {
+    "cityName": "西充",
+    "city": "xichong3116"
+  },
+  {
+    "cityName": "文安",
+    "city": "wenan2588"
+  },
+  {
+    "cityName": "察隅",
+    "city": "chayu120394"
+  },
+  {
+    "cityName": "赵县",
+    "city": "zhaoxian2578"
+  },
+  {
+    "cityName": "锦屏",
+    "city": "jinping120445"
+  },
+  {
+    "cityName": "富川",
+    "city": "fuchuan1446258"
+  },
+  {
+    "cityName": "泰和",
+    "city": "taihe2422"
+  },
+  {
+    "cityName": "都安",
+    "city": "duan3063"
+  },
+  {
+    "cityName": "恭城",
+    "city": "gongcheng1446252"
+  },
+  {
+    "cityName": "上犹",
+    "city": "shangyou2411"
+  },
+  {
+    "cityName": "辛集",
+    "city": "xinji2541"
+  },
+  {
+    "cityName": "汉川",
+    "city": "hanchuan2721"
+  },
+  {
+    "cityName": "汪清",
+    "city": "wangqing2469"
+  },
+  {
+    "cityName": "彰武",
+    "city": "zhangwu2145"
+  },
+  {
+    "cityName": "砚山",
+    "city": "yanshan2170"
+  },
+  {
+    "cityName": "新晃",
+    "city": "xinhuang143845"
+  },
+  {
+    "cityName": "灵璧",
+    "city": "lingbi2593"
+  },
+  {
+    "cityName": "长宁",
+    "city": "changning3114"
+  },
+  {
+    "cityName": "陆川",
+    "city": "luchuan971"
+  },
+  {
+    "cityName": "商河",
+    "city": "shanghe2900"
+  },
+  {
+    "cityName": "讷河",
+    "city": "nehe2229"
+  },
+  {
+    "cityName": "原阳",
+    "city": "yuanyang2294"
+  },
+  {
+    "cityName": "安义",
+    "city": "anyi2378"
+  },
+  {
+    "cityName": "灌云",
+    "city": "guanyun3088"
+  },
+  {
+    "cityName": "福贡",
+    "city": "fugong1446273"
+  },
+  {
+    "cityName": "云梦",
+    "city": "yunmeng2715"
+  },
+  {
+    "cityName": "常宁",
+    "city": "changning2813"
+  },
+  {
+    "cityName": "和林格尔",
+    "city": "helingeer2956"
+  },
+  {
+    "cityName": "渑池",
+    "city": "mianchi2284"
+  },
+  {
+    "cityName": "舞阳",
+    "city": "wuyang2086"
+  },
+  {
+    "cityName": "略阳",
+    "city": "lueyang2768"
+  },
+  {
+    "cityName": "平果",
+    "city": "pingguo3062"
+  },
+  {
+    "cityName": "溆浦",
+    "city": "xupu2859"
+  },
+  {
+    "cityName": "赫章",
+    "city": "hezhang2368"
+  },
+  {
+    "cityName": "水富",
+    "city": "shuifu2200"
+  },
+  {
+    "cityName": "陇县",
+    "city": "longxian2764"
+  },
+  {
+    "cityName": "洞口",
+    "city": "dongkou2818"
+  },
+  {
+    "cityName": "河间",
+    "city": "hejian2522"
+  },
+  {
+    "cityName": "伊通",
+    "city": "yitong2475"
+  },
+  {
+    "cityName": "新蔡",
+    "city": "xincai2318"
+  },
+  {
+    "cityName": "桂阳",
+    "city": "guiyang2820"
+  },
+  {
+    "cityName": "涉县",
+    "city": "shexian2560"
+  },
+  {
+    "cityName": "金塔",
+    "city": "jinta2806"
+  },
+  {
+    "cityName": "惠民",
+    "city": "huimin2868"
+  },
+  {
+    "cityName": "全椒",
+    "city": "quanjiao2617"
+  },
+  {
+    "cityName": "大名",
+    "city": "daming2554"
+  },
+  {
+    "cityName": "禄劝",
+    "city": "luquan1446291"
+  },
+  {
+    "cityName": "翁源",
+    "city": "wengyuan2913"
+  },
+  {
+    "cityName": "师宗",
+    "city": "shizong2193"
+  },
+  {
+    "cityName": "右玉",
+    "city": "youyu2085"
+  },
+  {
+    "cityName": "金乡",
+    "city": "jinxiang2881"
+  },
+  {
+    "cityName": "桦甸",
+    "city": "huadian2459"
+  },
+  {
+    "cityName": "涟水",
+    "city": "lanshui3085"
+  },
+  {
+    "cityName": "高平",
+    "city": "gaobeng3003"
+  },
+  {
+    "cityName": "沿河",
+    "city": "yanhe143828"
+  },
+  {
+    "cityName": "阳曲",
+    "city": "yangqu2999"
+  },
+  {
+    "cityName": "高青",
+    "city": "gaoqing2901"
+  },
+  {
+    "cityName": "灵丘",
+    "city": "lingqiu3008"
+  },
+  {
+    "cityName": "洛扎",
+    "city": "luozha120411"
+  },
+  {
+    "cityName": "无棣",
+    "city": "wudi2877"
+  },
+  {
+    "cityName": "襄汾",
+    "city": "xiangfen3027"
+  },
+  {
+    "cityName": "礼县",
+    "city": "lixian2785"
+  },
+  {
+    "cityName": "石渠",
+    "city": "shiqu1446228"
+  },
+  {
+    "cityName": "吉水",
+    "city": "jishui143849"
+  },
+  {
+    "cityName": "高台",
+    "city": "gaotai2805"
+  },
+  {
+    "cityName": "涡阳",
+    "city": "guoyang2635"
+  },
+  {
+    "cityName": "响水",
+    "city": "xiangshui3076"
+  },
+  {
+    "cityName": "临泉",
+    "city": "linquan2596"
+  },
+  {
+    "cityName": "梓潼",
+    "city": "zitong3161"
+  },
+  {
+    "cityName": "乌审旗",
+    "city": "wushenqi2954"
+  },
+  {
+    "cityName": "大悟",
+    "city": "dawu2701"
+  },
+  {
+    "cityName": "尼勒克",
+    "city": "nileke2492"
+  },
+  {
+    "cityName": "佛坪",
+    "city": "foping2051"
+  },
+  {
+    "cityName": "玉田",
+    "city": "yutian2568"
+  },
+  {
+    "cityName": "滦平",
+    "city": "luanping645"
+  },
+  {
+    "cityName": "前郭",
+    "city": "qianguo2474"
+  },
+  {
+    "cityName": "龙州",
+    "city": "longzhou3046"
+  },
+  {
+    "cityName": "成县",
+    "city": "chengxian829"
+  },
+  {
+    "cityName": "镇雄",
+    "city": "zhenxiong2214"
+  },
+  {
+    "cityName": "万载",
+    "city": "wanzai2430"
+  },
+  {
+    "cityName": "华池",
+    "city": "huachi1446159"
+  },
+  {
+    "cityName": "奉新",
+    "city": "fengxin2413"
+  },
+  {
+    "cityName": "郯城",
+    "city": "tancheng2908"
+  },
+  {
+    "cityName": "金阳",
+    "city": "jinyang1446237"
+  },
+  {
+    "cityName": "德惠",
+    "city": "dehui2473"
+  },
+  {
+    "cityName": "呼玛",
+    "city": "huma2225"
+  },
+  {
+    "cityName": "潢川",
+    "city": "huangchuan2309"
+  },
+  {
+    "cityName": "磁县",
+    "city": "cixian2550"
+  },
+  {
+    "cityName": "淇县",
+    "city": "qixian2310"
+  },
+  {
+    "cityName": "紫阳",
+    "city": "ziyang2782"
+  },
+  {
+    "cityName": "郎溪",
+    "city": "langxi2632"
+  },
+  {
+    "cityName": "怀仁",
+    "city": "huairen3023"
+  },
+  {
+    "cityName": "涟源",
+    "city": "lianyuan2836"
+  },
+  {
+    "cityName": "平顺",
+    "city": "pingshun1446132"
+  },
+  {
+    "cityName": "祁东",
+    "city": "qidong2849"
+  },
+  {
+    "cityName": "平罗",
+    "city": "pingluo2102"
+  },
+  {
+    "cityName": "正蓝旗",
+    "city": "zhenglanqi2975"
+  },
+  {
+    "cityName": "富源",
+    "city": "fuyuan2190"
+  },
+  {
+    "cityName": "尉氏",
+    "city": "weishi2288"
+  },
+  {
+    "cityName": "修文",
+    "city": "xiuwen2347"
+  },
+  {
+    "cityName": "玛曲",
+    "city": "maqu1446182"
+  },
+  {
+    "cityName": "绥宁",
+    "city": "suining2853"
+  },
+  {
+    "cityName": "宁明",
+    "city": "ningming1445085"
+  },
+  {
+    "cityName": "乡城",
+    "city": "xiangcheng3107"
+  },
+  {
+    "cityName": "普安",
+    "city": "puan120453"
+  },
+  {
+    "cityName": "兴和",
+    "city": "xinghe2959"
+  },
+  {
+    "cityName": "仲巴",
+    "city": "zhongba120376"
+  },
+  {
+    "cityName": "临颍",
+    "city": "linying2259"
+  },
+  {
+    "cityName": "卢氏",
+    "city": "lushi2273"
+  },
+  {
+    "cityName": "萝北",
+    "city": "luobei2222"
+  },
+  {
+    "cityName": "镇安",
+    "city": "zhenan2770"
+  },
+  {
+    "cityName": "民权",
+    "city": "minquan2287"
+  },
+  {
+    "cityName": "湘阴",
+    "city": "xiangyin2855"
+  },
+  {
+    "cityName": "昔阳",
+    "city": "cuoyang2988"
+  },
+  {
+    "cityName": "云县",
+    "city": "yunxian2206"
+  },
+  {
+    "cityName": "孝昌",
+    "city": "xiaochang2687"
+  },
+  {
+    "cityName": "宁晋",
+    "city": "ningjin2523"
+  },
+  {
+    "cityName": "长垣",
+    "city": "changyuan2305"
+  },
+  {
+    "cityName": "墨竹工卡",
+    "city": "mozhugongka1446407"
+  },
+  {
+    "cityName": "洛川",
+    "city": "luochuan2772"
+  },
+  {
+    "cityName": "广灵",
+    "city": "anling3007"
+  },
+  {
+    "cityName": "叙永",
+    "city": "xuyong3133"
+  },
+  {
+    "cityName": "石棉",
+    "city": "shimian3158"
+  },
+  {
+    "cityName": "阳原",
+    "city": "yangyuan2552"
+  },
+  {
+    "cityName": "罗甸",
+    "city": "luodian2360"
+  },
+  {
+    "cityName": "枝江",
+    "city": "zhijiang1507"
+  },
+  {
+    "cityName": "阿图什",
+    "city": "atushi921"
+  },
+  {
+    "cityName": "同心",
+    "city": "tongxin2327"
+  },
+  {
+    "cityName": "会宁",
+    "city": "huining2789"
+  },
+  {
+    "cityName": "海晏",
+    "city": "haiyan1445066"
+  },
+  {
+    "cityName": "大田",
+    "city": "datian2656"
+  },
+  {
+    "cityName": "岑巩",
+    "city": "cengong120444"
+  },
+  {
+    "cityName": "广昌",
+    "city": "guangchang2434"
+  },
+  {
+    "cityName": "松桃",
+    "city": "songtao2358"
+  },
+  {
+    "cityName": "周宁",
+    "city": "zhouning2683"
+  },
+  {
+    "cityName": "都兰",
+    "city": "doulan2638"
+  },
+  {
+    "cityName": "丹寨",
+    "city": "danzhai120449"
+  },
+  {
+    "cityName": "特克斯",
+    "city": "tekesi1446388"
+  },
+  {
+    "cityName": "澄城",
+    "city": "chengcheng2744"
+  },
+  {
+    "cityName": "灵寿",
+    "city": "lingshou1446047"
+  },
+  {
+    "cityName": "青川",
+    "city": "qingchuan1446240"
+  },
+  {
+    "cityName": "上蔡",
+    "city": "shangcai2256"
+  },
+  {
+    "cityName": "凌云",
+    "city": "lingyun1446254"
+  },
+  {
+    "cityName": "尖扎",
+    "city": "jianzha1446320"
+  },
+  {
+    "cityName": "龙陵",
+    "city": "longling2184"
+  },
+  {
+    "cityName": "沁水",
+    "city": "qinshui2983"
+  },
+  {
+    "cityName": "海伦",
+    "city": "hailun2243"
+  },
+  {
+    "cityName": "成安",
+    "city": "chengan2535"
+  },
+  {
+    "cityName": "华亭",
+    "city": "huating2786"
+  },
+  {
+    "cityName": "遂川",
+    "city": "suichuan2418"
+  },
+  {
+    "cityName": "泊头",
+    "city": "botou1729"
+  },
+  {
+    "cityName": "东光",
+    "city": "dongguang2566"
+  },
+  {
+    "cityName": "武陟",
+    "city": "wuzhi2296"
+  },
+  {
+    "cityName": "临漳",
+    "city": "linzhang2559"
+  },
+  {
+    "cityName": "辰溪",
+    "city": "chenxi2815"
+  },
+  {
+    "cityName": "平利",
+    "city": "pingli2737"
+  },
+  {
+    "cityName": "岫岩",
+    "city": "xiuyan2140"
+  },
+  {
+    "cityName": "化州",
+    "city": "huazhou2915"
+  },
+  {
+    "cityName": "灯塔",
+    "city": "dengta2146"
+  },
+  {
+    "cityName": "乐陵",
+    "city": "leling2896"
+  },
+  {
+    "cityName": "辉南",
+    "city": "huinan2464"
+  },
+  {
+    "cityName": "焉耆",
+    "city": "yanqi120548"
+  },
+  {
+    "cityName": "中牟",
+    "city": "zhongmou1446088"
+  },
+  {
+    "cityName": "峨山",
+    "city": "eshan2183"
+  },
+  {
+    "cityName": "郏县",
+    "city": "jiaxian2320"
+  },
+  {
+    "cityName": "献县",
+    "city": "xianxian2524"
+  },
+  {
+    "cityName": "内黄",
+    "city": "neihuang2292"
+  },
+  {
+    "cityName": "永丰",
+    "city": "yongfeng2409"
+  },
+  {
+    "cityName": "土默特右旗",
+    "city": "tumoteyouqi1446334"
+  },
+  {
+    "cityName": "阿勒泰市",
+    "city": "aletai2482"
+  },
+  {
+    "cityName": "文水",
+    "city": "wenshui3009"
+  },
+  {
+    "cityName": "鄂托克前旗",
+    "city": "etuokeqianqi2979"
+  },
+  {
+    "cityName": "竹山",
+    "city": "zhushan2724"
+  },
+  {
+    "cityName": "呼图壁",
+    "city": "hetubi2495"
+  },
+  {
+    "cityName": "宜城",
+    "city": "yicheng2702"
+  },
+  {
+    "cityName": "中宁",
+    "city": "zhongning2328"
+  },
+  {
+    "cityName": "博兴",
+    "city": "boxing1221"
+  },
+  {
+    "cityName": "萧县",
+    "city": "xiaoxian2621"
+  },
+  {
+    "cityName": "成武",
+    "city": "chengwu2883"
+  },
+  {
+    "cityName": "正阳",
+    "city": "zhengyang2312"
+  },
+  {
+    "cityName": "永仁",
+    "city": "yongren2189"
+  },
+  {
+    "cityName": "凉城",
+    "city": "liangcheng2974"
+  },
+  {
+    "cityName": "老河口",
+    "city": "laohekou2711"
+  },
+  {
+    "cityName": "浦城",
+    "city": "pucheng2653"
+  },
+  {
+    "cityName": "阿克苏市",
+    "city": "akesushi1446382"
+  },
+  {
+    "cityName": "罗山",
+    "city": "luoshan1445146"
+  },
+  {
+    "cityName": "五家渠",
+    "city": "wujiaju2493"
+  },
+  {
+    "cityName": "朗县",
+    "city": "langxian120395"
+  },
+  {
+    "cityName": "昌乐",
+    "city": "changle2878"
+  },
+  {
+    "cityName": "沙洋",
+    "city": "shayang2686"
+  },
+  {
+    "cityName": "五河",
+    "city": "wuhe2607"
+  },
+  {
+    "cityName": "江达",
+    "city": "jingda120398"
+  },
+  {
+    "cityName": "确山",
+    "city": "queshan2314"
+  },
+  {
+    "cityName": "穆棱",
+    "city": "muling1445987"
+  },
+  {
+    "cityName": "余干",
+    "city": "yugan2423"
+  },
+  {
+    "cityName": "会同",
+    "city": "huitong2828"
+  },
+  {
+    "cityName": "乌苏",
+    "city": "wusu2497"
+  },
+  {
+    "cityName": "常山",
+    "city": "changshan1939"
+  },
+  {
+    "cityName": "公主岭",
+    "city": "gongzhuling1360"
+  },
+  {
+    "cityName": "金溪",
+    "city": "jinxi2405"
+  },
+  {
+    "cityName": "柳林",
+    "city": "liulin3016"
+  },
+  {
+    "cityName": "霍城",
+    "city": "huocheng1446379"
+  },
+  {
+    "cityName": "旌德",
+    "city": "jingde2620"
+  },
+  {
+    "cityName": "陈巴尔虎旗",
+    "city": "chenbaerhuqi1446352"
+  },
+  {
+    "cityName": "富锦",
+    "city": "fujin2235"
+  },
+  {
+    "cityName": "博白",
+    "city": "bobai3049"
+  },
+  {
+    "cityName": "东兰",
+    "city": "donglan120136"
+  },
+  {
+    "cityName": "正宁",
+    "city": "zhengning2809"
+  },
+  {
+    "cityName": "清原",
+    "city": "qingyuan2130"
+  },
+  {
+    "cityName": "滑县",
+    "city": "hua2298"
+  },
+  {
+    "cityName": "丁青",
+    "city": "dingqing2447"
+  },
+  {
+    "cityName": "顺平",
+    "city": "shunping1446055"
+  },
+  {
+    "cityName": "勃利",
+    "city": "boli851"
+  },
+  {
+    "cityName": "团风",
+    "city": "tuanfeng2708"
+  },
+  {
+    "cityName": "楚雄市",
+    "city": "chuxiongshi1446264"
+  },
+  {
+    "cityName": "景县",
+    "city": "jingxian2529"
+  },
+  {
+    "cityName": "塔河",
+    "city": "tahe1445182"
+  },
+  {
+    "cityName": "融安",
+    "city": "rongan3043"
+  },
+  {
+    "cityName": "丹凤",
+    "city": "danfeng2751"
+  },
+  {
+    "cityName": "富顺",
+    "city": "fushun3152"
+  },
+  {
+    "cityName": "界首",
+    "city": "jieshou2612"
+  },
+  {
+    "cityName": "双辽",
+    "city": "shuangliao2477"
+  },
+  {
+    "cityName": "塔城市",
+    "city": "tacheng2510"
+  },
+  {
+    "cityName": "马边",
+    "city": "mabian3162"
+  },
+  {
+    "cityName": "孟州",
+    "city": "mengzhou2280"
+  },
+  {
+    "cityName": "临洮",
+    "city": "lintao2787"
+  },
+  {
+    "cityName": "罗城",
+    "city": "luocheng3050"
+  },
+  {
+    "cityName": "襄垣",
+    "city": "xiangyuan3034"
+  },
+  {
+    "cityName": "喜德",
+    "city": "xide3117"
+  },
+  {
+    "cityName": "定边",
+    "city": "dingbian2754"
+  },
+  {
+    "cityName": "通河",
+    "city": "tonghe1446000"
+  },
+  {
+    "cityName": "和田市",
+    "city": "hetian2487"
+  },
+  {
+    "cityName": "津市",
+    "city": "jinshi2833"
+  },
+  {
+    "cityName": "连平",
+    "city": "lianping2942"
+  },
+  {
+    "cityName": "霍林郭勒",
+    "city": "huolinguole2962"
+  },
+  {
+    "cityName": "商水",
+    "city": "shangshui2263"
+  },
+  {
+    "cityName": "尉犁",
+    "city": "yuli120546"
+  },
+  {
+    "cityName": "鸡东",
+    "city": "jidong2232"
+  },
+  {
+    "cityName": "临武",
+    "city": "linwu2839"
+  },
+  {
+    "cityName": "易门",
+    "city": "yimen2179"
+  },
+  {
+    "cityName": "阿拉善右旗",
+    "city": "alashanyouqi120362"
+  },
+  {
+    "cityName": "大城",
+    "city": "dacheng120066"
+  },
+  {
+    "cityName": "容城",
+    "city": "rongcheng2551"
+  },
+  {
+    "cityName": "安平",
+    "city": "anping2517"
+  },
+  {
+    "cityName": "光山",
+    "city": "guangshan2087"
+  },
+  {
+    "cityName": "维西",
+    "city": "weixi1446265"
+  },
+  {
+    "cityName": "远安",
+    "city": "yuanan2713"
+  },
+  {
+    "cityName": "盐津",
+    "city": "yanjin2167"
+  },
+  {
+    "cityName": "长武",
+    "city": "changwu2763"
+  },
+  {
+    "cityName": "芮城",
+    "city": "ruicheng2986"
+  },
+  {
+    "cityName": "桃江",
+    "city": "taojiang2854"
+  },
+  {
+    "cityName": "青县",
+    "city": "qingxian2533"
+  },
+  {
+    "cityName": "鹤庆",
+    "city": "heqing2204"
+  },
+  {
+    "cityName": "富宁",
+    "city": "funing2187"
+  },
+  {
+    "cityName": "平原",
+    "city": "pingyuan2882"
+  },
+  {
+    "cityName": "陇西",
+    "city": "longxi2796"
+  },
+  {
+    "cityName": "麻江",
+    "city": "majiang120448"
+  },
+  {
+    "cityName": "南城",
+    "city": "nancheng2431"
+  },
+  {
+    "cityName": "宝丰",
+    "city": "baofeng2255"
+  },
+  {
+    "cityName": "宁洱",
+    "city": "ninger2166"
+  },
+  {
+    "cityName": "麻阳",
+    "city": "mayang2844"
+  },
+  {
+    "cityName": "阿克塞",
+    "city": "akesai2783"
+  },
+  {
+    "cityName": "定襄",
+    "city": "dingxiang2992"
+  },
+  {
+    "cityName": "永福",
+    "city": "yongfu1445352"
+  },
+  {
+    "cityName": "友谊",
+    "city": "youyi1445992"
+  },
+  {
+    "cityName": "文县",
+    "city": "wenxian1446178"
+  },
+  {
+    "cityName": "中方",
+    "city": "zhongfang2865"
+  },
+  {
+    "cityName": "夏邑",
+    "city": "xiayi2304"
+  },
+  {
+    "cityName": "巴林左旗",
+    "city": "balinzuoqi1446347"
+  },
+  {
+    "cityName": "双湖",
+    "city": "shuanghu120393"
+  },
+  {
+    "cityName": "旬阳",
+    "city": "xunyang2747"
+  },
+  {
+    "cityName": "德安",
+    "city": "dean2398"
+  },
+  {
+    "cityName": "商都",
+    "city": "shangdou2957"
+  },
+  {
+    "cityName": "华容",
+    "city": "huarong2826"
+  },
+  {
+    "cityName": "方山",
+    "city": "fangshan1446129"
+  },
+  {
+    "cityName": "错那",
+    "city": "cuona120414"
+  },
+  {
+    "cityName": "威远",
+    "city": "weiyuan3098"
+  },
+  {
+    "cityName": "白朗",
+    "city": "bailang120377"
+  },
+  {
+    "cityName": "盐山",
+    "city": "yanshan2553"
+  },
+  {
+    "cityName": "伊川",
+    "city": "yichuan2282"
+  },
+  {
+    "cityName": "乡宁",
+    "city": "xiangning3031"
+  },
+  {
+    "cityName": "循化",
+    "city": "xunhua1446311"
+  },
+  {
+    "cityName": "平舆",
+    "city": "pingyu2303"
+  },
+  {
+    "cityName": "太仆寺旗",
+    "city": "taipusiqi1446353"
+  },
+  {
+    "cityName": "夏津",
+    "city": "xiajin1575"
+  },
+  {
+    "cityName": "申扎",
+    "city": "shenzha120386"
+  },
+  {
+    "cityName": "皮山",
+    "city": "pishan2496"
+  },
+  {
+    "cityName": "吉安县",
+    "city": "jianxian2392"
+  },
+  {
+    "cityName": "精河",
+    "city": "jinghe2501"
+  },
+  {
+    "cityName": "泌阳",
+    "city": "biyang2258"
+  },
+  {
+    "cityName": "紫云",
+    "city": "ziyun1780"
+  },
+  {
+    "cityName": "清水",
+    "city": "qingshui1446155"
+  },
+  {
+    "cityName": "北票",
+    "city": "beipiao1216"
+  },
+  {
+    "cityName": "获嘉",
+    "city": "huojia2316"
+  },
+  {
+    "cityName": "泗县",
+    "city": "sixian2633"
+  },
+  {
+    "cityName": "东明",
+    "city": "dongming1768"
+  },
+  {
+    "cityName": "肃宁",
+    "city": "suning2571"
+  },
+  {
+    "cityName": "余庆",
+    "city": "yuqing2353"
+  },
+  {
+    "cityName": "金平",
+    "city": "jinping2162"
+  },
+  {
+    "cityName": "达日",
+    "city": "dari1446314"
+  },
+  {
+    "cityName": "饶河",
+    "city": "raohe1445998"
+  },
+  {
+    "cityName": "集贤",
+    "city": "jixian2238"
+  },
+  {
+    "cityName": "临澧",
+    "city": "linli2838"
+  },
+  {
+    "cityName": "调兵山",
+    "city": "diaobingshan2149"
+  },
+  {
+    "cityName": "凤冈",
+    "city": "fenggang2359"
+  },
+  {
+    "cityName": "屏边",
+    "city": "pingbian1446293"
+  },
+  {
+    "cityName": "嘉禾",
+    "city": "jiahe2829"
+  },
+  {
+    "cityName": "静宁",
+    "city": "jingning2798"
+  },
+  {
+    "cityName": "库伦旗",
+    "city": "kulunqi1446346"
+  },
+  {
+    "cityName": "分宜",
+    "city": "fenyi2416"
+  },
+  {
+    "cityName": "沈丘",
+    "city": "shenqiu2266"
+  },
+  {
+    "cityName": "逊克",
+    "city": "xunke1445999"
+  },
+  {
+    "cityName": "凤县",
+    "city": "fengxian1446144"
+  },
+  {
+    "cityName": "江安",
+    "city": "jiangan3112"
+  },
+  {
+    "cityName": "宕昌",
+    "city": "dangchang2790"
+  },
+  {
+    "cityName": "武城",
+    "city": "wucheng2875"
+  },
+  {
+    "cityName": "乐安",
+    "city": "lean2414"
+  },
+  {
+    "cityName": "随县",
+    "city": "suixian1446201"
+  },
+  {
+    "cityName": "南丰",
+    "city": "nanfeng2435"
+  },
+  {
+    "cityName": "建平",
+    "city": "jianping2132"
+  },
+  {
+    "cityName": "郁南",
+    "city": "yunan2938"
+  },
+  {
+    "cityName": "濉溪",
+    "city": "suixi2594"
+  },
+  {
+    "cityName": "偏关",
+    "city": "pianguan1446126"
+  },
+  {
+    "cityName": "寻乌",
+    "city": "xunwu143831"
+  },
+  {
+    "cityName": "依兰",
+    "city": "yilan1445981"
+  },
+  {
+    "cityName": "海原",
+    "city": "haiyuan2325"
+  },
+  {
+    "cityName": "安达",
+    "city": "anda2218"
+  },
+  {
+    "cityName": "新绛",
+    "city": "xinjiang2984"
+  },
+  {
+    "cityName": "清水河",
+    "city": "qingshuihe1446364"
+  },
+  {
+    "cityName": "西吉",
+    "city": "xiji1446188"
+  },
+  {
+    "cityName": "同江",
+    "city": "tongjiang1446004"
+  },
+  {
+    "cityName": "肇源",
+    "city": "zhaoyuan1445995"
+  },
+  {
+    "cityName": "来安",
+    "city": "laian2629"
+  },
+  {
+    "cityName": "庆城",
+    "city": "qingcheng2808"
+  },
+  {
+    "cityName": "榆中",
+    "city": "yuzhong1446180"
+  },
+  {
+    "cityName": "固阳",
+    "city": "guyang1446361"
+  },
+  {
+    "cityName": "五华",
+    "city": "wuhua1445185"
+  },
+  {
+    "cityName": "南木林",
+    "city": "nanmulin120373"
+  },
+  {
+    "cityName": "望奎",
+    "city": "wangkui2234"
+  },
+  {
+    "cityName": "皋兰",
+    "city": "gaolan2801"
+  },
+  {
+    "cityName": "察布查尔",
+    "city": "chabuchaer1445195"
+  },
+  {
+    "cityName": "代县",
+    "city": "daixian1446104"
+  },
+  {
+    "cityName": "定兴",
+    "city": "dingxing2558"
+  },
+  {
+    "cityName": "汤原",
+    "city": "tangyuan2227"
+  },
+  {
+    "cityName": "巨鹿",
+    "city": "julu2539"
+  },
+  {
+    "cityName": "左权",
+    "city": "zuoquan3037"
+  },
+  {
+    "cityName": "吴起",
+    "city": "wuqi2732"
+  },
+  {
+    "cityName": "得荣",
+    "city": "derong1446220"
+  },
+  {
+    "cityName": "蕉岭",
+    "city": "jiaoling2925"
+  },
+  {
+    "cityName": "扶沟",
+    "city": "fugou2283"
+  },
+  {
+    "cityName": "高阳",
+    "city": "gaoyang2582"
+  },
+  {
+    "cityName": "长顺",
+    "city": "changshun120452"
+  },
+  {
+    "cityName": "晋州",
+    "city": "jinzhou2536"
+  },
+  {
+    "cityName": "永胜",
+    "city": "yongsheng2192"
+  },
+  {
+    "cityName": "资溪",
+    "city": "zixi2433"
+  },
+  {
+    "cityName": "冠县",
+    "city": "guanxian2905"
+  },
+  {
+    "cityName": "虞城",
+    "city": "yucheng2297"
+  },
+  {
+    "cityName": "新干",
+    "city": "xingan2384"
+  },
+  {
+    "cityName": "深州",
+    "city": "shenzhou2564"
+  },
+  {
+    "cityName": "古浪",
+    "city": "gulang2810"
+  },
+  {
+    "cityName": "华宁",
+    "city": "huaning2209"
+  },
+  {
+    "cityName": "柘城",
+    "city": "zhecheng2308"
+  },
+  {
+    "cityName": "南县",
+    "city": "nanxian2845"
+  },
+  {
+    "cityName": "张家川",
+    "city": "zhangjiachuan2804"
+  },
+  {
+    "cityName": "民丰",
+    "city": "minfeng2488"
+  },
+  {
+    "cityName": "丰镇",
+    "city": "fengzhen2953"
+  },
+  {
+    "cityName": "南华",
+    "city": "nanhua2159"
+  },
+  {
+    "cityName": "奇台",
+    "city": "qitai1446384"
+  },
+  {
+    "cityName": "仁布",
+    "city": "renbu120382"
+  },
+  {
+    "cityName": "开鲁",
+    "city": "kailu2965"
+  },
+  {
+    "cityName": "梨树",
+    "city": "lishu2462"
+  },
+  {
+    "cityName": "黑山",
+    "city": "heishan2141"
+  },
+  {
+    "cityName": "汉阴",
+    "city": "hanyin1446136"
+  },
+  {
+    "cityName": "榆社",
+    "city": "yushe3028"
+  },
+  {
+    "cityName": "镇巴",
+    "city": "zhenba2774"
+  },
+  {
+    "cityName": "钟山",
+    "city": "zhongshan3070"
+  },
+  {
+    "cityName": "漳平",
+    "city": "zhangping1446191"
+  },
+  {
+    "cityName": "寿宁",
+    "city": "shouning2673"
+  },
+  {
+    "cityName": "共青城",
+    "city": "gongqingcheng143853"
+  },
+  {
+    "cityName": "平泉",
+    "city": "pingquan2525"
+  },
+  {
+    "cityName": "扶绥",
+    "city": "furui3068"
+  },
+  {
+    "cityName": "天镇",
+    "city": "tianzhen3001"
+  },
+  {
+    "cityName": "道县",
+    "city": "daoxian2817"
+  },
+  {
+    "cityName": "林口",
+    "city": "linkou1445988"
+  },
+  {
+    "cityName": "卓资",
+    "city": "zhuozi2978"
+  },
+  {
+    "cityName": "通渭",
+    "city": "tongwei1446161"
+  },
+  {
+    "cityName": "鹤峰",
+    "city": "hefeng1446199"
+  },
+  {
+    "cityName": "和硕",
+    "city": "heshuo2491"
+  },
+  {
+    "cityName": "大化",
+    "city": "dahua1446251"
+  },
+  {
+    "cityName": "天峨",
+    "city": "tiane3051"
+  },
+  {
+    "cityName": "兰西",
+    "city": "lanxi2245"
+  },
+  {
+    "cityName": "乌拉特中旗",
+    "city": "wulatezhongqi2981"
+  },
+  {
+    "cityName": "太康",
+    "city": "taikang2271"
+  },
+  {
+    "cityName": "阿坝县",
+    "city": "abaxian1446246"
+  },
+  {
+    "cityName": "黎川",
+    "city": "lichuan2421"
+  },
+  {
+    "cityName": "宁津",
+    "city": "ningjin2871"
+  },
+  {
+    "cityName": "阿克陶",
+    "city": "aketao1446375"
+  },
+  {
+    "cityName": "望江",
+    "city": "wangjiang1445975"
+  },
+  {
+    "cityName": "南宫",
+    "city": "nangong1446071"
+  },
+  {
+    "cityName": "郸城",
+    "city": "dancheng2265"
+  },
+  {
+    "cityName": "曲沃",
+    "city": "quwo1446120"
+  },
+  {
+    "cityName": "武穴",
+    "city": "wuxue1445077"
+  },
+  {
+    "cityName": "陇川",
+    "city": "longchuan2181"
+  },
+  {
+    "cityName": "峨边",
+    "city": "ebian3146"
+  },
+  {
+    "cityName": "巴青",
+    "city": "baqing120392"
+  },
+  {
+    "cityName": "开江",
+    "city": "kaijiang3135"
+  },
+  {
+    "cityName": "合山",
+    "city": "heshan3053"
+  },
+  {
+    "cityName": "怀宁",
+    "city": "huaining1445974"
+  },
+  {
+    "cityName": "浮山",
+    "city": "fushan3000"
+  },
+  {
+    "cityName": "耿马",
+    "city": "gengma2195"
+  },
+  {
+    "cityName": "德昌",
+    "city": "dechang1446215"
+  },
+  {
+    "cityName": "南皮",
+    "city": "napi2515"
+  },
+  {
+    "cityName": "万安",
+    "city": "wanan143850"
+  },
+  {
+    "cityName": "关岭",
+    "city": "guanling1446303"
+  },
+  {
+    "cityName": "宁化",
+    "city": "ninghua2681"
+  },
+  {
+    "cityName": "庆安",
+    "city": "qingan2236"
+  },
+  {
+    "cityName": "永昌",
+    "city": "yongchang1446169"
+  },
+  {
+    "cityName": "淳化",
+    "city": "chunhua1446143"
+  },
+  {
+    "cityName": "康马",
+    "city": "kangma120372"
+  },
+  {
+    "cityName": "兰坪",
+    "city": "lanping2174"
+  },
+  {
+    "cityName": "当涂",
+    "city": "dangtu1445969"
+  },
+  {
+    "cityName": "上栗",
+    "city": "shangli2403"
+  },
+  {
+    "cityName": "肃南",
+    "city": "sunan1446174"
+  },
+  {
+    "cityName": "曲水",
+    "city": "qushui1446405"
+  },
+  {
+    "cityName": "闻喜",
+    "city": "wenxi2105"
+  },
+  {
+    "cityName": "临夏市",
+    "city": "linxiashi1446157"
+  },
+  {
+    "cityName": "浦北",
+    "city": "pubei3069"
+  },
+  {
+    "cityName": "翁牛特旗",
+    "city": "wengniuteqi1446358"
+  },
+  {
+    "cityName": "孙吴",
+    "city": "sunwu2226"
+  },
+  {
+    "cityName": "大姚",
+    "city": "dayao1446269"
+  },
+  {
+    "cityName": "砀山",
+    "city": "dangshan1445967"
+  },
+  {
+    "cityName": "台安",
+    "city": "taian1446023"
+  },
+  {
+    "cityName": "宝清",
+    "city": "baoqing1445994"
+  },
+  {
+    "cityName": "志丹",
+    "city": "zhidan2777"
+  },
+  {
+    "cityName": "衡南",
+    "city": "hengnan1446204"
+  },
+  {
+    "cityName": "望谟",
+    "city": "wangmo120456"
+  },
+  {
+    "cityName": "措美",
+    "city": "cuomei120410"
+  },
+  {
+    "cityName": "繁峙",
+    "city": "fanshi2995"
+  },
+  {
+    "cityName": "改则",
+    "city": "gaize120145"
+  },
+  {
+    "cityName": "翼城",
+    "city": "gaoping3002"
+  },
+  {
+    "cityName": "纳雍",
+    "city": "nayong2366"
+  },
+  {
+    "cityName": "含山",
+    "city": "hanshan2595"
+  },
+  {
+    "cityName": "井研",
+    "city": "jingxing3127"
+  },
+  {
+    "cityName": "隆子",
+    "city": "longzi120407"
+  },
+  {
+    "cityName": "环江",
+    "city": "huanjiang3058"
+  },
+  {
+    "cityName": "政和",
+    "city": "zhenghe2679"
+  },
+  {
+    "cityName": "元氏",
+    "city": "yuanshi2561"
+  },
+  {
+    "cityName": "托克托",
+    "city": "tuoketuo1446363"
+  },
+  {
+    "cityName": "通许",
+    "city": "tongxu2285"
+  },
+  {
+    "cityName": "吴堡",
+    "city": "wubao2728"
+  },
+  {
+    "cityName": "永德",
+    "city": "yongde2186"
+  },
+  {
+    "cityName": "姚安",
+    "city": "yaoan2173"
+  },
+  {
+    "cityName": "富裕",
+    "city": "fuyu1445985"
+  },
+  {
+    "cityName": "曲松",
+    "city": "qusong120412"
+  },
+  {
+    "cityName": "弥渡",
+    "city": "midu1446276"
+  },
+  {
+    "cityName": "四子王旗",
+    "city": "siziwangqi1446327"
+  },
+  {
+    "cityName": "义马",
+    "city": "yima2286"
+  },
+  {
+    "cityName": "册亨",
+    "city": "ceheng120457"
+  },
+  {
+    "cityName": "景谷",
+    "city": "jinggu1446292"
+  },
+  {
+    "cityName": "荥经",
+    "city": "xingjing1446235"
+  },
+  {
+    "cityName": "古交",
+    "city": "gujiao3010"
+  },
+  {
+    "cityName": "汤阴",
+    "city": "tangyin2277"
+  },
+  {
+    "cityName": "依安",
+    "city": "yian2242"
+  },
+  {
+    "cityName": "和政",
+    "city": "hezheng1446187"
+  },
+  {
+    "cityName": "隆德",
+    "city": "longde2326"
+  },
+  {
+    "cityName": "昌图",
+    "city": "changtu2134"
+  },
+  {
+    "cityName": "磴口",
+    "city": "dengkou1446337"
+  },
+  {
+    "cityName": "山阴",
+    "city": "sanyin2987"
+  },
+  {
+    "cityName": "长沙县",
+    "city": "changshaxian1446209"
+  },
+  {
+    "cityName": "扎赉特旗",
+    "city": "zalaiteqi2970"
+  },
+  {
+    "cityName": "临城",
+    "city": "lincheng2555"
+  },
+  {
+    "cityName": "青冈",
+    "city": "qinggang2239"
+  },
+  {
+    "cityName": "范县",
+    "city": "fanxian2272"
+  },
+  {
+    "cityName": "克东",
+    "city": "kedong2241"
+  },
+  {
+    "cityName": "交口",
+    "city": "jiaokou3036"
+  },
+  {
+    "cityName": "镇沅",
+    "city": "zhenyuan2216"
+  },
+  {
+    "cityName": "莎车",
+    "city": "shache2499"
+  },
+  {
+    "cityName": "淮滨",
+    "city": "huaibin2302"
+  },
+  {
+    "cityName": "仪陇",
+    "city": "yilong1446239"
+  },
+  {
+    "cityName": "甘泉",
+    "city": "ganquan2775"
+  },
+  {
+    "cityName": "囊谦",
+    "city": "nangqian2642"
+  },
+  {
+    "cityName": "马关",
+    "city": "maguan2205"
+  },
+  {
+    "cityName": "马山",
+    "city": "mashan1446255"
+  },
+  {
+    "cityName": "嫩江",
+    "city": "nenjiang1445984"
+  },
+  {
+    "cityName": "岗巴",
+    "city": "gangba120380"
+  },
+  {
+    "cityName": "都昌",
+    "city": "douchang2407"
+  },
+  {
+    "cityName": "靖宇",
+    "city": "jingyu1446013"
+  },
+  {
+    "cityName": "固镇",
+    "city": "guzhen2592"
+  },
+  {
+    "cityName": "平陆",
+    "city": "pinglu1446127"
+  },
+  {
+    "cityName": "泾川",
+    "city": "jingchuan2795"
+  },
+  {
+    "cityName": "敖汉旗",
+    "city": "aohanqi1446343"
+  },
+  {
+    "cityName": "阿鲁科尔沁旗",
+    "city": "alukeerqinqi1446333"
+  },
+  {
+    "cityName": "合阳",
+    "city": "heyang1446142"
+  },
+  {
+    "cityName": "双峰",
+    "city": "shuangfeng1446206"
+  },
+  {
+    "cityName": "永善",
+    "city": "yongshan1446278"
+  },
+  {
+    "cityName": "田东",
+    "city": "tiandong1446248"
+  },
+  {
+    "cityName": "馆陶",
+    "city": "guantao2589"
+  },
+  {
+    "cityName": "宽城",
+    "city": "kuancheng2542"
+  },
+  {
+    "cityName": "峡江",
+    "city": "xiajiang143848"
+  },
+  {
+    "cityName": "徽县",
+    "city": "huixian1446179"
+  },
+  {
+    "cityName": "鄂伦春旗",
+    "city": "elunchunqi1446356"
+  },
+  {
+    "cityName": "沁阳",
+    "city": "qinyang1446076"
+  },
+  {
+    "cityName": "旺苍",
+    "city": "wangcang1446225"
+  },
+  {
+    "cityName": "巩留",
+    "city": "gongliu1446369"
+  },
+  {
+    "cityName": "陆河",
+    "city": "luhe2912"
+  },
+  {
+    "cityName": "岷县",
+    "city": "minxian1446170"
+  },
+  {
+    "cityName": "稷山",
+    "city": "jishan2990"
+  },
+  {
+    "cityName": "昌宁",
+    "city": "changning2165"
+  },
+  {
+    "cityName": "舟曲",
+    "city": "zhouqu1446163"
+  },
+  {
+    "cityName": "封丘",
+    "city": "fengqiu2279"
+  },
+  {
+    "cityName": "阜南",
+    "city": "funan1445973"
+  },
+  {
+    "cityName": "靖远",
+    "city": "jingyuan1446154"
+  },
+  {
+    "cityName": "班戈",
+    "city": "bange120384"
+  },
+  {
+    "cityName": "玛纳斯",
+    "city": "manasi1446366"
+  },
+  {
+    "cityName": "庄浪",
+    "city": "zhuanglang1446175"
+  },
+  {
+    "cityName": "克山",
+    "city": "keshan2244"
+  },
+  {
+    "cityName": "桦南",
+    "city": "huanan2221"
+  },
+  {
+    "cityName": "赞皇",
+    "city": "zanhuang2572"
+  },
+  {
+    "cityName": "珙县",
+    "city": "gongxian3159"
+  },
+  {
+    "cityName": "枣强",
+    "city": "zaoqiang1446052"
+  },
+  {
+    "cityName": "那坡",
+    "city": "napo973"
+  },
+  {
+    "cityName": "东乌旗",
+    "city": "dongwuqi1446344"
+  },
+  {
+    "cityName": "寿阳",
+    "city": "shouyang2991"
+  },
+  {
+    "cityName": "泰来",
+    "city": "tailai1445983"
+  },
+  {
+    "cityName": "武功",
+    "city": "wugong1446134"
+  },
+  {
+    "cityName": "崇仁",
+    "city": "chongren2388"
+  },
+  {
+    "cityName": "宣恩",
+    "city": "xuanen1446200"
+  },
+  {
+    "cityName": "威县",
+    "city": "weixian2580"
+  },
+  {
+    "cityName": "五寨",
+    "city": "wuzhai3021"
+  },
+  {
+    "cityName": "隆林",
+    "city": "longlin1446261"
+  },
+  {
+    "cityName": "武强",
+    "city": "wujiang2516"
+  },
+  {
+    "cityName": "乌兰",
+    "city": "wulan1446307"
+  },
+  {
+    "cityName": "安仁",
+    "city": "anren1446210"
+  },
+  {
+    "cityName": "全南",
+    "city": "quannan2393"
+  },
+  {
+    "cityName": "河曲",
+    "city": "hequ1446123"
+  },
+  {
+    "cityName": "昂仁",
+    "city": "angren120375"
+  },
+  {
+    "cityName": "桂东",
+    "city": "guidong2819"
+  },
+  {
+    "cityName": "新巴尔虎左旗",
+    "city": "xinbaerhuzuoqi1446338"
+  },
+  {
+    "cityName": "江陵",
+    "city": "jiangling1446197"
+  },
+  {
+    "cityName": "双牌",
+    "city": "shuangpai1446205"
+  },
+  {
+    "cityName": "玉树市",
+    "city": "yushuxian1446308"
+  },
+  {
+    "cityName": "西平",
+    "city": "xiping1446087"
+  },
+  {
+    "cityName": "竹溪",
+    "city": "zhuxi1446198"
+  },
+  {
+    "cityName": "林周",
+    "city": "linzhou1446410"
+  },
+  {
+    "cityName": "绛县",
+    "city": "jiangxian1446112"
+  },
+  {
+    "cityName": "兴县",
+    "city": "xingxian1446131"
+  },
+  {
+    "cityName": "横峰",
+    "city": "hengfeng2382"
+  },
+  {
+    "cityName": "班玛",
+    "city": "banma1446318"
+  },
+  {
+    "cityName": "海兴",
+    "city": "haixing1446070"
+  },
+  {
+    "cityName": "西和",
+    "city": "xihe1446186"
+  },
+  {
+    "cityName": "康乐",
+    "city": "kangle1446162"
+  },
+  {
+    "cityName": "冷水江",
+    "city": "lengshuijiang2835"
+  },
+  {
+    "cityName": "喀喇沁左翼",
+    "city": "kalaqinzuoyi1446030"
+  },
+  {
+    "cityName": "岢岚",
+    "city": "kelan2993"
+  },
+  {
+    "cityName": "乌拉特后旗",
+    "city": "wulatehouqi1881"
+  },
+  {
+    "cityName": "巴楚",
+    "city": "bachu2486"
+  },
+  {
+    "cityName": "隆尧",
+    "city": "longyao2567"
+  },
+  {
+    "cityName": "正安",
+    "city": "zhengan1446299"
+  },
+  {
+    "cityName": "索县",
+    "city": "suoxian120391"
+  },
+  {
+    "cityName": "舒兰",
+    "city": "shulan1446009"
+  },
+  {
+    "cityName": "东丰",
+    "city": "dongfeng1446016"
+  },
+  {
+    "cityName": "卢龙",
+    "city": "lulong1446039"
+  },
+  {
+    "cityName": "三穗",
+    "city": "sansui120443"
+  },
+  {
+    "cityName": "盘山",
+    "city": "panshan1446028"
+  },
+  {
+    "cityName": "孟连",
+    "city": "menglian1446284"
+  },
+  {
+    "cityName": "梁河",
+    "city": "lianghe1446289"
+  },
+  {
+    "cityName": "兰考",
+    "city": "lankao1446072"
+  },
+  {
+    "cityName": "行唐",
+    "city": "xingtang2534"
+  },
+  {
+    "cityName": "美姑",
+    "city": "meigu1446242"
+  },
+  {
+    "cityName": "察雅",
+    "city": "chaya120402"
+  },
+  {
+    "cityName": "盐亭",
+    "city": "yanting1446229"
+  },
+  {
+    "cityName": "顺昌",
+    "city": "shunchang1446192"
+  },
+  {
+    "cityName": "方正",
+    "city": "fangzheng1445993"
+  },
+  {
+    "cityName": "泽州",
+    "city": "zezhou3032"
+  },
+  {
+    "cityName": "东宁",
+    "city": "dongning1446002"
+  },
+  {
+    "cityName": "双柏",
+    "city": "shuangbai2196"
+  },
+  {
+    "cityName": "保靖",
+    "city": "baojing1446208"
+  },
+  {
+    "cityName": "大厂",
+    "city": "dachang1446038"
+  },
+  {
+    "cityName": "阜平",
+    "city": "fuping1446068"
+  },
+  {
+    "cityName": "通榆",
+    "city": "tongyu1446015"
+  },
+  {
+    "cityName": "温宿",
+    "city": "wensu1446377"
+  },
+  {
+    "cityName": "柘荣",
+    "city": "zherong1446194"
+  },
+  {
+    "cityName": "怀远",
+    "city": "huaiyuan1445970"
+  },
+  {
+    "cityName": "托克逊",
+    "city": "tuokexun1446378"
+  },
+  {
+    "cityName": "清丰",
+    "city": "qingfeng1446091"
+  },
+  {
+    "cityName": "新邵",
+    "city": "xinshao1446207"
+  },
+  {
+    "cityName": "孟村",
+    "city": "mengcun2587"
+  },
+  {
+    "cityName": "察右中旗",
+    "city": "chayouzhongqi1446336"
+  },
+  {
+    "cityName": "江城",
+    "city": "jiangcheng1446275"
+  },
+  {
+    "cityName": "和布克赛尔",
+    "city": "hebukesaier1446509"
+  },
+  {
+    "cityName": "东辽",
+    "city": "dongliao1446014"
+  },
+  {
+    "cityName": "邱县",
+    "city": "qiuxian1446065"
+  },
+  {
+    "cityName": "裕民",
+    "city": "yumin1446367"
+  },
+  {
+    "cityName": "通化县",
+    "city": "tonghuaxian1446017"
+  },
+  {
+    "cityName": "西盟",
+    "city": "ximeng1446277"
+  },
+  {
+    "cityName": "明溪",
+    "city": "mingxi1446195"
+  },
+  {
+    "cityName": "光泽",
+    "city": "guangze2671"
+  },
+  {
+    "cityName": "苏尼特右旗",
+    "city": "suniteyouqi2958"
+  },
+  {
+    "cityName": "博湖",
+    "city": "bohu1446394"
+  },
+  {
+    "cityName": "绥滨",
+    "city": "suibin1446005"
+  },
+  {
+    "cityName": "洛南",
+    "city": "luonan1446140"
+  },
+  {
+    "cityName": "抚顺县",
+    "city": "fushunxian1446024"
+  },
+  {
+    "cityName": "永吉",
+    "city": "yongji1446019"
+  },
+  {
+    "cityName": "临潭",
+    "city": "lintan1446167"
+  },
+  {
+    "cityName": "鱼台",
+    "city": "yutai1446102"
+  },
+  {
+    "cityName": "兴海",
+    "city": "xinghai1446315"
+  },
+  {
+    "cityName": "新民",
+    "city": "xinmin1446022"
+  },
+  {
+    "cityName": "明光",
+    "city": "mingguang1445966"
+  },
+  {
+    "cityName": "福海",
+    "city": "fuhai1446398"
+  },
+  {
+    "cityName": "木兰",
+    "city": "mulan1445990"
+  },
+  {
+    "cityName": "尚义",
+    "city": "shangyi1446069"
+  },
+  {
+    "cityName": "明水",
+    "city": "mingshui1445982"
+  },
+  {
+    "cityName": "绥棱",
+    "city": "suiling1445986"
+  },
+  {
+    "cityName": "延津",
+    "city": "yanjin1446075"
+  },
+  {
+    "cityName": "隰县",
+    "city": "xixian1446128"
+  },
+  {
+    "cityName": "务川",
+    "city": "wuchuan1446302"
+  },
+  {
+    "cityName": "娄烦",
+    "city": "loufan3020"
+  },
+  {
+    "cityName": "柯坪",
+    "city": "keping1446381"
+  },
+  {
+    "cityName": "越西",
+    "city": "yuexi1446236"
+  },
+  {
+    "cityName": "林西",
+    "city": "linxi1446326"
+  },
+  {
+    "cityName": "西林",
+    "city": "xilin1446256"
+  },
+  {
+    "cityName": "天等",
+    "city": "tiandeng3055"
+  },
+  {
+    "cityName": "新龙",
+    "city": "xinlong3126"
+  },
+  {
+    "cityName": "定结",
+    "city": "dingjie120378"
+  },
+  {
+    "cityName": "田林",
+    "city": "tianlin1446250"
+  },
+  {
+    "cityName": "中阳",
+    "city": "zhongyang3035"
+  },
+  {
+    "cityName": "大宁",
+    "city": "daning1446116"
+  },
+  {
+    "cityName": "芦溪",
+    "city": "luxi1445977"
+  },
+  {
+    "cityName": "镇康",
+    "city": "zhenkang1446295"
+  },
+  {
+    "cityName": "牟定",
+    "city": "mouding2155"
+  },
+  {
+    "cityName": "施甸",
+    "city": "shidian2185"
+  },
+  {
+    "cityName": "黎城",
+    "city": "licheng2996"
+  },
+  {
+    "cityName": "巧家",
+    "city": "qiaojia1446271"
+  },
+  {
+    "cityName": "巴林右旗",
+    "city": "balinyouqi1446351"
+  },
+  {
+    "cityName": "石楼",
+    "city": "shilou1446109"
+  },
+  {
+    "cityName": "甘南县",
+    "city": "gannanxian120035"
+  },
+  {
+    "cityName": "东安",
+    "city": "dongan1446203"
+  },
+  {
+    "cityName": "新河",
+    "city": "xinhe2538"
+  },
+  {
+    "cityName": "临猗",
+    "city": "linji3013"
+  },
+  {
+    "cityName": "镇赉",
+    "city": "zhenlai1446008"
+  },
+  {
+    "cityName": "图木舒克",
+    "city": "tumushuke120079"
+  },
+  {
+    "cityName": "沐川",
+    "city": "muchuan1446241"
+  },
+  {
+    "cityName": "枞阳",
+    "city": "congyang1445971"
+  },
+  {
+    "cityName": "霍尔果斯",
+    "city": "huoerguosi1446402"
+  },
+  {
+    "cityName": "松溪",
+    "city": "songxi2675"
+  },
+  {
+    "cityName": "曲麻莱",
+    "city": "qumalai2646"
+  },
+  {
+    "cityName": "大关",
+    "city": "daguan1446263"
+  },
+  {
+    "cityName": "肇州",
+    "city": "zhaozhou1445996"
+  },
+  {
+    "cityName": "禹城",
+    "city": "yucheng1446096"
+  },
+  {
+    "cityName": "威信",
+    "city": "weixin2213"
+  },
+  {
+    "cityName": "彝良",
+    "city": "yiliang2176"
+  },
+  {
+    "cityName": "扶余",
+    "city": "fuyu1446006"
+  },
+  {
+    "cityName": "柳河",
+    "city": "liuhe1446011"
+  },
+  {
+    "cityName": "洮南",
+    "city": "daonan1446007"
+  },
+  {
+    "cityName": "额敏",
+    "city": "emin1446374"
+  },
+  {
+    "cityName": "蓬溪",
+    "city": "pengxi1446216"
+  },
+  {
+    "cityName": "兴业",
+    "city": "xingye1446257"
+  },
+  {
+    "cityName": "宁县",
+    "city": "ningxian1446173"
+  },
+  {
+    "cityName": "甘谷",
+    "city": "gangu1446151"
+  },
+  {
+    "cityName": "永寿",
+    "city": "yongshou1446147"
+  },
+  {
+    "cityName": "阳信",
+    "city": "yangxin1446098"
+  },
+  {
+    "cityName": "贵南",
+    "city": "guinan2639"
+  },
+  {
+    "cityName": "利津",
+    "city": "lijin1446103"
+  },
+  {
+    "cityName": "拜泉",
+    "city": "baiquan1446001"
+  },
+  {
+    "cityName": "龙江",
+    "city": "longjiang1445991"
+  },
+  {
+    "cityName": "太湖县",
+    "city": "taihu1445968"
+  },
+  {
+    "cityName": "宁阳",
+    "city": "ningyang1446097"
+  },
+  {
+    "cityName": "新竹县",
+    "city": "hsinchucounty3198"
+  },
+  {
+    "cityName": "上思",
+    "city": "shangsi1446253"
+  },
+  {
+    "cityName": "印江",
+    "city": "yinjiang1446297"
+  },
+  {
+    "cityName": "安乡",
+    "city": "anxiang1446213"
+  },
+  {
+    "cityName": "台前",
+    "city": "taiqian1446074"
+  },
+  {
+    "cityName": "永清",
+    "city": "yongqing1446053"
+  },
+  {
+    "cityName": "武邑",
+    "city": "wuyi1446064"
+  },
+  {
+    "cityName": "临邑",
+    "city": "linyi1446099"
+  },
+  {
+    "cityName": "清徐",
+    "city": "qingxu1446125"
+  },
+  {
+    "cityName": "灌阳",
+    "city": "guanyang3071"
+  },
+  {
+    "cityName": "道真",
+    "city": "daozhen1446300"
+  },
+  {
+    "cityName": "辽阳县",
+    "city": "liaoyangxian1446025"
+  },
+  {
+    "cityName": "德江",
+    "city": "dejiang1446301"
+  },
+  {
+    "cityName": "高县",
+    "city": "gaoxian1446231"
+  },
+  {
+    "cityName": "清涧",
+    "city": "qingjian1446135"
+  },
+  {
+    "cityName": "宁陵",
+    "city": "ningling1446083"
+  },
+  {
+    "cityName": "五原",
+    "city": "wuyuan1446324"
+  },
+  {
+    "cityName": "凤庆",
+    "city": "fengqing1446290"
+  },
+  {
+    "cityName": "化德",
+    "city": "huade1446360"
+  },
+  {
+    "cityName": "会东",
+    "city": "huidong1446243"
+  },
+  {
+    "cityName": "宁南",
+    "city": "ningnan1446233"
+  },
+  {
+    "cityName": "丹棱",
+    "city": "danling1446227"
+  },
+  {
+    "cityName": "西丰",
+    "city": "xifeng1446029"
+  },
+  {
+    "cityName": "广宗",
+    "city": "guangzong1446056"
+  },
+  {
+    "cityName": "甘洛",
+    "city": "ganluo1446245"
+  },
+  {
+    "cityName": "富县",
+    "city": "fuxian1446139"
+  },
+  {
+    "cityName": "曲周",
+    "city": "quzhou1446045"
+  },
+  {
+    "cityName": "昭觉",
+    "city": "zhaojue1446222"
+  },
+  {
+    "cityName": "安泽",
+    "city": "anze1446108"
+  },
+  {
+    "cityName": "环县",
+    "city": "huanxian1446172"
+  },
+  {
+    "cityName": "武山",
+    "city": "wushan1446152"
+  },
+  {
+    "cityName": "西畴",
+    "city": "xichou1446268"
+  },
+  {
+    "cityName": "阿瓦提",
+    "city": "awati1446392"
+  },
+  {
+    "cityName": "汾西",
+    "city": "fenxi1446118"
+  },
+  {
+    "cityName": "东乡族",
+    "city": "dongxiang2794"
+  },
+  {
+    "cityName": "息烽",
+    "city": "xifeng1446298"
+  },
+  {
+    "cityName": "阿荣旗",
+    "city": "arongqi1446355"
+  },
+  {
+    "cityName": "新巴尔虎右旗",
+    "city": "xinbaerhuyouqi1446359"
+  },
+  {
+    "cityName": "突泉",
+    "city": "tuquan1446329"
+  },
+  {
+    "cityName": "雷波",
+    "city": "leibo1446224"
+  },
+  {
+    "cityName": "肃北",
+    "city": "subei120135"
+  },
+  {
+    "cityName": "莫力达瓦旗",
+    "city": "molidawaqi1446340"
+  },
+  {
+    "cityName": "秦安",
+    "city": "qinan1446177"
+  },
+  {
+    "cityName": "左云",
+    "city": "zuoyun1446122"
+  },
+  {
+    "cityName": "武宣",
+    "city": "wuxuan1446260"
+  },
+  {
+    "cityName": "杞县",
+    "city": "qixian1446085"
+  },
+  {
+    "cityName": "长岭",
+    "city": "changling1446020"
+  },
+  {
+    "cityName": "平乡",
+    "city": "pingxiang1446062"
+  },
+  {
+    "cityName": "鄂托克旗",
+    "city": "etuokeqi1446325"
+  },
+  {
+    "cityName": "桦川",
+    "city": "huachuan1445997"
+  },
+  {
+    "cityName": "古县",
+    "city": "guxian1446110"
+  },
+  {
+    "cityName": "魏县",
+    "city": "weixian1446049"
+  },
+  {
+    "cityName": "朝阳县",
+    "city": "chaoyangxian1446027"
+  },
+  {
+    "cityName": "卫辉",
+    "city": "weihui1446086"
+  },
+  {
+    "cityName": "沁县",
+    "city": "qinxian1446105"
+  },
+  {
+    "cityName": "邵阳县",
+    "city": "shaoyangxian1446212"
+  },
+  {
+    "cityName": "柏乡",
+    "city": "baixiang1446044"
+  },
+  {
+    "cityName": "青神",
+    "city": "qingshen1446221"
+  },
+  {
+    "cityName": "北安",
+    "city": "beian1445980"
+  },
+  {
+    "cityName": "科左后旗",
+    "city": "kezuohouqi1446332"
+  },
+  {
+    "cityName": "准格尔旗",
+    "city": "zhungeerqi1446350"
+  },
+  {
+    "cityName": "万荣",
+    "city": "wanrong1446130"
+  },
+  {
+    "cityName": "睢县",
+    "city": "suixian1446081"
+  },
+  {
+    "cityName": "镇原",
+    "city": "zhenyuan1446185"
+  },
+  {
+    "cityName": "故城",
+    "city": "gucheng1446067"
+  },
+  {
+    "cityName": "华坪",
+    "city": "huaping1446281"
+  },
+  {
+    "cityName": "双江",
+    "city": "shuangjiang1446285"
+  },
+  {
+    "cityName": "莘县",
+    "city": "xinxian1446100"
+  },
+  {
+    "cityName": "筠连",
+    "city": "junlian1446230"
+  },
+  {
+    "cityName": "延川",
+    "city": "yanchuan1446145"
+  },
+  {
+    "cityName": "芦山",
+    "city": "lushan1446226"
+  },
+  {
+    "cityName": "伊宁县",
+    "city": "yiningxian1446400"
+  },
+  {
+    "cityName": "义县",
+    "city": "yixian1446021"
+  },
+  {
+    "cityName": "壤塘",
+    "city": "rangtang1446219"
+  },
+  {
+    "cityName": "无极",
+    "city": "wuji1446066"
+  },
+  {
+    "cityName": "鄄城",
+    "city": "juancheng1446101"
+  },
+  {
+    "cityName": "子长",
+    "city": "zichang1446138"
+  },
+  {
+    "cityName": "河南蒙古族自治县",
+    "city": "henan1446313"
+  },
+  {
+    "cityName": "康县",
+    "city": "kangxian1446164"
+  },
+  {
+    "cityName": "杭锦旗",
+    "city": "hangjinqi1446342"
+  },
+  {
+    "cityName": "渭源",
+    "city": "weiyuan1446176"
+  },
+  {
+    "cityName": "乾安",
+    "city": "qianan1446018"
+  },
+  {
+    "cityName": "漳县",
+    "city": "zhangxian1446183"
+  },
+  {
+    "cityName": "社旗",
+    "city": "sheqi1446082"
+  },
+  {
+    "cityName": "崇信",
+    "city": "chongxin1446153"
+  },
+  {
+    "cityName": "怀安",
+    "city": "huaian1446040"
+  },
+  {
+    "cityName": "察右后旗",
+    "city": "chayouhouqi1446339"
+  },
+  {
+    "cityName": "蠡县",
+    "city": "lixian1446061"
+  },
+  {
+    "cityName": "静乐",
+    "city": "jingle1446124"
+  },
+  {
+    "cityName": "佳县",
+    "city": "jiaxian1446133"
+  },
+  {
+    "cityName": "盐池",
+    "city": "yanchi1446190"
+  },
+  {
+    "cityName": "绿春",
+    "city": "lvchun1446286"
+  },
+  {
+    "cityName": "民勤",
+    "city": "minqin1446181"
+  },
+  {
+    "cityName": "普定",
+    "city": "puding1446296"
+  },
+  {
+    "cityName": "临西",
+    "city": "linxi1446034"
+  },
+  {
+    "cityName": "普格",
+    "city": "puge1446232"
+  },
+  {
+    "cityName": "广平",
+    "city": "guangping1446054"
+  },
+  {
+    "cityName": "谢通门",
+    "city": "xietongmen120379"
+  },
+  {
+    "cityName": "托里",
+    "city": "tuoli1446387"
+  },
+  {
+    "cityName": "新田",
+    "city": "xintian1446214"
+  },
+  {
+    "cityName": "新和",
+    "city": "xinhe1446365"
+  },
+  {
+    "cityName": "扎鲁特旗",
+    "city": "zhaluteqi1446348"
+  },
+  {
+    "cityName": "绥江",
+    "city": "suijiang1446294"
+  },
+  {
+    "cityName": "正镶白旗",
+    "city": "zhengxiangbaiqi1446328"
+  },
+  {
+    "cityName": "鄂温克族旗",
+    "city": "ewenkezuqi1446357"
+  },
+  {
+    "cityName": "鸡泽",
+    "city": "jize1446041"
+  },
+  {
+    "cityName": "两当",
+    "city": "liangdang1446156"
+  },
+  {
+    "cityName": "高邑",
+    "city": "gaoyi1446037"
+  },
+  {
+    "cityName": "南乐",
+    "city": "nanle1446090"
+  },
+  {
+    "cityName": "深泽",
+    "city": "shenze1446063"
+  },
+  {
+    "cityName": "革吉",
+    "city": "geji120144"
+  },
+  {
+    "cityName": "遂平",
+    "city": "suiping1446093"
+  },
+  {
+    "cityName": "磐石",
+    "city": "panshi1446010"
+  },
+  {
+    "cityName": "望都",
+    "city": "wangdu1446036"
+  },
+  {
+    "cityName": "灵台",
+    "city": "lingtai1446171"
+  },
+  {
+    "cityName": "红河县",
+    "city": "honghexian1446274"
+  },
+  {
+    "cityName": "屏山",
+    "city": "pingshan1446238"
+  },
+  {
+    "cityName": "叶县",
+    "city": "yexian1446092"
+  },
+  {
+    "cityName": "彭阳",
+    "city": "pengyang1446189"
+  },
+  {
+    "cityName": "富民",
+    "city": "fumin1446288"
+  },
+  {
+    "cityName": "科右中旗",
+    "city": "keyouzhongqi1446335"
+  },
+  {
+    "cityName": "嘉黎",
+    "city": "jiali120389"
+  },
+  {
+    "cityName": "岳普湖",
+    "city": "yuepuhu1446391"
+  },
+  {
+    "cityName": "康保",
+    "city": "kangbao1446042"
+  },
+  {
+    "cityName": "洛隆",
+    "city": "luolong120404"
+  },
+  {
+    "cityName": "杭锦后旗",
+    "city": "hangjinhouqi1446331"
+  },
+  {
+    "cityName": "民和",
+    "city": "minhe1446305"
+  },
+  {
+    "cityName": "沙雅",
+    "city": "shaya1446399"
+  },
+  {
+    "cityName": "天峻",
+    "city": "tianjun1446306"
+  },
+  {
+    "cityName": "贡觉",
+    "city": "gongjue120399"
+  },
+  {
+    "cityName": "景东",
+    "city": "jingdong1446266"
+  },
+  {
+    "cityName": "聂荣",
+    "city": "nierong120388"
+  },
+  {
+    "cityName": "漾濞",
+    "city": "yangbi1446283"
+  },
+  {
+    "cityName": "吉木乃",
+    "city": "jimunai1446368"
+  },
+  {
+    "cityName": "青河",
+    "city": "qinghe1446372"
+  },
+  {
+    "cityName": "岚县",
+    "city": "lanxian1446111"
+  },
+  {
+    "cityName": "化隆",
+    "city": "hualong1446323"
+  },
+  {
+    "cityName": "博野",
+    "city": "boye1446043"
+  },
+  {
+    "cityName": "子洲",
+    "city": "zizhou1446150"
+  },
+  {
+    "cityName": "科右前旗",
+    "city": "keyouqianqi1446349"
+  },
+  {
+    "cityName": "浚县",
+    "city": "junxian1446089"
+  },
+  {
+    "cityName": "鲁甸",
+    "city": "ludian1446270"
+  },
+  {
+    "cityName": "麦盖提",
+    "city": "maigaiti1446383"
+  },
+  {
+    "cityName": "宜黄",
+    "city": "yihuang1445979"
+  },
+  {
+    "cityName": "阜城",
+    "city": "fucheng1446060"
+  },
+  {
+    "cityName": "边坝",
+    "city": "bianba120406"
+  },
+  {
+    "cityName": "息县",
+    "city": "xixian1446094"
+  },
+  {
+    "cityName": "饶阳",
+    "city": "raoyang1446048"
+  },
+  {
+    "cityName": "阿巴嘎旗",
+    "city": "abagaqi1446330"
+  },
+  {
+    "cityName": "宜君",
+    "city": "yijun1446149"
+  },
+  {
+    "cityName": "杂多",
+    "city": "zaduo1446310"
+  },
+  {
+    "cityName": "镶黄旗",
+    "city": "xianghuangqi1446354"
+  },
+  {
+    "cityName": "延寿",
+    "city": "yanshou1445989"
+  },
+  {
+    "cityName": "忻城",
+    "city": "xincheng1446259"
+  },
+  {
+    "cityName": "沁源",
+    "city": "qinyuan1446114"
+  },
+  {
+    "cityName": "麻栗坡",
+    "city": "malipo1446287"
+  },
+  {
+    "cityName": "尼木",
+    "city": "nimu1446406"
+  },
+  {
+    "cityName": "千阳",
+    "city": "qianyang1446137"
+  },
+  {
+    "cityName": "苏尼特左旗",
+    "city": "sunitezuoqi1446341"
+  },
+  {
+    "cityName": "广河",
+    "city": "guanghe1446166"
+  },
+  {
+    "cityName": "积石山",
+    "city": "jishishan1446158"
+  },
+  {
+    "cityName": "永平",
+    "city": "yongping1446262"
+  },
+  {
+    "cityName": "长子",
+    "city": "changzi1446113"
+  },
+  {
+    "cityName": "永和",
+    "city": "yonghe1446106"
+  },
+  {
+    "cityName": "治多",
+    "city": "zhiduo1446321"
+  },
+  {
+    "cityName": "沧县",
+    "city": "cangxian1446050"
+  },
+  {
+    "cityName": "于田",
+    "city": "yutian1446390"
+  },
+  {
+    "cityName": "镇坪",
+    "city": "zhenping1446148"
+  },
+  {
+    "cityName": "合水",
+    "city": "heshui1446160"
+  },
+  {
+    "cityName": "布拖",
+    "city": "butuo1446218"
+  },
+  {
+    "cityName": "临夏县",
+    "city": "linxiaxian1446165"
+  },
+  {
+    "cityName": "阜新县",
+    "city": "fuxinxian1446031"
+  },
+  {
+    "cityName": "濮阳县",
+    "city": "puyangxian1446084"
+  },
+  {
+    "cityName": "洛宁",
+    "city": "luoning1446079"
+  },
+  {
+    "cityName": "同德",
+    "city": "tongde1446309"
+  },
+  {
+    "cityName": "阿合奇",
+    "city": "aheqi1446395"
+  },
+  {
+    "cityName": "泽库",
+    "city": "zeku1446322"
+  },
+  {
+    "cityName": "铁岭县",
+    "city": "tielingxian1446033"
+  },
+  {
+    "cityName": "乌恰",
+    "city": "wuqia1446397"
+  },
+  {
+    "cityName": "疏勒",
+    "city": "shule1446396"
+  },
+  {
+    "cityName": "称多",
+    "city": "chenduo1446316"
+  },
+  {
+    "cityName": "保德",
+    "city": "baode1446121"
+  },
+  {
+    "cityName": "神池",
+    "city": "shenchi1446119"
+  },
+  {
+    "cityName": "英吉沙",
+    "city": "yingjisha1446385"
+  },
+  {
+    "cityName": "蒲县",
+    "city": "puxian1446107"
+  },
+  {
+    "cityName": "伽师",
+    "city": "jiashi1446389"
+  },
+  {
+    "cityName": "察右前旗",
+    "city": "chayouqianqi1446362"
+  },
+  {
+    "cityName": "疏附",
+    "city": "shufu1446371"
+  },
+  {
+    "cityName": "泽普",
+    "city": "zepu1446370"
+  },
+  {
+    "cityName": "乌什",
+    "city": "wushi1446380"
+  },
+  {
+    "cityName": "科左中旗",
+    "city": "kezuozhongqi1446345"
+  },
+  {
+    "cityName": "策勒",
+    "city": "cele1446376"
+  },
+  {
+    "cityName": "双河",
+    "city": "shuanghe1446442"
+  },
+  {
+    "cityName": "木垒",
+    "city": "mulei1446499"
+  },
+  {
+    "cityName": "丰林",
+    "city": "2044571"
+  },
+  {
+    "cityName": "新星",
+    "city": "xinxing2128582"
+  },
+  {
+    "cityName": "墨玉",
+    "city": "moyu1446393"
+  },
+  {
+    "cityName": "汤旺",
+    "city": "2044572"
+  },
+  {
+    "cityName": "茫崖",
+    "city": "mangya2026914"
+  },
+  {
+    "cityName": "大箐山",
+    "city": "2044563"
+  },
+  {
+    "cityName": "南岔",
+    "city": "2044573"
+  },
+  {
+    "cityName": "龙港",
+    "city": "longgang2124487"
+  },
+  {
+    "cityName": "胡杨河",
+    "city": "huyanghe2128593"
+  },
+  {
+    "cityName": "和田县",
+    "city": "hetianxian1446401"
+  },
+  {
+    "cityName": "铁门关",
+    "city": "tiemenguan1446441"
+  },
+  {
+    "cityName": "阿拉山口",
+    "city": "alashankou2010866"
+  },
+  {
+    "cityName": "奉节",
+    "city": "2025223"
+  },
+  {
+    "cityName": "彭水",
+    "city": "2025231"
+  },
+  {
+    "cityName": "巫溪",
+    "city": "2025261"
+  },
+  {
+    "cityName": "甘德",
+    "city": "gande1446319"
+  },
+  {
+    "cityName": "昆玉",
+    "city": "kunyu2014471"
+  },
+  {
+    "cityName": "云阳",
+    "city": "2025226"
+  },
+  {
+    "cityName": "丰都",
+    "city": "2025250"
+  },
+  {
+    "cityName": "石柱",
+    "city": "2025257"
+  },
+  {
+    "cityName": "洛浦",
+    "city": "luopu1446373"
+  },
+  {
+    "cityName": "文山市",
+    "city": "wenshan2010871"
+  },
+  {
+    "cityName": "可克达拉",
+    "city": "kokdala2020742"
+  },
+  {
+    "cityName": "巫山",
+    "city": "2025187"
+  },
+  {
+    "cityName": "忠县",
+    "city": "2025198"
+  },
+  {
+    "cityName": "酉阳",
+    "city": "2025213"
+  },
+  {
+    "cityName": "垫江",
+    "city": "2025219"
+  },
+  {
+    "cityName": "城口",
+    "city": "2025220"
+  },
+  {
+    "cityName": "秀山",
+    "city": "2025253"
   }
 ]

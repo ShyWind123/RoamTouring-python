@@ -3,7 +3,6 @@ import os
 import requests
 import io
 from bs4 import BeautifulSoup as BS
-import time
 import json
 
 """从网上爬取数据"""
