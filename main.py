@@ -42,12 +42,11 @@ with io.open(os.path.join('output', 'city.json'),'r',encoding='utf8')as f:
 base = "https://m.ctrip.com/restapi/soa2/20684/json/productSearch"
 base2 = "https://m.ctrip.com/restapi/soa2/18109/json/getAttractionList"
 
-l = {}
-for i in range(len(citys)):
-    l[citys[i].get('cityName')] = []
-    pageCnt = 1
+def getCityAttractions (i, start):
+    l = []
     pageNum = 20
     totalNum = 100
+    pageCnt = (start - 1) / pageNum + 1
     cnt = 0
     tableName = 'Attractions-'+citys[i].get('cityName')
 
@@ -206,7 +205,7 @@ for i in range(len(citys)):
                 
                 info["nearby"]=nearby
 
-                l[citys[i].get('cityName')].append(info)
+                l.append(info)
 
                 con.open()  # 打开传输
                 table = con.table(tableName)  # games是表名，table('games')获取某一个表对象
@@ -228,15 +227,7 @@ for i in range(len(citys)):
                     'nearby:nearby':json.dumps(info['nearby'])
                 }
                 table.put(str(info['id']), attractionRow)  # 提交数据
-
-                # # 查看信息
-                # one_row = table.row(str(info['id']))  # 获取一行数据,0001是行键
-                # for key in one_row.keys():  # 遍历字典
-                #     keyVal = key.decode('utf-8')
-                #     val = one_row[key].decode('utf-8')
-                #     if keyVal[0:9] != 'basicInfo' and not val == '':
-                #         print(keyVal, json.loads(val))  # 可能有中文，使用decode转码
-                # con.close()  # 关闭传输
+                con.close()  # 关闭传输
 
                 time.sleep(5)
             except Exception as e:
@@ -245,7 +236,7 @@ for i in range(len(citys)):
                     f.write("["+time.asctime(time.localtime())+"] "+ str(e) + "\n")
                 pass
         
-        completeInfo = str(i + 1) + "."+ citys[i].get('cityName')+ "第"+str(pageCnt)+"页; 爬取完成:"+ str(cnt)+ "/"+ str(totalNum)
+        completeInfo = " "+ citys[i].get('cityName')+ "第"+str(pageCnt)+"页; 爬取完成:"+ str(cnt)+ "/"+ str(totalNum)
         print(completeInfo)
         with io.open(os.path.join("logs", "progress.txt"), "a", encoding="utf-8") as f:
             f.write(" ["+ time.asctime(time.localtime())+ "] " + completeInfo + "\n")
@@ -255,6 +246,9 @@ for i in range(len(citys)):
     print(completeInfo)
     with io.open(os.path.join("logs", "progress.txt"), "a", encoding="utf-8") as f:
         f.write( "["+ time.asctime(time.localtime())+"] "+completeInfo + "\n")
+    with io.open(os.path.join("output", citys[i].get('cityName')+'.json'), 'a', encoding="utf-8") as f:
+        json.dump(l, f, ensure_ascii=False)
 
-with io.open(os.path.join("output","output.json"), 'w', encoding="utf-8") as f:
-    json.dump(l, f, ensure_ascii=False)
+
+for i in range(len(citys)):
+    getCityAttractions(i, 1)
