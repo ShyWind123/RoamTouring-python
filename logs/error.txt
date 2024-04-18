@@ -1,0 +1,29 @@
+[Thu Apr 18 03:46:38 2024] list index out of range
+[Thu Apr 18 06:50:40 2024] HTTPSConnectionPool(host='you.ctrip.com', port=443): Max retries exceeded with url: /sight/hangzhou14/124252341.html?scene=online (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000269AC7AFC10>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[Thu Apr 18 06:50:40 2024] HTTPSConnectionPool(host='you.ctrip.com', port=443): Max retries exceeded with url: /sight/hangzhou14/126934463.html?scene=online (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000269AC7AC110>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[Thu Apr 18 06:50:40 2024] HTTPSConnectionPool(host='you.ctrip.com', port=443): Max retries exceeded with url: /sight/tonglu688/135473100.html?scene=online (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000269AC7ACFD0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[Thu Apr 18 06:50:40 2024] HTTPSConnectionPool(host='you.ctrip.com', port=443): Max retries exceeded with url: /sight/tongxiang220/18056.html?scene=online (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000269AC7AEA50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[Thu Apr 18 11:40:05 2024] list index out of range
+[Thu Apr 18 12:31:09 2024] TTransportException(type=1, message="Could not connect to ('8.134.215.31', 9090)")
+[Thu Apr 18 12:31:18 2024] TTransportException(type=1, message="Could not connect to ('8.134.215.31', 9090)")
+[Thu Apr 18 12:31:24 2024] TTransportException(type=1, message="Could not connect to ('8.134.215.31', 9090)")
+[Thu Apr 18 12:31:31 2024] TTransportException(type=1, message="Could not connect to ('8.134.215.31', 9090)")
+[Thu Apr 18 12:31:36 2024] TTransportException(type=1, message="Could not connect to ('8.134.215.31', 9090)")
+[Thu Apr 18 12:31:42 2024] TTransportException(type=1, message="Could not connect to ('8.134.215.31', 9090)")
+[Thu Apr 18 12:31:49 2024] TTransportException(type=1, message="Could not connect to ('8.134.215.31', 9090)")
+[Thu Apr 18 12:31:55 2024] TTransportException(type=1, message="Could not connect to ('8.134.215.31', 9090)")
+[Thu Apr 18 12:32:01 2024] TTransportException(type=1, message="Could not connect to ('8.134.215.31', 9090)")
+[Thu Apr 18 12:32:08 2024] TTransportException(type=1, message="Could not connect to ('8.134.215.31', 9090)")
+[Thu Apr 18 13:00:54 2024] list index out of range
+[Thu Apr 18 13:03:48 2024] list index out of range
+[Thu Apr 18 13:06:01 2024] list index out of range
+[Thu Apr 18 14:28:34 2024] TTransportException(type=1, message="Could not connect to ('8.134.215.31', 9090)")
+[Thu Apr 18 14:28:47 2024] TTransportException(type=1, message="Could not connect to ('8.134.215.31', 9090)")
+[Thu Apr 18 14:28:54 2024] TTransportException(type=1, message="Could not connect to ('8.134.215.31', 9090)")
+[Thu Apr 18 15:17:25 2024] list index out of range
+[Thu Apr 18 17:18:39 2024] list index out of range
+[Thu Apr 18 17:24:15 2024] list index out of range
+[Thu Apr 18 18:29:15 2024] list index out of range
+[Thu Apr 18 19:11:00 2024] list index out of range
+[Thu Apr 18 20:05:55 2024] list index out of range
+[Thu Apr 18 20:35:19 2024] list index out of range
