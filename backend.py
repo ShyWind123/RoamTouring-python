@@ -67,7 +67,7 @@ def getRestaurantInfo(restaurantInfo : BasicInfo):
     res['imgs'] = []
     imgUrls = soup2.find_all(name='div', attrs={"class":'item'})
     for imgUrl in imgUrls:
-        res['imgs'].append(imgUrl.a.get('href'))
+        res['imgs'].append(imgUrl.a.img.get('src'))
 
     detailCon = soup2.find(name='div', attrs={"class":'detailcon'}).find(name='div', attrs={"class":'text_style'})
     res['characteristic'] = detailCon.p.get_text().replace(' ', '').replace('\r', '').replace('\n', '')
@@ -108,7 +108,7 @@ def getShoppingInfo(shoppingInfo : BasicInfo):
     res['imgs'] = []
     imgUrls = soup2.find_all(name='div', attrs={"class":'item'})
     for imgUrl in imgUrls:
-        res['imgs'].append(imgUrl.a.get('href'))
+        res['imgs'].append(imgUrl.a.img.get('src'))
 
     res['descript'] = []
     if soup2.find(name='div', attrs={"class":'toggle_l'}):

@@ -47,7 +47,6 @@ def getArractionsList(i):
         payload=payload.encode("utf-8")
         response = requests.post(base, headers=headers, data = payload)
         ress = json.loads(response.text)
-        print(type(ress))
         attractionList = ress.get("attractionList")
 
         for j in range(0, len(attractionList)):
@@ -66,10 +65,8 @@ def getArractionsList(i):
                 "id": id,
                 "href" : href,
                 "price" : attractionList[j].get('card').get("price"),
-                "coordinate" : {
-                    "latitude" : attractionList[j].get('card').get("coordinate").get("latitude"),
-                    "longitude": attractionList[j].get('card').get("coordinate").get("longitude")
-                }
+                "latitude" : str(attractionList[j].get('card').get("coordinate").get("latitude")),
+                "longitude": str(attractionList[j].get('card').get("coordinate").get("longitude"))
             })
         
         pageCnt += 1
@@ -84,5 +81,5 @@ def getArractionsList(i):
         json.dump(attractions, f, ensure_ascii=False)
 
 
-for i in range(5, len(citys)):
+for i in range(3, len(citys)):
     getArractionsList(i)

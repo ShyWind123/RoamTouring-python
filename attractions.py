@@ -180,7 +180,10 @@ def getCityAttractions (i, start):
             info["position"] = position
             info["city"] = citys[i].get('cityName')
             info["price"] = city[j].get('price')
-            info["coordinate"] = city[j].get('coordinate')
+            info["coordinate"] = {
+                "latitude":city[j].get('latitude'),
+                "longitude":city[j].get('longitude')
+            }
 
             info["introduce"] = introduce
             info["openTime"] = opentime
