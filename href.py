@@ -82,6 +82,6 @@ def getArractionsList(i):
     with io.open(os.path.join("attractionLists", citys[i].get('cityName')+".json"), 'w', encoding="utf-8") as f:
         json.dump(attractions, f, ensure_ascii=False)
 
-getArractionsList(3)
-# for i in range(4, len(citys)):
-#     getArractionsList(i)
+
+for i in range(4, len(citys)):
+    getArractionsList(i)
