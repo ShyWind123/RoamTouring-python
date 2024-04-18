@@ -70,7 +70,7 @@ def getCityAttractions (i, start):
         con.create_table(tableName, families)  
     con.close()  # 关闭传输
 
-    with io.open(os.path.join("attractionLists", citys[i].get('cityName') +".json"),'r',encoding='utf8')as f:
+    with io.open(os.path.join("attractionLists", str(i)+citys[i].get('cityName') +".json"),'r',encoding='utf8')as f:
         city = json.load(f)
     totalNum = len(city)
 
