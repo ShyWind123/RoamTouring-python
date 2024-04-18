@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-from math import floor
 import os
 import requests
 import io
@@ -48,26 +47,11 @@ with io.open(os.path.join('output', 'city.json'),'r',encoding='utf8')as f:
 
 base = "https://m.ctrip.com/restapi/soa2/18109/json/getAttractionList"
 
-def getCityAttractions (i, start, fakeStart):
-    l = []
-    pageNum = 10
-    tableName = 'Attractions-'+citys[i].get('cityName')
-
-    # 获取总数
-    payload = json.dumps({"scene":"online","districtId":getCityId(citys[i].get('city')),"index":1,"sortType":1,"count":pageNum,"filter":{"filterItems":[]},"coordinate":{"latitude":0,"longitude":0,"coordinateType":"WGS84"},"returnModuleType":"all","head":{"cid":"09031136412811096481","ctok":"","cver":"1.0","lang":"01","sid":"8888","syscode":"09","auth":"","xsid":"","extension":[]}},ensure_ascii=False)
-    payload=payload.encode("utf-8")
-    response = requests.post(base, headers=headers, data = payload)
-    ress = json.loads(response.text)
-
-    totalNum = ress.get('totalCount')
-    pageCnt = floor((start - 1) / pageNum) + 1
-    cnt = (pageCnt - 1) * pageNum
-    fakeCnt = fakeStart - 1
-
+def getCityAttractions (i, start):
     completeInfo =str(i + 1)+ "."+ citys[i].get('cityName')+ ": 开始爬取"
     print(completeInfo)
-    with io.open(os.path.join("logs", "progress.txt"), "a", encoding="utf-8") as f:
-        f.write("["+ time.asctime(time.localtime())+"] "+completeInfo + "\n")
+
+    tableName = 'Attractions-'+citys[i].get('cityName')
     
     con.open()  # 打开传输
     needCreate = True
@@ -86,193 +70,157 @@ def getCityAttractions (i, start, fakeStart):
         con.create_table(tableName, families)  
     con.close()  # 关闭传输
 
-    while pageCnt * pageNum < totalNum:
-    # while pageCnt < 3:
-        payload = json.dumps({"scene":"online","districtId":getCityId(citys[i].get('city')),"index":pageCnt,"sortType":1,"count":pageNum,"filter":{"filterItems":[]},"coordinate":{"latitude":0,"longitude":0,"coordinateType":"WGS84"},"returnModuleType":"all","head":{"cid":"09031136412811096481","ctok":"","cver":"1.0","lang":"01","sid":"8888","syscode":"09","auth":"","xsid":"","extension":[]}},ensure_ascii=False)
-        payload=payload.encode("utf-8")
-        response = requests.post(base, headers=headers, data = payload)
-        ress = json.loads(response.text)
-        attractions = ress.get("attractionList")
+    with io.open(os.path.join("attractionLists", citys[i].get('cityName'), ".json"),'r',encoding='utf8')as f:
+        city = json.load(f)
+    totalNum = len(city)
 
-        for j in range(pageNum):
-            try:
-                cnt += 1
-                # 获取子网页链接地址
-                href = attractions[j].get('card').get('detailUrl')
+    for j in range(start, len(city)):
+        try:
+            href = city[j].get('href')
+            id = city[j].get('id')
+            # 再次请求子网页，获取景点详细信息
+            res = requests.get(href, headers=headers)
+            # with open("3.html", "w", encoding="utf-8") as f:
+            #     f.write(res.text)
+            soupi = BS(res.text, "html.parser")
 
-                # 再次请求子网页，获取景点详细信息
-                res = requests.get(href, headers=headers)
-                # with open("3.html", "w", encoding="utf-8") as f:
-                #     f.write(res.text)
-                soupi = BS(res.text, "html.parser")
+            name = soupi.find(name="div", attrs={"class":"title"}).h1.get_text()
 
-                name = soupi.find(name="div", attrs={"class":"title"}).h1.get_text()
+            heat = '0'
+            if soupi.find(name="div", attrs={"class":"heatScoreText"}):
+                heat = soupi.find(name="div", attrs={"class":"heatScoreText"}).get_text()
 
-                if not getCityId(citys[i].get('city')) == getCityId(href):
-                    print("    " , cnt, "/", totalNum, name,'  ', href)
-                    continue
-                fakeCnt += 1
+            introduce = []
+            preferentialTreatmentPolicy = []
+            serviceFacilities = []
+            opentime = []
+            moduleTitles = soupi.find_all(name="div", attrs={"class":"moduleTitle"})
+            for moduleTitle in moduleTitles:
+                if moduleTitle.get_text() == '介绍':
+                    for moduleCotent in moduleTitle.find_next_siblings('div')[0].children:
+                        introduce.append(moduleCotent.get_text())
+                if moduleTitle.get_text() == '开放时间':
+                    for moduleCotent in moduleTitle.find_next_siblings('div')[0].children:
+                        opentime.append(moduleCotent.get_text())
+                if moduleTitle.get_text() == '优待政策':
+                    for moduleCotent in moduleTitle.find_next_siblings('div')[0].children:
+                        preferentialTreatmentPolicy.append(moduleCotent.get_text())
+                if moduleTitle.get_text() == '服务设施':
+                    for moduleCotent in moduleTitle.find_next_siblings('div')[0].children:
+                        serviceFacilities.append(moduleCotent.get_text())
+            if introduce == None:
+                introduce.append('')
+            if preferentialTreatmentPolicy == None:
+                preferentialTreatmentPolicy.append('')
+            if serviceFacilities == None:
+                serviceFacilities.append('')
+            if opentime == None:
+                opentime.append('')
 
-                print("", fakeCnt,":", cnt, "/", totalNum, name,'  ', href)
+            score = '暂无评分'
+            if soupi.find(name="div", attrs={"class": "commentScore"}):
+                score = soupi.find(name="div", attrs={"class": "commentScore"}).p.get_text()
 
-                heat = '0'
-                if soupi.find(name="div", attrs={"class":"heatScoreText"}):
-                    heat = soupi.find(name="div", attrs={"class":"heatScoreText"}).get_text()
+            imgs = []
+            imglinks = soupi.find_all(name="div", attrs={"class":"swiperItem"})
+            for img in imglinks:
+                imgs.append(getURL(img.attrs["style"]))
 
-                introduce = []
-                preferentialTreatmentPolicy = []
-                serviceFacilities = []
-                opentime = []
-                moduleTitles = soupi.find_all(name="div", attrs={"class":"moduleTitle"})
-                for moduleTitle in moduleTitles:
-                    if moduleTitle.get_text() == '介绍':
-                        for moduleCotent in moduleTitle.find_next_siblings('div')[0].children:
-                            introduce.append(moduleCotent.get_text())
-                    if moduleTitle.get_text() == '开放时间':
-                        for moduleCotent in moduleTitle.find_next_siblings('div')[0].children:
-                            opentime.append(moduleCotent.get_text())
-                    if moduleTitle.get_text() == '优待政策':
-                        for moduleCotent in moduleTitle.find_next_siblings('div')[0].children:
-                            preferentialTreatmentPolicy.append(moduleCotent.get_text())
-                    if moduleTitle.get_text() == '服务设施':
-                        for moduleCotent in moduleTitle.find_next_siblings('div')[0].children:
-                            serviceFacilities.append(moduleCotent.get_text())
-                if introduce == None:
-                    introduce.append('')
-                if preferentialTreatmentPolicy == None:
-                    preferentialTreatmentPolicy.append('')
-                if serviceFacilities == None:
-                    serviceFacilities.append('')
-                if opentime == None:
-                    opentime.append('')
+            position = ""
+            phone = ""
+            baseInfoTitles = soupi.find_all(name="p", attrs={"class": "baseInfoTitle"})
+            if len(baseInfoTitles) >= 1:
+                position = baseInfoTitles[0].find_next_siblings('p')[0].get_text()
+            if len(baseInfoTitles) >= 3:
+                phone = baseInfoTitles[2].find_next_siblings('p')[0].get_text()
 
-
+            nearby = {
+                "nearbyAttractions":[],
+                "nearbyFoods":[],
+                "nearbyShoppingMalls":[]
+            }
+            nearbyList = soupi.find_all(name='div', attrs={"class": "nearbyList"})
+            for nearbyAttraction in nearbyList[0].contents[1].contents[0].children:
                 score = '暂无评分'
-                if soupi.find(name="div", attrs={"class": "commentScore"}):
-                    score = soupi.find(name="div", attrs={"class": "commentScore"}).p.get_text()
+                if len(nearbyAttraction.contents[1].contents[1].find_all(recursive=False)) >= 2:
+                    score = nearbyAttraction.contents[1].contents[1].contents[0].get_text()
+                nearby["nearbyAttractions"].append({
+                    "image":nearbyAttraction.contents[0].img.get('src'),
+                    "name":nearbyAttraction.contents[1].contents[0].get_text(),
+                    "score":score,
+                    "distance":nearbyAttraction.contents[1].contents[2].get_text(),
+                })
+            for nearbyFood in nearbyList[1].contents[1].contents[0].children:
+                score = '暂无评分'
+                if len(nearbyFood.contents[1].contents[1].find_all(recursive=False)) >= 2:
+                    score = nearbyFood.contents[1].contents[1].contents[0].get_text()
+                nearby["nearbyFoods"].append({
+                    "image":nearbyFood.contents[0].img.get('src'),
+                    "name":nearbyFood.contents[1].contents[0].get_text(),
+                    "score":score,
+                    "distance":nearbyFood.contents[1].contents[2].get_text(),
+                })
+            for nearbyShoppingMall in nearbyList[2].contents[1].children:
+                score = '暂无评分'
+                if len(nearbyShoppingMall.contents[1].contents[1].find_all(recursive=False)) >= 2:
+                    score = nearbyShoppingMall.contents[1].contents[1].contents[0].get_text()
+                nearby["nearbyShoppingMalls"].append({
+                    "image":nearbyShoppingMall.contents[0].img.get('src'),
+                    "name":nearbyShoppingMall.contents[1].contents[0].get_text(),
+                    "score":score,
+                    "distance":nearbyShoppingMall.contents[1].contents[2].get_text(),
+                })
 
-                imgs = []
-                imglinks = soupi.find_all(name="div", attrs={"class":"swiperItem"})
-                for img in imglinks:
-                    imgs.append(getURL(img.attrs["style"]))
+            info = {}
+            info["id"] = id
+            info["name"] = name
+            info["heat"] = heat
+            info["score"] = score
+            info["phone"] = phone
+            info["position"] = position
+            info["city"] = citys[i].get('cityName')
+            info["price"] = city[j].get('price')
+            info["coordinate"] = city[j].get('coordinate')
 
-                position = ""
-                phone = ""
-                baseInfoTitles = soupi.find_all(name="p", attrs={"class": "baseInfoTitle"})
-                if len(baseInfoTitles) >= 1:
-                    position = baseInfoTitles[0].find_next_siblings('p')[0].get_text()
-                if len(baseInfoTitles) >= 3:
-                    phone = baseInfoTitles[2].find_next_siblings('p')[0].get_text()
+            info["introduce"] = introduce
+            info["openTime"] = opentime
+            info["preferentialTreatmentPolicy"] = preferentialTreatmentPolicy
+            info["serviceFacilities"] = serviceFacilities
+            
+            info["imgs"] = imgs
+            
+            info["nearby"]=nearby
 
-                nearby = {
-                    "nearbyAttractions":[],
-                    "nearbyFoods":[],
-                    "nearbyShoppingMalls":[]
-                }
-                nearbyList = soupi.find_all(name='div', attrs={"class": "nearbyList"})
-                for nearbyAttraction in nearbyList[0].contents[1].contents[0].children:
-                    score = '暂无评分'
-                    if len(nearbyAttraction.contents[1].contents[1].find_all(recursive=False)) >= 2:
-                        score = nearbyAttraction.contents[1].contents[1].contents[0].get_text()
-                    nearby["nearbyAttractions"].append({
-                        "image":nearbyAttraction.contents[0].img.get('src'),
-                        "name":nearbyAttraction.contents[1].contents[0].get_text(),
-                        "score":score,
-                        "distance":nearbyAttraction.contents[1].contents[2].get_text(),
-                    })
-                for nearbyFood in nearbyList[1].contents[1].contents[0].children:
-                    score = '暂无评分'
-                    if len(nearbyFood.contents[1].contents[1].find_all(recursive=False)) >= 2:
-                        score = nearbyFood.contents[1].contents[1].contents[0].get_text()
-                    nearby["nearbyFoods"].append({
-                        "image":nearbyFood.contents[0].img.get('src'),
-                        "name":nearbyFood.contents[1].contents[0].get_text(),
-                        "score":score,
-                        "distance":nearbyFood.contents[1].contents[2].get_text(),
-                    })
-                for nearbyShoppingMall in nearbyList[2].contents[1].children:
-                    score = '暂无评分'
-                    if len(nearbyShoppingMall.contents[1].contents[1].find_all(recursive=False)) >= 2:
-                        score = nearbyShoppingMall.contents[1].contents[1].contents[0].get_text()
-                    nearby["nearbyShoppingMalls"].append({
-                        "image":nearbyShoppingMall.contents[0].img.get('src'),
-                        "name":nearbyShoppingMall.contents[1].contents[0].get_text(),
-                        "score":score,
-                        "distance":nearbyShoppingMall.contents[1].contents[2].get_text(),
-                    })
+            con.open()  # 打开传输
+            table = con.table(tableName)  # games是表名，table('games')获取某一个表对象
+            attractionRow = {
+                'basicInfo:id': str(info['id']),
+                'basicInfo:name': info['name'],
+                'basicInfo:heat': info['heat'],
+                'basicInfo:score': info['score'],
+                'basicInfo:phone': info['phone'],
+                'basicInfo:position': info['position'],
+                'basicInfo:city': info['city'],
+                'basicInfo:price': info['price'],
+                'basicInfo:coordinate': json.dumps(info['coordinate']),
+                'imgs:imgs':json.dumps(info['imgs']),
+                'detailInfo:introduce':json.dumps(info['introduce']),
+                'detailInfo:openTime':json.dumps(info['openTime']),
+                'detailInfo:preferentialTreatmentPolicy':json.dumps(info['preferentialTreatmentPolicy']),
+                'detailInfo:serviceFacilities':json.dumps(info['serviceFacilities']),
+                'nearby:nearby':json.dumps(info['nearby'])
+            }
+            table.put(str(info['id']), attractionRow)  # 提交数据
+            con.close()  # 关闭传输
 
-                price = attractions[j].get('card').get("priceTypeDesc")
-                coordinate = {
-                    "latitude" : attractions[j].get('card').get("coordinate").get("latitude"),
-                    "longitude": attractions[j].get('card').get("coordinate").get("longitude")
-                }
+            print("", str(id),":", id, "/", totalNum, name,'  ', href)
 
-                info = {}
-                info["id"] = fakeCnt
-                info["name"] = name
-                info["heat"] = heat
-                info["score"] = score
-                info["phone"] = phone
-                info["position"] = position
-                info["city"] = citys[i].get('cityName')
-                info["price"] = price
-                info["coordinate"] = coordinate
-
-                info["introduce"] = introduce
-                info["openTime"] = opentime
-                info["preferentialTreatmentPolicy"] = preferentialTreatmentPolicy
-                info["serviceFacilities"] = serviceFacilities
-                
-                info["imgs"] = imgs
-                
-                info["nearby"]=nearby
-
-                l.append(info)
-
-                con.open()  # 打开传输
-                table = con.table(tableName)  # games是表名，table('games')获取某一个表对象
-                attractionRow = {
-                    'basicInfo:id': str(info['id']),
-                    'basicInfo:name': info['name'],
-                    'basicInfo:heat': info['heat'],
-                    'basicInfo:score': info['score'],
-                    'basicInfo:phone': info['phone'],
-                    'basicInfo:position': info['position'],
-                    'basicInfo:city': info['city'],
-                    'basicInfo:price': info['price'],
-                    'basicInfo:coordinate': json.dumps(info['coordinate']),
-                    'imgs:imgs':json.dumps(info['imgs']),
-                    'detailInfo:introduce':json.dumps(info['introduce']),
-                    'detailInfo:openTime':json.dumps(info['openTime']),
-                    'detailInfo:preferentialTreatmentPolicy':json.dumps(info['preferentialTreatmentPolicy']),
-                    'detailInfo:serviceFacilities':json.dumps(info['serviceFacilities']),
-                    'nearby:nearby':json.dumps(info['nearby'])
-                }
-                table.put(str(info['id']), attractionRow)  # 提交数据
-                con.close()  # 关闭传输
-
-                time.sleep(5)
-            except Exception as e:
-                print("E",e)
-                with io.open(os.path.join("logs", "error.txt"), "a", encoding="utf-8") as f:
-                    f.write("["+time.asctime(time.localtime())+"] "+ str(e) + "\n")
-                pass
+            time.sleep(5)
+        except Exception as e:
+            print("E",e)
+            with io.open(os.path.join("logs", "error.txt"), "a", encoding="utf-8") as f:
+                f.write("["+time.asctime(time.localtime())+"] "+ str(e) + "\n")
+            pass
         
-        completeInfo = " "+ citys[i].get('cityName')+ "第"+str(pageCnt)+"页; 爬取完成:"+ str(fakeCnt)+ "/"+ str(totalNum)
-        print(completeInfo)
-        with io.open(os.path.join("logs", "progress.txt"), "a", encoding="utf-8") as f:
-            f.write(" ["+ time.asctime(time.localtime())+ "] " + completeInfo + "\n")
-        pageCnt += 1
-
-    completeInfo =str(i + 1)+ "."+ citys[i].get('cityName')+ "爬取完成: 共"+ str(fakeCnt)+ "/"+ str(totalNum)+ "个" + "\n"
-    print(completeInfo)
-    with io.open(os.path.join("logs", "progress.txt"), "a", encoding="utf-8") as f:
-        f.write( "["+ time.asctime(time.localtime())+"] "+completeInfo + "\n")
-    with io.open(os.path.join("output", citys[i].get('cityName')+'.json'), 'a', encoding="utf-8") as f:
-        json.dump(l, f, ensure_ascii=False)
-
-getCityAttractions(1, 1111, 977)
-getCityAttractions(2, 841, 518)
-for i in range(2,1500):
-# for i in range(1500,len(citys)):
-    getCityAttractions(i, 1, 1)
+for i in range(3,1500):
+    getCityAttractions(i, 1)

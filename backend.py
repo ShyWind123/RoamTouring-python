@@ -5,7 +5,6 @@ import io
 from bs4 import BeautifulSoup as BS
 from fastapi import FastAPI
 import uvicorn
-import time
 import json
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -123,4 +122,4 @@ def getShoppingInfo(shoppingInfo : BasicInfo):
 
 if __name__ == '__main__':
     import uvicorn
-    uvicorn.run(app, host="127.0.0.1", port=11113)
+    uvicorn.run(app, host="0.0.0.0", port=11113)
