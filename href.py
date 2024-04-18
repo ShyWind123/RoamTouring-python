@@ -47,6 +47,7 @@ def getArractionsList(i):
         payload=payload.encode("utf-8")
         response = requests.post(base, headers=headers, data = payload)
         ress = json.loads(response.text)
+        print(type(ress))
         attractionList = ress.get("attractionList")
 
         for j in range(0, len(attractionList)):
