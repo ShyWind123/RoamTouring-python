@@ -39,7 +39,7 @@ def getArractionsList(i):
     pageCnt = 1
     cnt = 0
     
-    completeInfo =str(i + 1)+ "."+ citys[i].get('cityName')+ ": 开始爬取"
+    completeInfo =str(i)+ "."+ citys[i].get('cityName')+ ": 开始爬取"
     print(completeInfo)
 
     while pageNum * pageCnt < totalNum:
@@ -76,12 +76,12 @@ def getArractionsList(i):
         completeInfo = " "+ citys[i].get('cityName')+ "第"+str(pageCnt)+"页; 爬取完成:"+ str(id)+ "/"+ str(totalNum)
         print(completeInfo)
 
-    completeInfo =str(i + 1)+ "."+ citys[i].get('cityName')+ "爬取完成: 共"+ str(id)+ "/"+ str(totalNum)+ "个" + "\n"
+    completeInfo =str(i)+ "."+ citys[i].get('cityName')+ "爬取完成: 共"+ str(id)+ "/"+ str(totalNum)+ "个" + "\n"
     print(completeInfo)
       
     with io.open(os.path.join("attractionLists", str(i)+citys[i].get('cityName')+".json"), 'w', encoding="utf-8") as f:
         json.dump(attractions, f, ensure_ascii=False)
 
 
-for i in range(4, len(citys)):
+for i in range(5, len(citys)):
     getArractionsList(i)
