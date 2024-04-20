@@ -49,6 +49,9 @@ def getArractionsList(i):
         ress = json.loads(response.text)
         attractionList = ress.get("attractionList")
 
+        if not "attractionList" in ress:
+            break
+
         for j in range(0, len(attractionList)):
             href = attractionList[j].get('card').get('detailUrl')
             name = attractionList[j].get('card').get('poiName')
@@ -64,7 +67,7 @@ def getArractionsList(i):
             attractions.append({
                 "id": id,
                 "href" : href,
-                "price" : attractionList[j].get('card').get("price"),
+                "price" : str(attractionList[j].get('card').get("price")),
                 "latitude" : str(attractionList[j].get('card').get("coordinate").get("latitude")),
                 "longitude": str(attractionList[j].get('card').get("coordinate").get("longitude"))
             })
@@ -74,6 +77,8 @@ def getArractionsList(i):
         completeInfo = " "+ citys[i].get('cityName')+ "第"+str(pageCnt)+"页; 爬取完成:"+ str(id)+ "/"+ str(totalNum)
         print(completeInfo)
 
+        time.sleep(1)
+
     completeInfo =str(i)+ "."+ citys[i].get('cityName')+ "爬取完成: 共"+ str(id)+ "/"+ str(totalNum)+ "个" + "\n"
     print(completeInfo)
       
@@ -81,5 +86,5 @@ def getArractionsList(i):
         json.dump(attractions, f, ensure_ascii=False)
 
 
-for i in range(3, len(citys)):
+for i in range(208, len(citys)):
     getArractionsList(i)

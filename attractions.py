@@ -5,9 +5,13 @@ import io
 from bs4 import BeautifulSoup as BS
 import time
 import json
-import happybase
+import pymongo
 
-con = happybase.Connection('8.134.215.31',9090)
+client = pymongo.MongoClient(host='8.134.215.31',
+                              port=27017,
+                              username='root',
+                              password='IamOP114514')
+db = client.RoamTouring
 
 requests.adapters.DEFAULT_RETRIES = 5
 s = requests.session()
@@ -48,33 +52,19 @@ with io.open(os.path.join('output', 'city.json'),'r',encoding='utf8')as f:
 base = "https://m.ctrip.com/restapi/soa2/18109/json/getAttractionList"
 
 def getCityAttractions (i, start):
-    completeInfo =str(i + 1)+ "."+ citys[i].get('cityName')+ ": 开始爬取"
+    completeInfo =str(i)+ "."+ citys[i].get('cityName')+ ": 开始爬取"
     print(completeInfo)
 
     tableName = 'Attractions-'+citys[i].get('cityName')
     
-    con.open()  # 打开传输
-    needCreate = True
-    tables = con.tables()
-    for table in tables:
-        if str(table, "UTF-8") == tableName:
-            needCreate = False
-            break
-    if needCreate:
-        families = {
-            'basicInfo':dict(),
-            'imgs':dict(),
-            'detailInfo':dict(),
-            'nearby':dict()
-        }
-        con.create_table(tableName, families)  
-    con.close()  # 关闭传输
+    dbName = 'Attractions-' + citys[i].get('cityName')
+    collection = db[dbName]
 
     with io.open(os.path.join("attractionLists", str(i)+citys[i].get('cityName') +".json"),'r',encoding='utf8')as f:
         city = json.load(f)
     totalNum = len(city)
 
-    for j in range(start, len(city)):
+    for j in range(start-1, len(city)):
         try:
             href = city[j].get('href')
             id = city[j].get('id')
@@ -194,10 +184,8 @@ def getCityAttractions (i, start):
             
             info["nearby"]=nearby
 
-            con.open()  # 打开传输
-            table = con.table(tableName)  # games是表名，table('games')获取某一个表对象
-            attractionRow = {
-                'basicInfo:id': str(info['id']),
+            collection.insert_one({
+                'basicInfo:id': info['id'],
                 'basicInfo:name': info['name'],
                 'basicInfo:heat': info['heat'],
                 'basicInfo:score': info['score'],
@@ -205,25 +193,24 @@ def getCityAttractions (i, start):
                 'basicInfo:position': info['position'],
                 'basicInfo:city': info['city'],
                 'basicInfo:price': info['price'],
-                'basicInfo:coordinate': json.dumps(info['coordinate']),
-                'imgs:imgs':json.dumps(info['imgs']),
-                'detailInfo:introduce':json.dumps(info['introduce']),
-                'detailInfo:openTime':json.dumps(info['openTime']),
-                'detailInfo:preferentialTreatmentPolicy':json.dumps(info['preferentialTreatmentPolicy']),
-                'detailInfo:serviceFacilities':json.dumps(info['serviceFacilities']),
-                'nearby:nearby':json.dumps(info['nearby'])
-            }
-            table.put(str(info['id']), attractionRow)  # 提交数据
-            con.close()  # 关闭传输
+                'basicInfo:coordinate': info['coordinate'],
+                'imgs:imgs':info['imgs'],
+                'detailInfo:introduce':info['introduce'],
+                'detailInfo:openTime':info['openTime'],
+                'detailInfo:preferentialTreatmentPolicy':info['preferentialTreatmentPolicy'],
+                'detailInfo:serviceFacilities':info['serviceFacilities'],
+                'nearby:nearby':info['nearby']
+            })
 
-            print("", str(id),":", id, "/", totalNum, name,'  ', href)
+            print("", id, "/", totalNum, name,'  ', href)
 
             time.sleep(5)
         except Exception as e:
             print("E",e)
             with io.open(os.path.join("logs", "error.txt"), "a", encoding="utf-8") as f:
-                f.write("["+time.asctime(time.localtime())+"] "+ str(e) + "\n")
+                f.write("[" + time.asctime(time.localtime()) + "] " + str(e) + "\n")
             pass
-        
-for i in range(3,1500):
+
+getCityAttractions(0, 1015)
+for i in range(1,len(citys)):
     getCityAttractions(i, 1)
