@@ -86,5 +86,5 @@ def getArractionsList(i):
         json.dump(attractions, f, ensure_ascii=False)
 
 
-for i in range(208, len(citys)):
+for i in range(337, len(citys)):
     getArractionsList(i)

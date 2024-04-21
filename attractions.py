@@ -211,6 +211,7 @@ def getCityAttractions (i, start):
                 f.write("[" + time.asctime(time.localtime()) + "] " + str(e) + "\n")
             pass
 
-getCityAttractions(0, 1015)
+
+getCityAttractions(2, 9)
 for i in range(1,len(citys)):
     getCityAttractions(i, 1)
